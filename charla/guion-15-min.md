@@ -1,4 +1,4 @@
-# La Casa Jurídica · Guion de 15 minutos
+# La Casa Jurídica · Guion de 15 minutos (versión 2)
 
 **Evento:** primer encuentro de la vertical Legal Tech de Claude en Bogotá
 **Formato:** charla tipo TED, 15 minutos, corbata prohibida
@@ -9,260 +9,253 @@
 
 ---
 
-## 0:00 – 1:30 · APERTURA: la pregunta
+## 0:00 – 2:30 · APERTURA: la generación de la guayaba
 
 *(Entras sin saludar. Te paras en el centro y miras al público tres segundos.)*
 
-Antes de empezar, quiero hacer una encuesta. Pero es seria, ¿eh? Esto es un evento jurídico.
+`[PANTALLA] Un collage de logos y objetos viejos, sin título`
 
-Levanten la mano quienes tienen hoy en su computador un archivo que se llama **"final"**.
+Buenas noches. Antes de presentarme, quiero hacer un experimento.
 
-*(Esperas. Se levantan casi todas.)*
+Díganme que son millennials, o de la generación de la guayaba, **sin decirme que lo son**.
 
-Muy bien. Ahora bajen la mano quienes **no** tienen también uno que se llama **"final final"**.
+*(Señalas la pantalla.)*
 
-*(Nadie la baja. Risas.)*
+¿A quién le hace sentido esto? ¿Quién recuerda todos estos logos?
 
-Y ahora la difícil. Levanten la mano quienes tienen uno que se llama **"final final AHORA SÍ"**.
+*(Vas señalando uno por uno, con ritmo, dejando que el público reaccione.)*
 
-*(Tú también levantas la mano.)*
+- **El Messenger.** Cuando uno se ponía "ausente" para que el crush pensara que uno tenía vida social.
+- **La BlackBerry**, con su teclado de botoncitos y el PIN que uno pedía como si fuera el número de cédula.
+- **El disquete.** El abuelo del "guardar".
+- **El CD**, que uno quemaba con toda la fe… y salía rayado.
+- **El computador cabezón**, ese que ocupaba medio escritorio y pesaba más que el código de procedimiento.
+- **El primer celular de Celumóvil**, esa panela gigante a la que había que sacarle la antena para poder hablar.
+- **La máquina de escribir.**
+- **La impresora** que se trababa justo el día del vencimiento.
+- **Los expedientes polvorosos**, que uno abría y le daba alergia.
+- **Los primeros sistemas de consulta de procesos**, que se caían más que uno en tacones.
+- Y mi favorito: `[PANTALLA] foto del abogado sudando` **el abogado a 34 grados en Barranquilla**, de corbata, revisando el expediente mientras espera que por fin arranque la audiencia.
 
-`[PANTALLA] final_final_AHORA_SÍ_v7 (2).docx`
+*(Risas. Sigues.)*
 
-Yo también. Tranquilos, esto es un espacio seguro. Aquí además está prohibida la corbata. Por fin una norma que todos cumplimos sin pedir prórroga.
+Después llegaron **la nube compartida**, el OneDrive y los espacios colaborativos. Luego vino la pandemia y aprendimos **Teams** y **Zoom**, a la fuerza y con el micrófono apagado. *"Doctor, está en mute."*
 
-Esta noche les voy a hacer una sola pregunta, y quiero que la tengan en la cabeza los próximos quince minutos:
+Y de repente llegó **esto**. `[PANTALLA] Claude`
 
-> **Si mañana usted se va de vacaciones un mes… ¿su despacho sabe trabajar como usted?**
+Aunque sabemos que la IA es transversal a toda la humanidad, a los abogados **el cerebro nos hizo crac**.
+
+*(Haces el gesto del crac con las manos.)*
+
+---
+
+## 2:30 – 4:00 · 30 AÑOS CONTRA UN AÑO
+
+`[PANTALLA] 30 AÑOS`
+
+Todo lo que acabamos de ver pasó en **treinta años**.
+
+`[PANTALLA] 1 AÑO`
+
+Pero la evolución de la IA generativa en el ecosistema Legal Tech ha pasado **en más o menos un año**. Miren:
+
+`[PANTALLA] Escalera de 5 escalones que se van encendiendo uno por uno`
+
+1. **Primero, la IA fundacional, generativa y aislada.** Le preguntábamos cualquier pendejada. *"¿Cuál es el plazo para contestar una demanda?"* Y ella, feliz, respondía.
+2. **Después, a generar documentos.** *"Hazme un contrato de arrendamiento."* Y salía un contrato… de otro país.
+3. **Luego vino el cuento del prompt.** Cada quien hacía sus vainas. Cursos de prompts, plantillas de prompts, prompts para hacer prompts.
+4. **Después, las arquitecturas de trabajo:** habilidades, manuales, procesos. Ya no se le pregunta, **se le enseña**.
+5. **Y hoy, las estructuras agénticas:** equipos de IA que hacen el proceso completo, desde el inventario del expediente hasta el derecho de petición listo para que usted lo revise.
 
 *(Pausa.)*
 
-Porque la mayoría de nosotros tenemos una respuesta muy honesta: no. Mi método vive en mi cabeza. Y en una carpeta que se llama "Nueva carpeta (3)".
+Treinta años para pasar del disquete a la nube. **Un año** para pasar de preguntarle bobadas a la IA a tener un equipo que trabaja con su método.
 
 ---
 
-## 1:30 – 3:30 · CÓMO LLEGAMOS HASTA AQUÍ: los cuatro escritorios
+## 4:00 – 6:00 · ¿POR QUÉ ESTO IMPORTA?
 
-Para entender dónde estamos, les propongo mirar cuatro escritorios de abogado. Solo cuatro.
+¿Y esto por qué importa? Porque en la vida real todos trabajamos dentro de organizaciones.
 
-`[PANTALLA] 1. EL ESCRITORIO DE LA MEMORIA`
+Los abogados, como personas naturales, no vamos a sobrevivir. Vamos a **pervivir**, a evolucionar. Pero solo si hacemos algo más que usar la IA.
 
-**El primero** es el del abogado de los noventa. Máquina de escribir, papel carbón y un código civil subrayado en cuatro colores que nadie más entendía. El derecho vivía **en la cabeza** del abogado. Si el abogado se enfermaba, el caso se enfermaba con él.
+> **Los abogados que van a evolucionar no son los que aprenden a usar la IA. Son los que saben desarmar un problema real y volverlo una estructura de trabajo, para que la IA haga lo suyo.**
 
-`[PANTALLA] 2. EL ESCRITORIO DEL BUSCADOR`
+Y las organizaciones que van a sobrevivir **no son las que compran cien licencias**… y no tienen ni idea de cómo las están usando Pepito, Juanito y Perencejito.
 
-**El segundo** es el de los dos mil. Llegan Word, el correo y las bases de datos de jurisprudencia. El derecho pasa a vivir **en el disco duro**. Ganamos velocidad y también el "adjunto el adjunto". Y el correo de vuelta: "Doctora, no llegó el adjunto".
+`[PANTALLA] "PROMPTS_OFICIALES_DEL_DESPACHO_v4.docx"`
 
-`[PANTALLA] 3. EL ESCRITORIO DEL CHAT`
+Ni las que tienen un Word con prompts para copiar y pegar, que a cada quien le da un resultado distinto. **Díganme si no es así.**
 
-**El tercero** es el de hace nada, 2023. Le empezamos a **preguntar** cosas a un chat. Era como tener un practicante brillante: leía todo, escribía rapidísimo y nunca pedía vacaciones. Solo tenía un defecto: cuando no sabía algo, se lo inventaba con toda la seguridad del mundo. Tanto que en Estados Unidos un juez sancionó a unos abogados por citar seis sentencias que no existían. Las había inventado el chat.
+*(Esperas. Asienten.)*
 
-*(Al público:)* Y no se rían tanto, que a cualquiera nos pudo pasar.
+Y ya conocemos los personajes:
 
-`[PANTALLA] 4. EL ESCRITORIO DE LA CASA`
-
-**Y el cuarto** es el de hoy. Hoy ya no se trata de preguntarle a la IA. Se trata de **enseñarle cómo trabajamos**. Le damos nuestras carpetas, nuestros procesos y nuestras reglas, y ella las sigue. Siempre igual.
-
-`[PANTALLA] Memoria → Disco duro → Chat → Método`
-
-Fíjense en algo. En treinta años cambiamos de herramienta tres veces. Pero el problema siempre fue el mismo: **el método del buen abogado nunca quedaba escrito.**
-
-Hoy, por primera vez, se puede escribir. Y eso es lo que les vengo a mostrar: cómo construirle una casa a su método.
-
----
-
-## 3:30 – 5:00 · EL PROBLEMA: un enero cualquiera
-
-Les cuento un caso real, de esos que no salen en los libros.
-
-`[PANTALLA] ENERO. 40 CONTRATOS. 1 ABOGADA. 0 TINTOS SUFICIENTES.`
-
-Es enero. La entidad o la empresa necesita **cuarenta contratos de prestación de servicios**. Para ayer, obviamente. Cada contrato trae hoja de vida, cédula, RUT, certificados, antecedentes, afiliaciones y póliza.
-
-Eso son unos **trescientos documentos**. Y ahí empieza el reality:
-
-- El contratista que manda la cédula en foto… tomada encima de la cama, con la cobija de tigre de fondo.
-- El RUT actualizado por última vez en 2019.
-- La póliza que vence justo el día de la firma.
-- El socio que corrige a mano, con esfero rojo, un PDF impreso… y lo escanea torcido.
-- Y el WhatsApp de las 10 de la noche: *"Doctora, una preguntica rápida"*. Que nunca es preguntica y nunca es rápida.
-
-*(Pausa. Deja que se rían de reconocerse.)*
-
-Y aquí viene lo serio. ¿Cómo revisamos esos cuarenta contratos? Cada persona del equipo lo hace distinto. El practicante revisa una cosa, el asociado revisa otra y la socia confía en que alguien revisó todo.
-
-> **Un despacho sin método no es un equipo. Es un grupo de personas trabajando en el mismo edificio.**
-
-Así que construyamos la casa.
-
----
-
-## 5:00 – 7:00 · PASO 1: abrir Claude Code y mostrarle cómo trabajamos
-
-`[PANTALLA] Claude Code`
-
-Primero abrimos **Claude Code**. Ya sé, ya sé: dice "code" y la mitad del auditorio pensó "yo estudié derecho justamente para no hacer esto".
+- El que dice: *"No, es que mi IA la tengo súper entrenada. Me conoce más que mi mamá. Trabajemos con mi ChatGPT, porque a mí me entrega un resultado que a ti no."*
+- Y el otro: *"No, es que yo pago la versión Pro Max de Claude. Tienes que pagarla. Por eso ChatGPT no te está sirviendo para nada."*
 
 *(Risas.)*
 
-Tranquilos. **No van a programar ni una línea.** Claude Code es Claude trabajando **dentro de sus carpetas**: las lee, las ordena, crea archivos y sigue instrucciones. Es como invitar al practicante a su oficina en vez de mandarle todo por WhatsApp.
-
-`[PANTALLA] Estructura de carpetas`
-
-```
-📁 Contratos_Enero
-├── 📁 01_Plantillas          (mis 3 contratos modelo)
-├── 📁 02_Soportes            (una carpeta por contratista)
-├── 📁 03_Contratos_revisados (los que ya aprobé y me gustan)
-└── 📁 04_Entregables         (vacía, aquí va a trabajar Claude)
-```
-
-Lo primero es ordenar la casa antes de invitar a alguien. Si le entregan a Claude una carpeta que se llama "Cosas", les va a devolver… cosas.
-
-Y ahora, el momento clave. Le escribo esto:
-
-`[PANTALLA] PROMPT 1 · Construye la casa`
-
-> *"Claude, soy abogada y cada enero preparo 40 contratos de prestación de servicios. En esta carpeta están mis plantillas, los soportes de cada contratista y tres contratos que ya revisé y me gustan. Primero estudia cómo trabajo. Luego créame un plugin llamado **casa-contratos** con un **playbook** con mis reglas (cómo redacto, qué verifico y qué nunca hago) y una **skill** por cada paso: revisar soportes, redactar el contrato, verificar pólizas y armar el informe para mi revisión. Antes de crear nada, muéstrame el plano y espera mi aprobación."*
-
-Fíjense en la última frase: **"muéstrame el plano y espera mi aprobación"**. Ningún maestro de obra serio empieza a pegar ladrillos sin que usted firme el plano.
+Amigos, esto es una carrera. **Las herramientas cambian cada semana, y los modelos también.** ¿Para qué salir a pagar un doctorado de 80 millones en inteligencia artificial, si cuando uno se gradúa ya todo cambió tres veces? Lo que se requiere es otra cosa: **la destreza para seguirle el ritmo.**
 
 ---
 
-## 7:00 – 9:00 · PASO 2: entender la casa
+## 6:00 – 7:30 · EL SECRETO MEJOR GUARDADO
 
-`[PANTALLA] Plugin = la casa · Playbook = las reglas de la casa · Skills = las habitaciones`
+Por eso hoy les voy a mostrar el secreto mejor guardado.
 
-Claude me devuelve el plano. Y aquí es donde todo tiene sentido.
+*(Bajas la voz, cómplice.)*
 
-**El plugin es la casa.** Es el paquete completo: todo lo que su despacho sabe hacer en un tema, en un solo lugar.
+Y por favor, si alguien aquí ya lo conoce, se levanta y me cuenta qué está haciendo. Lo digo en serio.
 
-**El playbook es el manual de convivencia.** Son las reglas de la casa. Todas las mamás tenían uno, aunque nunca lo escribieron: "en esta casa no se come en la cama", "en esta casa se saluda". El playbook del despacho dice cosas como:
+`[PANTALLA] DE PROMPTS → A CASAS JURÍDICAS`
 
-- "En esta casa no se cita una norma sin fuente."
-- "En esta casa, si falta un soporte, se dice. No se asume."
-- "En esta casa, nada sale sin revisión humana."
+El secreto es **organizar casas jurídicas propias.**
 
-**Las skills son las habitaciones.** Y cada habitación sirve para una cosa. La cocina no es para dormir, y el baño… bueno, en algunas casas el baño también es oficina, pero ese es otro tema.
+Hablar de prompts ya pasó de moda. Ahora se trata de:
+
+- **Construir nuestro flujo de procesos** y organizarlo con IA.
+- **Crear habilidades**, las *skills*. Cada una es una habitación de la casa, y cada habitación sirve para una cosa.
+- **Crear reglas para esas habilidades**, los *playbooks*. Son el manual de convivencia de la casa.
+- **Crear la casa donde todo funciona**, el *plugin*.
+- **Y crear agentes y scripts**, los que hacen el trabajo pesado.
+
+¿Y para qué? Para que, si le quiero pasar esta arquitectura a mi compañero de trabajo, él ejecute **exactamente las mismas reglas.**
+
+> **Se trata de convertir todo lo que tengo en la cabeza, y todos esos chats eternos con Claude y con ChatGPT, en habilidades y flujos organizados en casas que se ejecutan una y otra vez.**
+
+Y así empiezo a automatizar mi trabajo. Pero con mucho criterio.
+
+---
+
+## 7:30 – 8:30 · EL GATO CON SUPERPODERES
+
+¿Y dónde guardo ese secreto? En una nube que ustedes no tienen por qué saber para qué sirve.
+
+`[PANTALLA] Logo de GitHub (el gato)`
+
+El día que yo escuché ese nombre, **GitHub**, dije: *"¿Eso qué es? Un gato con superpoderes. ¿Qué es esa vaina? ¿Con qué se come?"*
 
 *(Risas.)*
 
-`[PANTALLA] Las habitaciones de casa-contratos`
+Pues resulta que ahí no guardo expedientes. **Ahí guardo mi cerebro:** mis casas, mis reglas, mis habilidades. Son archivos en formatos que OneDrive ni sabe para qué sirven. Y GitHub además guarda cada cambio: quién lo hizo y cuándo. Es como tener memoria notarial.
 
-| Habitación (skill) | Para qué sirve |
-|---|---|
-| Revisión de soportes | Revisa los 300 documentos y le dice qué falta, qué venció y qué no coincide |
-| Redacción del contrato | Redacta con **su** plantilla, **su** estilo y **sus** cláusulas |
-| Verificación de pólizas | Revisa vigencias, amparos y valores contra el contrato |
-| Informe para revisión | Le entrega un resumen: "estos 34 están listos; estos 6 necesitan sus ojos" |
+Con la ayuda de **Claude Code**, que entiende mis flujos, se construye toda la casa: el techo, las habitaciones y las reglas. Después la instalo como **un marketplace privado dentro de mi Claude**, le dejo conectado mi Gmail… y listo.
 
-Una skill es como un practicante muy juicioso con un manual. Antes de revisar un contrato, abre el manual del despacho. **Siempre.** Un lunes a las 8 de la mañana y un viernes a las 11 de la noche.
-
-Y aquí va la reflexión que más me importa de esta charla:
-
-> **En derecho, lo que NO se hace importa tanto como lo que se hace.**
-
-Por eso cada habitación dice claramente qué no hace. Y eso no es un detalle técnico. Es ética profesional escrita.
+Así no solo organizo mi trabajo, mi conocimiento y mis procesos. Poco a poco, con esa lógica, **me voy convirtiendo en una ingeniera legal.** Y eso es lo que se va a requerir en el mediano plazo.
 
 ---
 
-## 9:00 – 10:30 · PASO 3: la casa en GitHub, para que su equipo la encuentre
+## 8:30 – 10:00 · UN EJEMPLO MUY BÁSICO
 
-Muy bonita la casa. Pero si solo existe en mi computador, es una casa en un lote baldío sin dirección.
+Les pongo un ejemplo muy básico.
 
-`[PANTALLA] PROMPT 2 · La dirección de la casa`
+`[PANTALLA] Imagínese que…`
 
-> *"Ahora créame un repositorio privado en GitHub llamado **casa-contratos**, sube el plugin y escribe un README que le explique a mi equipo, en español sencillo, para qué sirve cada habitación."*
+Piense que usted es una organización legal que maneja **contratos de propiedad intelectual.** Cada semana tiene que hacerle un contrato nuevo a un canal de televisión o a una plataforma de streaming, de esas que todos vemos. Puede ser para aprobar un comercial, para una pauta o para sacar una serie nueva.
 
-¿Qué es GitHub? Para nosotros, abogados, piénsenlo así: **es un Drive con memoria notarial.** Guarda cada cambio, quién lo hizo y cuándo. Se acabó el "¿quién le movió a la cláusula séptima?". GitHub sabe. GitHub siempre sabe.
+Y todos los meses es lo mismo:
+
+1. Llega un correo.
+2. Descarga la solicitud.
+3. Coge el contrato marco, que es gigante, con los anexos y los otrosíes firmados.
+4. Los analiza.
+5. Proyecta el nuevo contrato con el formato de la casa.
+
+`[PANTALLA] ASÍ LO HACEMOS HOY`
+
+¿Cómo lo hace hoy la mayoría dentro de Claude? Se va a buscar **el chat donde le quedó bien** la primera vez. *"¿Cuál era? ¿El de marzo? ¿El que se llamaba 'contrato bueno'?"* Copia ese prompt, empieza a iterar, a corregir, a explicar otra vez… y **se queda sin tokens**.
 
 *(Pausa.)*
 
-Y ahora viene lo que les va a cambiar el lunes. Llega el practicante nuevo. Antes, eso significaba tres semanas de "mire, aquí lo hacemos así, pero la doctora Martínez lo hace asá, y el doctor Pérez… bueno, el doctor Pérez hace lo que quiere".
+`[PANTALLA] ASÍ LO HACEMOS CON UNA CASA`
 
-Ahora el practicante abre Claude Code y escribe **una sola frase**:
+Si usted convierte ese mismo proceso **en un plugin con habilidades y playbooks**, se le facilita la vida por dos lados:
 
-`[PANTALLA] PROMPT 3 · Copiar la llave`
+- **Su compañero de equipo** trabaja con la misma técnica que usted.
+- **Usted no gasta tokens** repensando la estructura ni dando instrucciones una y otra vez. El proceso queda automatizado.
 
-> *"Clona el repositorio casa-contratos de nuestro despacho y déjalo listo para usar."*
-
-Y listo. Tiene **la misma casa, con las mismas reglas y las mismas habitaciones** que la socia con veinte años de experiencia.
-
-> **Eso no es tecnología. Es algo que los despachos llevan décadas intentando: que todos trabajen igual de bien.**
+> **Su única misión es revisar con lupa el resultado final.**
 
 ---
 
-## 10:30 – 12:30 · PASO 4: el condominio
+## 10:00 – 13:00 · EL PASO A PASO, PARA DUMMIES
 
-Ahora imagínense que no tienen una casa, sino varias: la de contratos, la de litigios y la de licitaciones. Cada una con sus habitaciones.
+Ahora sí. Rapidito, que el tiempo vuela. Siete pasos.
 
-Cuando uno tiene varias casas con las mismas reglas de convivencia, eso ya no es una casa. **Es un condominio.** Y en Claude, el condominio se llama **marketplace**.
+`[PANTALLA] PASO 1 · Ordene la casa antes de invitar`
 
-`[PANTALLA] PROMPT 4 · El condominio`
+```
+📁 Contratos_PI
+├── 📁 01_Solicitudes
+├── 📁 02_Contratos_marco_y_otrosies
+├── 📁 03_Contratos_modelo      (los que ya le quedaron bien)
+└── 📁 04_Entregables           (vacía: aquí trabaja Claude)
+```
 
-> *"Claude, crea un marketplace llamado **condominio-despacho** que agrupe todas nuestras casas: contratos, litigios y licitaciones."*
+Si le entrega a Claude una carpeta que se llama "Cosas", le va a devolver… cosas.
 
-El marketplace es la portería del condominio. Cualquier persona del equipo llega, dice a qué casa va, y la dejan entrar con las llaves correctas.
+`[PANTALLA] PASO 2 · Abra Claude Code en esa carpeta`
 
-`[PANTALLA] MINI VIDEO (60–90 segundos) · Instalar el condominio`
+Ya sé que dice "code". Tranquilos: **no van a programar ni una línea.** Es Claude trabajando dentro de sus carpetas.
 
-*(Aquí pones el video. Tú lo narras en vivo, sin audio del video.)*
+`[PANTALLA] PASO 3 · Cuéntele su proceso`
 
-1. Se abre Claude.
-2. Se va a la sección de plugins y se elige **agregar marketplace**.
-3. Se pega la dirección del repositorio: `despacho/condominio-despacho`.
-4. Aparecen las tres casas y se instala **casa-contratos**.
-5. Se abre una conversación nueva y se escribe: *"Revisa los soportes de los contratistas de enero."*
-6. Claude entra solo a la habitación correcta y empieza a trabajar con **sus** reglas.
+> *"Cada semana recibo por correo una solicitud de contrato de propiedad intelectual. Estudia mis carpetas y créame un plugin llamado **casa-propiedad-intelectual**, con un **playbook** con mis reglas y una **skill** por cada paso: leer la solicitud, analizar el contrato marco y los otrosíes, proyectar el nuevo contrato con mi formato y armar un informe para mi revisión. Muéstrame el plano antes de construir."*
 
-*(Cuando termina el video:)*
+Ningún maestro de obra serio pega un ladrillo sin que usted firme el plano.
 
-Nadie tuvo que explicarle nada. Nadie tuvo que acordarse de "cómo lo hace la doctora". La casa ya lo sabe.
+`[PANTALLA] PASO 4 · Súbala al gato con superpoderes`
 
-Y los cuarenta contratos de enero, con sus trescientos documentos, pasan de ser dos semanas de revisión manual a un informe que me dice: **"estos 34 están listos; estos 6 necesitan sus ojos"**. Y mis ojos, que son los caros, se van justo donde tienen que ir.
+> *"Crea un repositorio privado en GitHub, sube la casa y escribe un README que le explique a mi equipo para qué sirve cada habitación."*
 
----
+`[PANTALLA] PASO 5 · Su equipo copia la llave`
 
-## 12:30 – 14:00 · LAS REGLAS DEL CONDOMINIO
+> *"Clona el repositorio casa-propiedad-intelectual."*
 
-`[PANTALLA] 3 reglas`
+Una frase, y su compañero tiene la misma casa, con las mismas reglas.
 
-Antes de cerrar, las tres reglas que en mi condominio no se negocian:
+`[PANTALLA] PASO 6 · Arme su condominio`
 
-**Uno. La IA no firma. Usted firma.**
-La responsabilidad profesional no se delega. Ni al practicante ni a la máquina.
+Cuando ya tiene varias casas (contratos, litigios, licitaciones), eso es un **condominio**. Agrega el repositorio como **marketplace privado** en Claude, instala la casa y conecta su Gmail.
 
-**Dos. Sin fuente, no existe.**
-Toda norma, todo hecho y todo dato tienen que apuntar a un documento que se pueda verificar. El chat que inventaba sentencias no fue un problema de inteligencia. Fue un problema de casa: nadie le dio reglas.
+`[PANTALLA] PASO 7 · Úsela`
 
-**Tres. El método es suyo.**
-Claude ejecuta su playbook. No se lo inventa. Si su método es malo, la IA lo va a hacer mal más rápido. *(Pausa.)* Así que primero el método.
+> *"Llegó una nueva solicitud al correo. Proyecta el contrato."*
 
-*(Bajas la voz.)*
+`[PANTALLA] MINI VIDEO (60–90 segundos) · Del correo al contrato`
 
-Durante siglos, el criterio de un buen abogado se jubilaba con él. Se iba el socio y se iba la forma de hacer las cosas. Se iba la practicante estrella y se iba lo que sabía.
-
-> **Hoy, por primera vez, el criterio se puede escribir, se puede enseñar y se puede repetir.**
+*(Narras en vivo mientras corre el video:)* Miren: lee el correo, busca el contrato marco, revisa los otrosíes, aplica mis reglas, proyecta el contrato y me deja el informe. Y ahí entro yo. **Con lupa.**
 
 ---
 
-## 14:00 – 15:00 · CIERRE
+## 13:00 – 15:00 · CIERRE
 
-¿Se acuerdan de la pregunta del principio? *Si mañana usted se va de vacaciones un mes, ¿su despacho sabe trabajar como usted?*
+`[PANTALLA] QR grande`
 
-Hoy la respuesta puede ser **sí**. Y no porque la IA sea mágica.
+Como sé que esto fue rapidito, les dejo este QR. Ahí está **el paso a paso para crear su primera casa**, por si se les olvida algo.
 
-> **No es magia. Es método.**
+Y si quieren que les construya la arquitectura completa… pues me contratan.
 
-Y una última cosa. Al principio levantaron la mano por el "final final AHORA SÍ".
+*(Pausa. Sonríes.)*
 
-*(Sonríes.)*
+Pero como ya les di el machete, sé que no va a ser necesario.
 
-La próxima vez que nos veamos en esta vertical, quiero hacer otra encuesta. Quiero que levanten la mano quienes ya tienen **su casa**. Y ojalá, quienes ya viven en **un condominio**.
+*(Risas.)*
 
-Construyan su casa. Escriban sus reglas. Compártanla con su equipo.
+Mucha gente me dice: *"Oiga, ¿usted por qué es tan generosa con el conocimiento? Si sigue regalando todo, ya no la van a contratar."*
 
-Pero eso sí: **las llaves, siempre, se las quedan ustedes.**
+¿Ustedes qué creen?
+
+*(Esperas. Dejas que alguien responda.)*
+
+Yo creo que es todo lo contrario. Lo que hoy es un secreto, en unos meses va a ser obvio. **Entre más generoso y abierto es uno con el conocimiento, más lo buscan.** Porque la gente no contrata al que sabe algo. Contrata al que le ayudó a entenderlo.
+
+Así que, por favor, **arranquen mañana.** Construyan su primera casa, así sea con una sola habitación, y me cuentan. Estamos súper conectados por LinkedIn.
+
+*(Te paras en el centro. Pausa larga.)*
+
+> **Los prompts se olvidan. Las casas se heredan.**
 
 Muchas gracias.
 
@@ -270,11 +263,24 @@ Muchas gracias.
 
 ---
 
+## Otras frases de cierre (elige la que más te suene)
+
+- **"Los prompts se olvidan. Las casas se heredan."** *(la recomendada)*
+- "No es magia. Es método. Y el método, cuando se comparte, se multiplica."
+- "La IA no nos va a reemplazar. Nos va a reemplazar el abogado que ya construyó su casa."
+- "Dejen de guardar prompts. Empiecen a construir casas."
+
+---
+
 ## Notas de producción
 
-- **Palabras habladas:** unas 2.100. A ritmo de charla (unas 140 palabras por minuto) da 15 minutos justos.
-- **Si vas corta de tiempo:** recorta la tabla de habitaciones (paso 2) y deja solo el ejemplo de la cocina.
-- **Mini video:** grábalo antes del evento y no dependas del wifi. Muestra los 6 pasos con cursor grande y zoom en cada clic.
-- **Antes del evento, verifica** en tu versión de Claude cómo se llama exactamente la sección de plugins y la opción de agregar marketplace. En Claude Code también funciona por comandos: `/plugin marketplace add despacho/condominio-despacho` y luego `/plugin install casa-contratos@condominio-despacho`.
-- **Para GitHub:** Claude Code solo puede crear el repositorio si ya conectaste tu cuenta de GitHub en ese computador. Hazlo el día anterior.
-- **Si tienes anécdotas propias** (la cobija de tigre, la preguntica rápida), cámbialas por las tuyas. Las historias reales siempre ganan.
+- **Palabras habladas:** unas 2.100. A ritmo de charla (unas 140 palabras por minuto) son 15 minutos.
+- **Si vas corta de tiempo:** acorta la lista de logos a 6 u 7 y deja el de Barranquilla de último. También puedes resumir los pasos 4 y 5 en uno solo.
+- **Collage de apertura:** Messenger, BlackBerry, disquete, CD, computador cabezón, celular de Celumóvil con antena, máquina de escribir, impresora, expediente polvoroso, primeros sistemas de consulta de procesos, abogado sudando en Barranquilla, OneDrive, Teams, Zoom y Claude.
+- **GitHub:** ajusté la idea de "guardar lo que no cabe en OneDrive". GitHub no sirve para archivos pesados como expedientes (tiene límites de tamaño). Lo que ahí brilla son tus casas, reglas y habilidades, que son archivos livianos de texto. Por eso el guion dice "ahí no guardo expedientes, guardo mi cerebro".
+- **Ejemplo de propiedad intelectual:** en el guion quedó "un canal de televisión o una plataforma de streaming". Si quieres nombrar a Caracol o a Netflix, aclara que es un ejemplo hipotético, para que nadie piense que son clientes.
+- **Mini video:** grábalo antes y no dependas del wifi. Usa cursor grande y haz zoom en cada paso.
+- **Antes del evento, verifica:**
+  - Cómo se llama en tu versión de Claude la opción para agregar un marketplace. En Claude Code también funciona por comandos: `/plugin marketplace add <organizacion>/<repositorio>` y luego `/plugin install <casa>@<marketplace>`.
+  - Que tu cuenta de GitHub esté conectada en el computador desde el que haces la demo.
+- **QR:** apunta al artifact con el paso a paso para crear la primera casa (pendiente de construir).
