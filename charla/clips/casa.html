@@ -1,0 +1,176 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+  body { background: repeating-linear-gradient(135deg, #FFF6E5 0 36px, #FBEFD6 36px 72px); }
+  .scene { position: absolute; inset: 0; }
+  .term { background: #1B1A2E; color: #FFF6E5; border: 5px solid #1B1A2E; border-radius: 14px; box-shadow: 10px 10px 0 #FF5A3C; overflow: hidden; }
+  .term .bar { background: #2B2A45; padding: 10px 16px; display: flex; gap: 10px; align-items: center; font-size: 20px; color: #C9C5DA; }
+  .dot { width: 14px; height: 14px; border-radius: 50%; display: inline-block; }
+  .term .body { padding: 22px 28px; font-size: 25px; line-height: 1.5; }
+  .ok { color: #7EE0A0; }
+  .yel { color: #FFD23F; }
+  .typing::after { content: '▌'; color: #FFD23F; }
+  .tree { font-size: 30px; line-height: 1.55; }
+  .room { position: absolute; background: #FFD23F; border: 5px solid #1B1A2E; font-size: 26px; text-align: center; padding: 14px 6px; }
+  .who { font-size: 26px; text-align: center; }
+  .app { background: #FFFDF7; border: 5px solid #1B1A2E; border-radius: 16px; box-shadow: 10px 10px 0 #1B1A2E; overflow: hidden; }
+  .row { display: flex; align-items: center; justify-content: space-between; padding: 14px 22px; border-top: 3px solid #E3E0EE; font-size: 25px; font-weight: 700; }
+  .btn { background: #1B1A2E; color: #FFD23F; border-radius: 999px; padding: 6px 18px; font-size: 22px; }
+  .ring { position: absolute; border: 6px solid #FF5A3C; border-radius: 999px; }
+  .check { font-size: 28px; font-weight: 800; }
+</style></head>
+<body>
+
+<!-- ESCENA 1 · Ordenar carpetas -->
+<div class="scene" data-fade="0,6.4">
+  <div class="abs bang stepcap" data-pop="0.2" data-rot="-1">PASO 1 · ORDENE LA CASA ANTES DE INVITAR</div>
+  <div class="abs panel mono tree" data-pop="0.8" style="left:200px; top:180px; width:820px; padding:36px 44px">
+    <div data-fade="1.2">📁 Contratos_PI</div>
+    <div data-fade="1.8">├── 📁 01_Solicitudes</div>
+    <div data-fade="2.3">├── 📁 02_Contratos_marco_y_otrosies</div>
+    <div data-fade="2.8">├── 📁 03_Contratos_modelo</div>
+    <div data-fade="3.3">└── 📁 04_Entregables <span style="color:#5E5A72">(vacía)</span></div>
+  </div>
+  <div class="abs" data-pop="3.9" style="left:1130px; top:330px; width:240px; height:312px">${'yo'}</div>
+  <div class="abs bubble r hand" data-pop="4.4" data-rot="2" style="left:1020px; top:170px; width:500px; font-size:38px; line-height:1.1">Si le entrega una carpeta llamada "Cosas"… le devuelve cosas.</div>
+</div>
+
+<!-- ESCENA 2 · Claude Code y el prompt -->
+<div class="scene" data-fade="6.4,17.2">
+  <div class="abs bang stepcap" data-pop="6.6" data-rot="-1">PASOS 2 Y 3 · ABRA CLAUDE CODE Y CUÉNTELE SU PROCESO</div>
+  <div class="abs term mono" data-pop="7.0" style="left:80px; top:150px; width:1100px; height:660px">
+    <div class="bar"><span class="dot" style="background:#FF5A3C"></span><span class="dot" style="background:#FFD23F"></span><span class="dot" style="background:#7EE0A0"></span>&nbsp; Claude Code · ~/Contratos_PI</div>
+    <div class="body">
+      <div class="yel" data-fade="7.4">Claude Code listo en: ~/Contratos_PI</div>
+      <div style="margin-top:18px"><span class="yel">&gt; </span><span data-type="8,40">Cada semana recibo por correo una solicitud de contrato de propiedad intelectual. Estudia mis carpetas y créame un plugin llamado casa-propiedad-intelectual, con un playbook con mis reglas y una skill por cada paso. Muéstrame el plano antes de construir.</span></div>
+      <div style="margin-top:18px" data-fade="14.6">● Leyendo 214 archivos de ~/Contratos_PI…</div>
+      <div data-fade="15.3">● Estudiando tus 3 contratos modelo y tu formato…</div>
+      <div class="ok" data-fade="16.0">✓ Entendí tu proceso. Te muestro el plano.</div>
+    </div>
+  </div>
+  <div class="abs" data-pop="9.5" style="left:1250px; top:470px; width:230px; height:300px">${'yo'}</div>
+  <div class="abs bubble r hand" data-pop="10" data-rot="3" style="left:1190px; top:220px; width:360px; font-size:38px; line-height:1.1">¡No van a programar ni una línea!</div>
+</div>
+
+<!-- ESCENA 3 · El plano de la casa -->
+<div class="scene" data-fade="17.2,26.2">
+  <div class="abs bang stepcap" data-pop="17.4" data-rot="-1">EL PLANO DE LA CASA</div>
+  <svg class="abs" data-pop="17.8" style="left:120px; top:130px; width:760px; height:220px" viewBox="0 0 760 220"><polygon points="10,214 380,10 750,214" fill="#FF5A3C" stroke="#1B1A2E" stroke-width="8" stroke-linejoin="round"/></svg>
+  <div class="abs bang" data-pop="18.0" style="left:300px; top:262px; width:400px; text-align:center; font-size:27px; line-height:1.05; color:#1B1A2E">PLUGIN<br>CASA-PROPIEDAD-INTELECTUAL</div>
+  <div class="abs" data-pop="18.2" style="left:150px; top:350px; width:700px; height:250px; background:#FFFDF7; border:6px solid #1B1A2E; border-top:none"></div>
+  <div class="abs bang" data-fade="18.4" style="left:150px; top:360px; width:700px; text-align:center; font-size:24px; color:#5E5A72">SKILLS = HABITACIONES</div>
+  <div class="room bang" data-pop="18.7" style="left:175px; top:400px; width:315px">LEER-SOLICITUD</div>
+  <div class="room bang" data-pop="19.2" style="left:510px; top:400px; width:315px">ANALIZAR-CONTRATO-MARCO</div>
+  <div class="room bang" data-pop="19.7" style="left:175px; top:500px; width:315px">PROYECTAR-CONTRATO</div>
+  <div class="room bang" data-pop="20.2" style="left:510px; top:500px; width:315px">INFORME-DE-REVISIÓN</div>
+  <div class="abs bang" data-pop="20.8" style="left:120px; top:600px; width:760px; background:#1B1A2E; color:#FFD23F; text-align:center; font-size:32px; padding:16px">PLAYBOOK · LAS REGLAS DE LA CASA</div>
+  <div class="abs" data-pop="21.4" style="left:930px; top:150px; width:150px; height:180px">${'bot'}</div>
+  <div class="abs bubble hand" data-pop="21.7" data-rot="-2" style="left:1090px; top:160px; font-size:40px">¿Apruebas el plano?</div>
+  <div class="abs" data-pop="22.4" style="left:1400px; top:330px; width:150px; height:196px">${'yo'}</div>
+  <div class="abs bubble r hand" data-pop="22.7" data-rot="2" style="left:1110px; top:300px; font-size:40px">¡Sí, constrúyela!</div>
+  <div class="abs term mono" data-pop="23.3" style="left:930px; top:540px; width:620px">
+    <div class="body" style="font-size:21px; line-height:1.45; padding:18px 22px">
+      <div class="ok">✓ casa-propiedad-intelectual/</div>
+      <div>├─ .claude-plugin/plugin.json</div>
+      <div>├─ playbook/reglas-de-la-casa.md</div>
+      <div>└─ skills/ (4 habitaciones, cada una con su SKILL.md)</div>
+    </div>
+  </div>
+</div>
+
+<!-- ESCENA 4 · GitHub -->
+<div class="scene" data-fade="26.2,33.6">
+  <div class="abs bang stepcap" data-pop="26.4" data-rot="-1">PASO 4 · SÚBALA AL GATO CON SUPERPODERES</div>
+  <div id="gato" class="abs" data-fade="26.6" style="left:90px; top:230px; width:420px; height:355px">${'gato'}</div>
+  <div class="abs bubble hand" data-pop="28.2" data-rot="-3" style="left:90px; top:150px; font-size:38px">¡Guardado con memoria notarial!</div>
+  <div class="abs term mono" data-pop="27.0" style="left:620px; top:150px; width:900px">
+    <div class="body" style="font-size:23px"><span class="yel">&gt; </span><span data-type="27.3,45">Crea un repositorio privado en GitHub y sube la casa con un README para mi equipo.</span></div>
+  </div>
+  <div class="abs app" data-pop="29.4" style="left:620px; top:330px; width:900px">
+    <div class="row" style="border-top:none; font-size:30px; background:#F3EFE6"><span>🔒 despacho / <b>casa-propiedad-intelectual</b></span><span class="btn">Privado</span></div>
+    <div class="row" data-fade="30.2"><span>Crea la casa y sus 4 habitaciones</span><span style="color:#5E5A72">hace 1 min</span></div>
+    <div class="row" data-fade="30.8"><span>Agrega el playbook del despacho</span><span style="color:#5E5A72">hace 1 min</span></div>
+    <div class="row" data-fade="31.4"><span>README: para qué sirve cada habitación</span><span style="color:#5E5A72">ahora</span></div>
+  </div>
+</div>
+
+<!-- ESCENA 5 · Clonar -->
+<div class="scene" data-fade="33.6,39.8">
+  <div class="abs bang stepcap" data-pop="33.8" data-rot="-1">PASO 5 · SU EQUIPO COPIA LA LLAVE</div>
+  <div class="abs" data-pop="34.0" style="left:130px; top:230px; width:200px; height:260px">${'yo'}</div>
+  <div class="abs" data-pop="34.2" style="left:340px; top:280px; width:260px; height:234px">${'casita'}</div>
+  <div class="abs who bang" data-fade="34.2" style="left:130px; top:540px; width:470px">TU CASA</div>
+  <div class="abs" data-pop="34.6" style="left:1270px; top:230px; width:200px; height:260px">${'persona'}</div>
+  <div class="abs term mono" data-pop="35.0" style="left:720px; top:170px; width:520px">
+    <div class="body" style="font-size:23px"><span class="yel">&gt; </span><span data-type="35.3,32">Clona el repositorio casa-propiedad-intelectual</span></div>
+  </div>
+  <div class="abs" data-pop="37.0" style="left:980px; top:300px; width:260px; height:234px">${'casita'}</div>
+  <div class="abs who bang" data-fade="37.0" style="left:980px; top:540px; width:490px">LA DE TU COMPAÑERO</div>
+  <svg class="abs" data-pop="37.6" style="left:720px; top:370px; width:160px; height:110px" viewBox="0 0 160 110"><rect x="8" y="8" width="144" height="30" rx="8" fill="#FF5A3C" stroke="#1B1A2E" stroke-width="6"/><rect x="8" y="68" width="144" height="30" rx="8" fill="#FF5A3C" stroke="#1B1A2E" stroke-width="6"/></svg>
+  <div class="abs bang" data-pop="38.0" data-rot="-3" style="left:470px; top:640px; width:660px; text-align:center; font-size:56px; background:#FFD23F; border:5px solid #1B1A2E; padding:10px; box-shadow:8px 8px 0 #1B1A2E">MISMAS REGLAS. MISMAS HABITACIONES.</div>
+  <div class="abs bubble r hand" data-pop="38.4" data-rot="3" style="left:1180px; top:120px; font-size:36px">¿Y ya? ¿Eso era todo?</div>
+</div>
+
+<!-- ESCENA 6 · Condominio (marketplace) -->
+<div class="scene" data-fade="39.8,47.4">
+  <div class="abs bang stepcap" data-pop="40.0" data-rot="-1">PASO 6 · ARME SU CONDOMINIO</div>
+  <div class="abs bang" data-pop="40.3" style="left:70px; top:170px; width:720px; text-align:center; font-size:34px; background:#1B1A2E; color:#FFD23F; padding:12px; border-radius:40px 40px 0 0">CONDOMINIO-DESPACHO · MARKETPLACE</div>
+  <div class="abs" data-pop="40.6" style="left:80px; top:260px; width:220px; height:198px">${'casita:#FFD23F'}</div>
+  <div class="abs" data-pop="40.9" style="left:320px; top:260px; width:220px; height:198px">${'casita:#BDE6F5'}</div>
+  <div class="abs" data-pop="41.2" style="left:560px; top:260px; width:220px; height:198px">${'casita:#B7F0C8'}</div>
+  <div class="abs who bang" data-fade="40.6" style="left:80px; top:470px; width:220px">CONTRATOS PI</div>
+  <div class="abs who bang" data-fade="40.9" style="left:320px; top:470px; width:220px">LITIGIOS</div>
+  <div class="abs who bang" data-fade="41.2" style="left:560px; top:470px; width:220px">LICITACIONES</div>
+  <div class="abs hand" data-fade="41.6" style="left:90px; top:560px; width:690px; font-size:40px; line-height:1.15; color:#C23A1E">Varias casas, las mismas reglas de convivencia y una sola portería.</div>
+  <div class="abs app" data-pop="41.0" style="left:870px; top:160px; width:660px">
+    <div class="row" style="border-top:none; background:#F3EFE6; font-size:28px"><span>Claude · Plugins</span><span class="btn" id="addbtn">+ Agregar marketplace</span></div>
+    <div class="row mono" data-fade="42.4" style="font-size:23px; font-weight:400"><span><span data-type="42.6,24">despacho/condominio-despacho</span></span></div>
+    <div class="row" data-fade="43.8"><span>casa-propiedad-intelectual</span><span class="btn" data-fade="44.6,99" style="background:#7EE0A0; color:#1B1A2E">✓ Instalado</span></div>
+    <div class="row" data-fade="44.0"><span>casa-litigios</span><span class="btn">Instalar</span></div>
+    <div class="row" data-fade="44.2"><span>casa-licitaciones</span><span class="btn">Instalar</span></div>
+    <div class="row" data-fade="45.4" style="background:#FFF1C2"><span>✉ Gmail</span><span class="btn" style="background:#7EE0A0; color:#1B1A2E">Conectado</span></div>
+  </div>
+  <div class="ring" data-pop="41.7,42.5" style="left:1220px; top:162px; width:310px; height:62px"></div>
+</div>
+
+<!-- ESCENA 7 · Usarla -->
+<div class="scene" data-fade="47.4,99">
+  <div class="abs bang stepcap" data-pop="47.6" data-rot="-1">PASO 7 · ÚSELA</div>
+  <div class="abs app" data-pop="47.9" style="left:80px; top:150px; width:1000px; height:690px; padding:30px">
+    <div class="bubble r" data-pop="48.3" style="margin-left:auto; width:640px; font-size:30px; background:#FFF1C2">Llegó una nueva solicitud al correo. Proyecta el contrato.</div>
+    <div style="margin-top:34px; display:flex; flex-direction:column; gap:16px">
+      <div class="check" data-fade="49.2">✓ Leí el correo con la solicitud</div>
+      <div class="check" data-fade="50.0">✓ Analicé el contrato marco y 2 otrosíes</div>
+      <div class="check" data-fade="50.8">✓ Apliqué el playbook del despacho</div>
+      <div class="check" data-fade="51.6">✓ Proyecté el contrato con tu formato</div>
+      <div class="check" data-fade="52.4" style="background:#FFD23F; border:4px solid #1B1A2E; padding:12px 18px; border-radius:12px">📄 PI-2026-047.docx · listo para su revisión (3 comentarios de auditoría)</div>
+    </div>
+  </div>
+  <div class="abs" data-pop="48.6" style="left:1230px; top:420px; width:260px; height:338px">${'yo:wow'}</div>
+  <svg class="abs" data-pop="53.6" data-rot="-5" style="left:1110px; top:40px; width:470px; height:420px" viewBox="0 0 560 560"><polygon points="280,10 316,78 372,26 382,102 454,73 437,148 514,145 473,210 546,233 485,280 546,327 473,350 514,415 437,412 454,487 383,458 372,534 316,482 280,550 244,482 188,534 177,458 106,487 123,412 46,415 87,350 14,327 75,280 14,233 87,210 46,145 123,148 106,73 178,102 188,26 244,78" fill="#FFD23F" stroke="#1B1A2E" stroke-width="10" stroke-linejoin="round"/></svg>
+  <div class="abs bang" data-pop="53.9" data-rot="-5" style="left:1185px; top:170px; width:320px; text-align:center; font-size:54px; line-height:1.05">Y AHORA… ¡EL RESULTADO!</div>
+</div>
+
+<script src="chars.js"></script>
+<script>
+// Sustituye los marcadores ${'nombre[:opción]'} por el personaje dibujado.
+document.body.innerHTML = document.body.innerHTML.replace(/\$\{'(\w+)(?::([^']+))?'\}/g, (m, name, opt) => {
+  if (name === 'yo') return yo(opt);
+  if (name === 'bot') return bot();
+  if (name === 'gato') return gato();
+  if (name === 'persona') return persona();
+  if (name === 'casita') return casita(opt);
+  return m;
+});
+document.querySelectorAll('.abs > svg, .abs svg[viewBox]').forEach(s => { if (!s.style.width) { s.style.width = '100%'; s.style.height = '100%'; } });
+</script>
+<script src="common.js"></script>
+<script>
+window.extra = t => {
+  const g = document.getElementById('gato');
+  const p = Math.min(1, Math.max(0, (t - 26.6) / 1.2));
+  const fly = 1 - Math.pow(1 - p, 3);
+  g.style.transform = `translate(${(1 - fly) * -500}px, ${(1 - fly) * 120 + Math.sin(t * 3) * 8}px) rotate(${(1 - fly) * -20}deg)`;
+};
+</script>
+</body></html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+  body { background: #E9E6EF; }
+  .win { left: 30px; top: 20px; width: 1540px; height: 860px; background: #F3F1F6; border: 5px solid #1B1A2E; border-radius: 14px; box-shadow: 10px 10px 0 #1B1A2E; overflow: hidden; }
+  .titlebar { height: 52px; background: #2B579A; color: #FFFFFF; display: flex; align-items: center; gap: 14px; padding: 0 20px; font-size: 21px; font-weight: 700; }
+  .docicon { width: 30px; height: 30px; background: #FFFFFF; color: #2B579A; border-radius: 5px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 18px; }
+  .tabs { height: 46px; background: #FFFFFF; border-bottom: 2px solid #D5D1DD; display: flex; gap: 30px; align-items: center; padding: 0 24px; font-size: 19px; color: #3C3950; }
+  .tabs .on { color: #2B579A; font-weight: 800; border-bottom: 4px solid #2B579A; padding-bottom: 6px; margin-top: 10px; }
+  .page { left: 70px; top: 128px; width: 880px; height: 745px; background: #FFFFFF; box-shadow: 0 2px 10px rgba(0,0,0,.18); padding: 36px 64px; font-family: Georgia, 'DejaVu Serif', serif; color: #1D1D1D; font-size: 17.5px; line-height: 1.55; }
+  .page h1 { font-size: 20px; text-align: center; margin: 16px 0 12px; letter-spacing: .5px; }
+  .page p { margin-bottom: 9px; text-align: justify; }
+  .hl { transition: none; border-radius: 3px; }
+  .cm { position: absolute; left: 1010px; width: 540px; background: #FFFFFF; border: 3px solid #1B1A2E; border-left-width: 12px; border-radius: 10px; padding: 12px 16px; font-size: 19px; line-height: 1.35; box-shadow: 5px 5px 0 rgba(27,26,46,.25); }
+  .cm .who { font-size: 16px; font-weight: 800; color: #5E5A72; margin-bottom: 4px; }
+  .warn { border-left-color: #F2A007; }
+  .good { border-left-color: #2EA86B; }
+  #lines { left: 0; top: 0; width: 1600px; height: 900px; pointer-events: none; }
+  .typing::after { content: '|'; color: #2B579A; }
+</style></head>
+<body>
+<div class="abs win" data-pop="0.2">
+  <div class="titlebar"><span class="docicon">W</span>PI-2026-047_Contrato_licencia.docx · Borrador para revisión</div>
+  <div class="tabs"><span>Archivo</span><span>Inicio</span><span>Insertar</span><span>Diseño</span><span class="on">Revisar</span><span>Vista</span></div>
+</div>
+<div class="abs page" data-fade="0.6">
+  <div data-fade="1.0" style="display:flex; align-items:center; gap:14px; border-bottom:3px solid #1B1A2E; padding-bottom:12px">
+    <svg viewBox="0 0 60 70" style="width:48px; height:56px"><polygon points="22,20 38,20 44,68 16,68" fill="#FF5A3C" stroke="#1B1A2E" stroke-width="3"/><rect x="18" y="10" width="24" height="12" fill="#FFD23F" stroke="#1B1A2E" stroke-width="3"/><polygon points="30,0 44,10 16,10" fill="#1B1A2E"/><rect x="18" y="38" width="24" height="6" fill="#FFFDF7"/><path d="M44 14 L58 8 M44 18 L58 22" stroke="#FFD23F" stroke-width="3"/></svg>
+    <div style="font-family:'Bangers',sans-serif; font-size:30px; letter-spacing:2px; color:#1B1A2E; line-height:1">FARO<br><span style="font-family:'Nunito Sans',sans-serif; font-size:14px; letter-spacing:1px; font-weight:700; color:#5E5A72">LEGAL · PROPIEDAD INTELECTUAL</span></div>
+    <div style="margin-left:auto; font-family:'Nunito Sans',sans-serif; font-size:14px; color:#5E5A72; text-align:right">Ejemplo ficticio<br>para fines didácticos</div>
+  </div>
+  <h1 data-fade="1.6">CONTRATO DE LICENCIA DE USO DE OBRA AUDIOVISUAL N.º PI-2026-047</h1>
+  <p><span data-type="2.3,90">Entre PRODUCTORA ANDINA S.A.S., en adelante EL LICENCIANTE, y CANAL NÉBULA TV S.A.S., en adelante EL LICENCIATARIO, se celebra el presente contrato, que se rige por las siguientes cláusulas:</span></p>
+  <p data-fade="4.8"><b>PRIMERA. Objeto.</b> <span data-type="5.0,90">EL LICENCIANTE autoriza a EL LICENCIATARIO el uso de la pieza audiovisual "Campaña Temporada Alta 2027" para su comunicación pública.</span></p>
+  <p data-fade="7.0"><b>SEGUNDA. Territorio y plazo.</b> <span data-type="7.2,90">La licencia se otorga para el </span><span id="h1" class="hl" data-type="8.0,90">territorio de Colombia</span><span data-type="8.4,90"> por un plazo de doce (12) meses contados desde la firma.</span></p>
+  <p data-fade="9.4"><b>TERCERA. Contraprestación.</b> <span data-type="9.6,90">EL LICENCIATARIO pagará la suma de </span><span id="h2" class="hl" data-type="10.2,90">CUARENTA Y OCHO MILLONES DE PESOS ($48.000.000)</span><span data-type="10.8,90">, en dos cuotas iguales.</span></p>
+  <p data-fade="11.8"><b>CUARTA. Derechos morales.</b> <span id="h3" class="hl" data-type="12.0,90">EL LICENCIATARIO respetará la paternidad e integridad de la obra y mencionará a sus autores en los créditos.</span></p>
+  <p data-fade="13.8"><b>QUINTA. Documentos del contrato.</b> <span data-type="14.0,90">Hacen parte integral de este contrato el contrato marco CM-2025-011 y sus </span><span id="h4" class="hl" data-type="14.8,90">otrosíes N.º 1 y N.º 2</span><span data-type="15.2,90">.</span></p>
+</div>
+<svg id="lines" class="abs"></svg>
+<div class="cm warn" id="c1" data-pop="17.0" style="top:150px"><div class="who">Claude · Auditoría</div>⚠ El otrosí N.º 2 amplió el territorio a toda Latinoamérica. Confirmar si aplica a esta pieza.</div>
+<div class="cm warn" id="c2" data-pop="19.0" style="top:300px"><div class="who">Claude · Auditoría</div>⚠ El valor ($48.000.000) no coincide con la solicitud del correo del 15/09 ($45.000.000). Revisar.</div>
+<div class="cm good" id="c3" data-pop="21.0" style="top:450px"><div class="who">Claude · Auditoría</div>✓ Cláusula tomada del playbook del despacho. Fuente: contrato marco CM-2025-011, cláusula 7.1.</div>
+<div class="cm good" id="c4" data-pop="23.0" style="top:600px"><div class="who">Claude · Auditoría</div>✓ Otrosíes N.º 1 y N.º 2 incorporados. Fechas y firmas verificadas.</div>
+<div class="abs bang" data-pop="25.2" data-rot="-12" style="left:330px; top:735px; font-size:46px; line-height:1; color:#C23A1E; border:8px solid #C23A1E; padding:12px 22px; background:rgba(255,255,255,.85); text-align:center">LISTO PARA<br>REVISIÓN HUMANA</div>
+<svg class="abs" data-pop="26.6" data-rot="-20" style="left:1010px; top:700px; width:190px; height:190px" viewBox="0 0 120 120"><circle cx="48" cy="48" r="36" fill="#BDE6F5" fill-opacity=".6" stroke="#1B1A2E" stroke-width="8"/><line x1="74" y1="74" x2="110" y2="110" stroke="#1B1A2E" stroke-width="14" stroke-linecap="round"/></svg>
+<div class="abs bubble hand" data-pop="27.2" data-rot="-2" style="left:1190px; top:730px; width:380px; font-size:40px; line-height:1.05">Mi única misión: revisar con lupa.</div>
+<script src="common.js"></script>
+<script>
+const pairs = [['h1', 'c1', 17.0, '#FFE08A'], ['h2', 'c2', 19.0, '#FFE08A'], ['h3', 'c3', 21.0, '#C8F0D8'], ['h4', 'c4', 23.0, '#C8F0D8']];
+window.extra = t => {
+  const svg = document.getElementById('lines');
+  let out = '';
+  pairs.forEach(([h, c, at, col]) => {
+    const hs = document.getElementById(h), cs = document.getElementById(c);
+    hs.style.background = t >= at ? col : 'transparent';
+    if (t < at + 0.3) return;
+    const a = hs.getClientRects(), last = a[a.length - 1];
+    const b = cs.getBoundingClientRect();
+    if (!last) return;
+    const x1 = last.right + 2, y1 = last.top + last.height / 2, x2 = b.left, y2 = b.top + 30;
+    out += `<path d="M${x1} ${y1} L960 ${y1} L${x2} ${y2}" fill="none" stroke="#2B579A" stroke-width="2.5" stroke-dasharray="6 5"/>`;
+  });
+  svg.innerHTML = out;
+};
+</script>
+</body></html>
