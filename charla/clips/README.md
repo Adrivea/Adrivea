@@ -17,3 +17,8 @@ node record.js guayaba.html out_guayaba 30 24 23.5   # genera out_guayaba.webm y
 ```
 
 Todo lo que aparece en los clips es ficticio (Faro Legal, Productora Andina, Canal Nébula, el repositorio `despacho/…`).
+
+## Cambios posteriores
+
+- `guayaba3.html` (33,5 s): versión actual de la viñeta 2. Sin las tarjetas de Messenger ni de la panela de Celumóvil, con el título "¿Quién más está teniendo un déjà vu en este momento?".
+- `escalera.html` (40 s, 1920×1080): la viñeta "En un año subimos cinco escalones" convertida en video, con la abogada subiendo un peldaño cada 8 segundos. Se graba con `W=1920 H=1080 node record.js escalera.html out_escalera 40 24 38`.

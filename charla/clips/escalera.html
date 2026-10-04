@@ -1,0 +1,65 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="common.css">
+<style>
+  html, body { width: 1920px; height: 1080px; background: #FFF6E5; }
+  h2 { position: absolute; left: 128px; top: 128px; font-family: 'Bangers', Impact, sans-serif; font-size: 96px; font-weight: 400; line-height: 1.02; letter-spacing: 2px; color: #1B1A2E; }
+  .step { position: absolute; bottom: 160px; width: 316.8px; display: flex; flex-direction: column; gap: 10px; padding: 20px; background: #FFFDF7; border: 5px solid #1B1A2E; border-radius: 12px; box-shadow: 8px 8px 0 #1B1A2E; transform-origin: 50% 100%; }
+  .num { align-self: start; padding: 2px 14px; font-family: 'Bangers', Impact, sans-serif; font-size: 24px; color: #FFD23F; background: #1B1A2E; border-radius: 256px; }
+  .step h3 { font-family: 'Bangers', Impact, sans-serif; font-size: 36px; font-weight: 400; line-height: 1.05; color: #1B1A2E; }
+  .step p.t { font-family: 'Caveat', cursive; font-weight: 700; font-size: 32px; line-height: 1.1; color: #C23A1E; }
+  .ancla { position: absolute; left: 128px; bottom: 56px; width: 1664px; font-size: 24px; color: #5E5A72; }
+  #climber { position: absolute; width: 130px; height: 169px; left: 0; top: 0; }
+</style></head>
+<body>
+<h2>EN UN AÑO SUBIMOS CINCO ESCALONES</h2>
+<div class="step" style="left:128px; height:260px"><p class="num">1</p><h3>IA AISLADA</h3><p class="t">“¿Cuál es el plazo para contestar una demanda?”</p></div>
+<div class="step" style="left:464.8px; height:350px"><p class="num">2</p><h3>GENERAR DOCUMENTOS</h3><p class="t">“Hazme un contrato.” Y salía uno… con clausulas de otro país y 5 jurisprudencias inventadas.</p></div>
+<div class="step" style="left:801.6px; height:420px"><p class="num">3</p><h3>EL CUENTO DEL PROMPT</h3><p class="t">Cada quien con sus vainas. Prompts para hacer prompts.</p></div>
+<div class="step" style="left:1138.4px; height:490px"><p class="num">4</p><h3>ARQUITECTURAS DE TRABAJO</h3><p class="t">Habilidades, manuales, procesos. Ya no se le pregunta: se le enseña.</p></div>
+<div class="step" style="left:1475.2px; height:560px; background:#FFD23F"><p class="num">5 · HOY</p><h3>ESTRUCTURAS AGÉNTICAS</h3><p class="t" style="color:#1B1A2E">Un equipo que ejecuta todo dentro de la arquitectura: del inventario a la demanda lista para revisar.</p></div>
+<p class="ancla"><b>ANCLA ▸</b> “¿Y esto por qué importa? Porque todos trabajamos dentro de organizaciones.”</p>
+
+<svg id="climber" viewBox="0 0 200 260" aria-label="Yo, abogada, subiendo la escalera"><path d="M44 120 Q30 40 100 30 Q170 40 156 120 L160 190 L40 190 Z" fill="#4A2E23" stroke="#1B1A2E" stroke-width="6" stroke-linejoin="round"/><g id="legs"><path id="legL" d="M80 220 L72 258" stroke="#1B1A2E" stroke-width="14" stroke-linecap="round"/><path id="legR" d="M120 220 L128 258" stroke="#1B1A2E" stroke-width="14" stroke-linecap="round"/></g><path d="M48 236 L56 150 Q100 130 144 150 L152 236 Z" fill="#FF5A3C" stroke="#1B1A2E" stroke-width="6" stroke-linejoin="round"/><path d="M100 140 L88 160 L100 200 L112 160 Z" fill="#FFFDF7" stroke="#1B1A2E" stroke-width="4"/><circle cx="100" cy="86" r="42" fill="#E8B58A" stroke="#1B1A2E" stroke-width="6"/><path d="M60 78 Q70 44 100 46 Q134 44 142 80 Q118 62 96 60 Q76 64 60 78 Z" fill="#4A2E23"/><circle cx="84" cy="84" r="5" fill="#1B1A2E"/><circle cx="116" cy="84" r="5" fill="#1B1A2E"/><path d="M84 98 Q100 114 116 98" fill="none" stroke="#1B1A2E" stroke-width="5" stroke-linecap="round"/><path id="armL" d="M58 160 L30 200" stroke="#1B1A2E" stroke-width="12" stroke-linecap="round"/><path id="armR" d="M142 160 L170 200" stroke="#1B1A2E" stroke-width="12" stroke-linecap="round"/></svg>
+
+<svg class="abs" id="burst" data-pop="35.0" data-rot="-6" style="left:1185px; top:232px; width:250px; height:205px" viewBox="0 0 560 560"><polygon points="280,10 316,78 372,26 382,102 454,73 437,148 514,145 473,210 546,233 485,280 546,327 473,350 514,415 437,412 454,487 383,458 372,534 316,482 280,550 244,482 188,534 177,458 106,487 123,412 46,415 87,350 14,327 75,280 14,233 87,210 46,145 123,148 106,73 178,102 188,26 244,78" fill="#FFD23F" stroke="#1B1A2E" stroke-width="12" stroke-linejoin="round"/></svg>
+<div class="abs bang" data-pop="35.3" data-rot="-6" style="left:1210px; top:305px; width:200px; text-align:center; font-size:50px; line-height:1">¡HOY!</div>
+
+<script src="common.js"></script>
+<script>
+// Pies del personaje: en el piso y luego encima de cada peldaño.
+const FLOOR = 920, W = 316.8;
+const heights = [260, 350, 420, 490, 560];
+const spots = [{ x: 30, y: FLOOR }].concat(heights.map((h, i) => ({ x: 128 + i * (W + 20) + W / 2 - 65, y: FLOOR - h })));
+const landAt = [2, 10, 18, 26, 34];          // segundo en que aterriza en cada peldaño
+const JUMP = 0.8;
+const steps = [...document.querySelectorAll('.step')];
+const c = document.getElementById('climber');
+window.extra = t => {
+  // ¿en qué tramo estamos?
+  let from = spots[0], to = spots[0], p = 1, k = -1;
+  for (let i = 0; i < landAt.length; i++) {
+    const a = landAt[i] - JUMP;
+    if (t >= a) { from = spots[i]; to = spots[i + 1]; p = clamp((t - a) / JUMP); k = i; }
+  }
+  const e = p < 1 ? p : 1;
+  const x = from.x + (to.x - from.x) * e;
+  const yFeet = from.y + (to.y - from.y) * e - Math.sin(Math.PI * e) * 150;
+  const squash = p < 1 ? 1 : 1 - 0.12 * Math.max(0, 1 - (t - landAt[k]) / 0.25);
+  const idle = p >= 1 ? Math.sin(t * 5) * 3 : 0;
+  c.style.left = x + 'px';
+  c.style.top = (yFeet - 169 + idle) + 'px';
+  c.style.transform = `scaleY(${squash})`;
+  c.style.transformOrigin = '50% 100%';
+  // brazos arriba al saltar y al final
+  const up = (p < 1 && k >= 0) || t > 35;
+  document.getElementById('armL').setAttribute('d', up ? 'M58 160 L36 112' : 'M58 160 L30 200');
+  document.getElementById('armR').setAttribute('d', up ? 'M142 160 L164 112' : 'M142 160 L170 200');
+  // el peldaño rebota cuando aterriza
+  steps.forEach((s, i) => {
+    const d = t - landAt[i];
+    const b = d > 0 && d < 0.35 ? Math.sin(d / 0.35 * Math.PI) * 0.025 : 0;
+    s.style.transform = `scaleY(${1 - b})`;
+  });
+};
+</script>
+</body></html>

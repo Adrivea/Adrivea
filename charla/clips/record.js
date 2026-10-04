@@ -8,7 +8,7 @@ const path = require('path');
 const [,, html, out, secs, fpsArg, stillArg] = process.argv;
 const fps = Number(fpsArg || 24);
 const total = Math.round(Number(secs) * fps);
-const W = 1600, H = 900;
+const W = Number(process.env.W || 1600), H = Number(process.env.H || 900);
 
 (async () => {
   const browser = await chromium.launch({ executablePath: '/opt/pw-browsers/chromium-1194/chrome-linux/chrome' });
