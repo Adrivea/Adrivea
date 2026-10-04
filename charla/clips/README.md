@@ -4,7 +4,8 @@ Fuentes de los tres videoclips que se reproducen solos dentro de la presentació
 
 | Archivo | Viñeta | Duración |
 |---|---|---|
-| `guayaba.html` | "Díganme que son de la generación de la guayaba…" | 30 s |
+| `guayaba.html` | Collage original de la generación de la guayaba | 30 s |
+| `guayaba2.html` | Versión de la viñeta 2: intro con tus fotos y la guayaba + el collage original | 36,5 s |
 | `casa.html` | Paso a paso: de la carpeta al condominio | 58 s |
 | `contrato.html` | El contrato con auditoría al margen | 31 s |
 
