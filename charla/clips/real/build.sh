@@ -7,13 +7,12 @@ cd $S/real
 
 # inicio fin velocidad | etiqueta | título | nota
 SEGS=(
-"150 160 5|PASO 2|ABRA CLAUDE CODE|Así se ve por dentro"
-"160 215 8|PASO 3|CUÉNTELE SU PROCESO|Un solo mensaje: la casa que quiero"
-"215 320 10|EL PLANO|CLAUDE ESTUDIA Y PREGUNTA|¿De qué línea eres? ¿Cuál es tu rol?"
-"320 380 5|PASOS 4 A 6|LA CASA, EN GITHUB Y EN EL CONDOMINIO|Habitaciones, reglas y marketplace"
-"380 480 8|PASO 7|“ME LLEGÓ UN NUEVO CONTRATO”|La casa lee el correo y pregunta lo que falta"
-"480 560 8|AUDITORÍA|REVISA SOLICITUDES Y DATOS|Qué falta, qué no cuadra"
-"560 626 4|RESULTADO|EL CONTRATO EN WORD|Y ahora… reviso con lupa"
+"276 292 3|PASO 1|CUÉNTELE SU PROCESO|Claude pregunta y pone 2 agentes a estudiar sus carpetas"
+"292 320 10|EL PLANO|LOS AGENTES ESTUDIAN SUS CARPETAS|Nada se construye sin mi aprobación"
+"320 380 5|PASO 2|LA CASA, EN GITHUB Y EN EL CONDOMINIO|Habitaciones, reglas y marketplace"
+"380 480 8|PASO 3|“ME LLEGÓ UN NUEVO CONTRATO”|La casa lee el correo y pregunta lo que falta"
+"480 560 8|PASO 4|AUDITORÍA: SOLICITUDES Y DATOS|Qué falta, qué no cuadra"
+"560 626 4|PASO 5|EL CONTRATO EN WORD|Y ahora… reviso con lupa"
 )
 
 node render_overlays.js "${SEGS[@]}"
@@ -30,5 +29,5 @@ for seg in "${SEGS[@]}"; do
   echo "file 'seg_$i.mp4'" >> $LIST
 done
 $FF -loglevel error -y -f concat -safe 0 -i $LIST -c:v libvpx -b:v 3M -crf 8 -qmin 0 -qmax 36 -deadline good -cpu-used 4 -pix_fmt yuv420p real_paso_a_paso.webm
-$FF -loglevel error -y -ss 62 -i real_paso_a_paso.webm -frames:v 1 real_paso_a_paso.png
+$FF -loglevel error -y -ss 2.5 -i real_paso_a_paso.webm -frames:v 1 real_paso_a_paso.png
 ls -la real_paso_a_paso.*
