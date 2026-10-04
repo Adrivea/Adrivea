@@ -8,10 +8,10 @@ const path = require('path');
   for (let i = 0; i < segs.length; i++) {
     const [times, tag, title, note] = segs[i].split('|');
     const k = times.trim().split(/\s+/)[2];
-    const q = new URLSearchParams({ tag, title, note, speed: `VELOCIDAD ×${k}` });
+    const q = new URLSearchParams({ tag, title, note, speed: `VELOCIDAD ×${k}`, pill: process.env.PILL || '' });
     await p.goto('file://' + path.resolve('overlay.html') + '?' + q.toString());
     await p.evaluate(() => document.fonts.ready);
-    await p.screenshot({ path: `ov_${i + 1}.png`, omitBackground: true });
+    await p.screenshot({ path: (process.env.OVP || 'ov_') + (i + 1) + '.png', omitBackground: true });
   }
   await b.close();
 })();

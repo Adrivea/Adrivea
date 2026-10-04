@@ -12,14 +12,15 @@
 <div class="paper" style="left:0; top:100px; width:500px; height:772px"></div>
 <div class="paper" style="left:1560px; top:100px; width:40px; height:772px"></div>
 <div id="frame"></div>
-<div class="abs bang pill" style="left:40px; top:26px; font-size:30px; letter-spacing:3px">ASÍ SE VE DE VERDAD</div>
+<div class="abs bang pill" id="pill" style="left:40px; top:26px; font-size:30px; letter-spacing:3px">ASÍ SE VE DE VERDAD</div>
 <div class="abs bang" id="tag" style="left:40px; top:150px; font-size:46px; color:#C23A1E"></div>
 <div class="abs bang" id="title" style="left:40px; top:210px; width:430px; font-size:66px; line-height:1; color:#1B1A2E; text-shadow:4px 4px 0 #FFD23F"></div>
 <div class="abs bubble hand" id="note" style="left:40px; top:560px; width:420px; font-size:38px; line-height:1.1; transform:rotate(-2deg)"></div>
 <div class="abs bang" id="speed" style="left:40px; top:770px; font-size:32px; background:#FFD23F; border:4px solid #1B1A2E; padding:4px 18px; box-shadow:5px 5px 0 #1B1A2E"></div>
 <script>
 const q = new URLSearchParams(location.search);
-for (const k of ['tag', 'title', 'note', 'speed']) document.getElementById(k).textContent = q.get(k) || '';
+if (q.get("pill")) document.getElementById("pill").textContent = q.get("pill");
+for (const k of ["tag", "title", "note", "speed"]) document.getElementById(k).textContent = q.get(k) || '';
 if (!q.get('speed')) document.getElementById('speed').style.display = 'none';
 </script>
 </body></html>

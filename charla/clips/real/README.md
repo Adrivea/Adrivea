@@ -5,3 +5,8 @@ Arma el video de la viñeta 18 a partir de las grabaciones reales de pantalla (5
 `build.sh` recorta la barra lateral y la de título, acelera cada tramo (de ×4 a ×10), lo enmarca con los rótulos de cómic que genera `overlay.html` y une todo en `real_paso_a_paso.webm`, de 59 s. Arranca en el PASO 1 (minuto 4:36 de la grabación original).
 
 Los videos originales no están en el repositorio por su tamaño.
+
+## Versión actual: dos clips (`build2.sh`)
+
+- `casa_real` (33 s): tecleo del prompt, preguntas y agentes, la casa construida, la instalación de plugins y el repositorio en GitHub. Las menciones a otra casa del despacho van tapadas con recuadros amarillos (`TAPE_A`, `TAPE_B`).
+- `cowork_real` (43 s): la casa instalada desde el marketplace trabajando en Claude Cowork, la aprobación y la carpeta del asunto, y el Word auditado.
