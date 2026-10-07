@@ -106,6 +106,9 @@ code { font-family: var(--mono); font-size: .92em; background: var(--paper-2); b
 
 .linkedin { display: inline-flex; align-items: center; gap: 10px; font: 400 22px/1 var(--display); letter-spacing: 1.5px; text-decoration: none; background: #0A66C2; color: #FFFFFF; border: 3px solid var(--ink); border-radius: 10px; padding: 10px 16px; box-shadow: 4px 4px 0 var(--shadow); }
 .linkedin:focus-visible { outline: 3px solid var(--cor); outline-offset: 3px; }
+.redes { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.linkedin.red-web { background: #1B1A2E; color: #FFD23F; border-color: #FFD23F; }
+.linkedin.red-ig { background: #C13584; }
 .linkedin .in { font: 800 18px/1 var(--body); background: #FFFFFF; color: #0A66C2; border-radius: 4px; padding: 2px 5px; }
 
 footer { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
@@ -276,8 +279,12 @@ claude plugin install <span class="ph">[casa-propiedad-intelectual]@[nombre-del-
   <footer>
     <span class="big">Arranca mañana.</span>
     <p>Tu primera casa, así sea con una sola habitación. Cuéntame cómo te fue.</p>
-    <a class="linkedin" id="linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Adriana%20Vergara%20IA%20Legal%20Studio" target="_blank" rel="noopener"><span class="in">in</span> Conectemos en LinkedIn</a>
-    <small>Adriana Vergara · IA Legal Studio · Vertical Legal Tech de Claude en Bogotá</small>
+    <div class="redes">
+      <a class="linkedin" id="linkedin" href="https://www.linkedin.com/in/adriana-carolina-vergara-avila-809352a1/" target="_blank" rel="noopener"><span class="in">in</span> Conectemos en LinkedIn</a>
+      <a class="linkedin red-web" href="https://www.ialegalstudio.com" target="_blank" rel="noopener">ialegalstudio.com</a>
+      <a class="linkedin red-ig" href="https://www.instagram.com/ialegalstudio/" target="_blank" rel="noopener">@ialegalstudio en Instagram</a>
+    </div>
+    <small>Adriana Carolina Vergara Ávila · IA Legal Studio · Vertical Legal Tech de Claude en Bogotá</small>
   </footer>
 </main>
 
