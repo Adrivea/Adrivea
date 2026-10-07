@@ -42,7 +42,7 @@ build casa_real "ASÍ SE VE DE VERDAD" \
   "nuevos.mp4|0 40 5|$CROP_GH|PASO 5|LO QUE ENCUENTRO EN GITHUB|Mi casa, privada y con su README"
 
 build cowork_real "DEL MARKETPLACE A COWORK" \
-  "nuevos.mp4|147 196 5|$CROP_CW1|PASO 1|LA CASA, EN CLAUDE COWORK|“Me llegó un nuevo contrato”: 7 pasos solos" \
+  "nuevos.mp4|147 196 5|$CROP_CW1|EJECUTE|LA CASA, EN CLAUDE COWORK|“Me llegó un nuevo contrato”: 7 pasos solos" \
   "nuevos.mp4|196 281 5|$CROP_CW2|PASO 2|APROBACIÓN Y CARPETA DEL ASUNTO|Word, auditoría y correo de remisión" \
   "completo.mp4|560 626 4|$CROP_CC|PASO 3|EL WORD AUDITADO|Y ahora… reviso con lupa"
 ls -la casa_real.* cowork_real.*
