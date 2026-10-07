@@ -76,7 +76,39 @@ code { font-family: var(--mono); font-size: .92em; background: var(--paper-2); b
 .rules ol { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 10px; font-size: 18px; }
 .rules b { color: var(--yel); }
 
-footer { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+/* Preguntas frecuentes */
+.faq { display: flex; flex-direction: column; gap: 12px; }
+.faq h2 { font-size: 44px; }
+.faq details { padding: 0; }
+.faq summary { cursor: pointer; list-style: none; padding: 16px 20px; font-weight: 800; font-size: 18px; display: flex; justify-content: space-between; gap: 12px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: '+'; font: 400 28px/1 var(--display); color: var(--cor-text); }
+.faq details[open] summary::after { content: '–'; }
+.faq summary:focus-visible { outline: 3px solid var(--cor); outline-offset: 2px; border-radius: 8px; }
+.faq .ans { padding: 0 20px 18px; color: var(--ink); display: flex; flex-direction: column; gap: 8px; }
+
+/* Pregúntale a Claude */
+.ask { padding: 22px; display: flex; flex-direction: column; gap: 14px; }
+.ask h2 { font-size: 40px; }
+.chat { display: flex; flex-direction: column; gap: 12px; }
+.msg { max-width: 92%; padding: 12px 16px; border: 3px solid var(--ink); border-radius: 20px 20px 20px 4px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.msg.me { align-self: flex-end; background: var(--yel); color: #1B1A2E; border-radius: 20px 20px 4px 20px; font-weight: 700; }
+.msg.bot { align-self: flex-start; background: var(--paper-2); }
+.msg.bot.thinking { color: var(--ink-soft); font-style: italic; }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font: 700 14px var(--body); background: transparent; color: var(--ink); border: 2px solid var(--ink); border-radius: 999px; padding: 6px 12px; cursor: pointer; }
+.chip:hover { background: var(--paper-2); }
+.ask form { display: flex; gap: 10px; flex-wrap: wrap; }
+.ask textarea { flex: 1 1 260px; min-width: 0; min-height: 56px; resize: vertical; font: 16px/1.4 var(--body); color: var(--ink); background: var(--panel); border: 3px solid var(--ink); border-radius: 10px; padding: 10px 12px; }
+.ask textarea:focus-visible, .chip:focus-visible { outline: 3px solid var(--cor); outline-offset: 2px; }
+.ask .status { font-size: 14px; color: var(--ink-soft); min-height: 1.2em; }
+.copy.stop { background: var(--panel); color: var(--ink); }
+
+.linkedin { display: inline-flex; align-items: center; gap: 10px; font: 400 22px/1 var(--display); letter-spacing: 1.5px; text-decoration: none; background: #0A66C2; color: #FFFFFF; border: 3px solid var(--ink); border-radius: 10px; padding: 10px 16px; box-shadow: 4px 4px 0 var(--shadow); }
+.linkedin:focus-visible { outline: 3px solid var(--cor); outline-offset: 3px; }
+.linkedin .in { font: 800 18px/1 var(--body); background: #FFFFFF; color: #0A66C2; border-radius: 4px; padding: 2px 5px; }
+
+footer { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
 footer .big { font: 400 clamp(34px, 7vw, 52px)/1 var(--display); letter-spacing: 1.5px; color: var(--ink); text-shadow: 4px 4px 0 var(--yel); }
 footer small { color: var(--ink-soft); font-size: 14px; }
 
@@ -209,9 +241,42 @@ claude plugin install <span class="ph">[casa-propiedad-intelectual]@[nombre-del-
     </ol>
   </section>
 
+  <section class="faq" aria-labelledby="faq-t" id="faq">
+    <h2 id="faq-t">Preguntas frecuentes</h2>
+    <details class="panel"><summary>¿Necesito saber programar?</summary><div class="ans"><p>No. Le hablas a Claude en español, como a un practicante. Claude Code escribe los archivos de la casa por ti.</p></div></details>
+    <details class="panel"><summary>¿Qué necesito para empezar?</summary><div class="ans"><p>Un plan de Claude que incluya Claude Code, la app de escritorio de Claude (o la terminal), una carpeta ordenada con un proceso que repitas y, para el paso 5, una cuenta gratuita de GitHub.</p></div></details>
+    <details class="panel"><summary>¿Mis documentos de clientes terminan en GitHub?</summary><div class="ans"><p>No deberían. En GitHub va la casa: reglas, habitaciones y plantillas, que son archivos de texto livianos. Los expedientes se quedan en tu computador.</p><p>Antes del paso 5, pídele a Claude: "Asegúrate de que ninguna carpeta con documentos de clientes se suba a GitHub". Usa siempre un repositorio privado y trabaja con datos anonimizados mientras pruebas.</p></div></details>
+    <details class="panel"><summary>¿Qué diferencia hay entre plugin, skill y playbook?</summary><div class="ans"><p>El plugin es la casa completa. Cada skill es una habitación que hace una sola tarea. El playbook es el manual de convivencia: tus reglas, lo que se verifica y lo que nunca se hace.</p></div></details>
+    <details class="panel"><summary>¿Sirve para otras áreas, no solo propiedad intelectual?</summary><div class="ans"><p>Sí. Cualquier proceso que se repita: contestaciones de tutela, derechos de petición, revisión de licitaciones, contratos laborales, respuestas a requerimientos. Una casa por proceso.</p></div></details>
+    <details class="panel"><summary>¿Cómo la comparto con mi equipo?</summary><div class="ans"><p>Invita a tus compañeros al repositorio privado en GitHub. Luego cada uno corre los dos comandos del paso 6 y queda con la misma casa y las mismas reglas.</p></div></details>
+    <details class="panel"><summary>¿Para qué sirve el marketplace si ya tengo la casa?</summary><div class="ans"><p>El marketplace es el condominio: un catálogo desde donde tu equipo instala una o varias casas con un comando, en lugar de copiar carpetas a mano. Cuando tengas casas de contratos, litigios y licitaciones, todas quedan en la misma portería.</p></div></details>
+    <details class="panel"><summary>¿Puedo usar la casa en Claude Cowork?</summary><div class="ans"><p>Sí. Agrega el mismo repositorio como marketplace desde la sección de plugins de la app y activa la casa. En la charla viste cómo Cowork corrió los 7 pasos de un contrato.</p></div></details>
+    <details class="panel"><summary>¿Y si Claude se equivoca?</summary><div class="ans"><p>Por eso la casa tiene reglas y una habitación de auditoría, y por eso tú revisas antes de firmar. Escribe en el playbook lo que nunca se hace (por ejemplo, "no citar normas sin fuente") y pide siempre un informe con lo que falta o no cuadra.</p></div></details>
+    <details class="panel"><summary>¿Cómo mejoro la casa con el tiempo?</summary><div class="ans"><p>Cada vez que corrijas algo a mano, conviértelo en regla. Dile a Claude Code: "Agrega esta regla al playbook y súbela a GitHub". Tu equipo la recibe al actualizar la casa.</p></div></details>
+  </section>
+
+  <section class="panel ask" aria-labelledby="ask-t" id="preguntale">
+    <h2 id="ask-t">Pregúntale a Claude</h2>
+    <p class="why" id="ask-intro">¿Te quedó una duda sobre tu primera casa? Pregunta aquí. Claude responde con base en esta guía.</p>
+    <div class="chips" id="chips" aria-label="Preguntas sugeridas">
+      <button class="chip" type="button">¿Qué proceso de mi despacho conviene convertir primero en casa?</button>
+      <button class="chip" type="button">Ayúdame a escribir el prompt del paso 3 para contestar tutelas</button>
+      <button class="chip" type="button">¿Qué reglas debería tener mi playbook?</button>
+    </div>
+    <div class="chat" id="chat" aria-live="polite"></div>
+    <form id="ask-form">
+      <label for="ask-input" class="prompt-label">TU PREGUNTA</label>
+      <textarea id="ask-input" rows="2" placeholder="Escribe tu pregunta sobre la casa jurídica…" required></textarea>
+      <button class="copy" type="submit" id="ask-send">Preguntar</button>
+      <button class="copy stop" type="button" id="ask-stop" hidden>Detener</button>
+    </form>
+    <p class="status" id="ask-status"></p>
+  </section>
+
   <footer>
     <span class="big">Arranca mañana.</span>
-    <p>Tu primera casa, así sea con una sola habitación.</p>
+    <p>Tu primera casa, así sea con una sola habitación. Cuéntame cómo te fue.</p>
+    <a class="linkedin" id="linkedin" href="https://www.linkedin.com/search/results/people/?keywords=Adriana%20Vergara%20IA%20Legal%20Studio" target="_blank" rel="noopener"><span class="in">in</span> Conectemos en LinkedIn</a>
     <small>Adriana Vergara · IA Legal Studio · Vertical Legal Tech de Claude en Bogotá</small>
   </footer>
 </main>
@@ -257,5 +322,119 @@ claude plugin install <span class="ph">[casa-propiedad-intelectual]@[nombre-del-
     });
   });
   paint();
+})();
+
+// Pregúntale a Claude: responde con base en el texto de esta guía.
+(function () {
+  var section = document.getElementById('preguntale');
+  var chat = document.getElementById('chat');
+  var form = document.getElementById('ask-form');
+  var input = document.getElementById('ask-input');
+  var send = document.getElementById('ask-send');
+  var stop = document.getElementById('ask-stop');
+  var status = document.getElementById('ask-status');
+  var turns = [];
+  var ctl = null;
+  var sample = null;
+
+  function guideText() {
+    var parts = [];
+    document.querySelectorAll('.hero, .mapa, .steps, .rules, .faq').forEach(function (el) { parts.push(el.innerText); });
+    return parts.join('\n\n').slice(0, 14000);
+  }
+  var RULES = 'Eres el asistente de la guía "Tu primera casa jurídica", de la charla La Casa Jurídica de Adriana Vergara (IA Legal Studio). ' +
+    'Responde en español, claro y práctico, para abogados que no programan. Usa como base la guía que sigue. ' +
+    'Si te piden un prompt, escríbelo completo y listo para copiar. Respuestas de máximo 200 palabras, con pasos numerados cuando ayude. ' +
+    'No des asesoría jurídica sobre casos concretos ni cites normas; si algo no está en la guía o no lo sabes, dilo y sugiere preguntarle a Claude Code en su carpeta. ' +
+    'Recuerda la regla: la IA no firma, el abogado revisa y firma.\n\nGUÍA:\n';
+
+  function bubble(cls, text) {
+    var el = document.createElement('div');
+    el.className = 'msg ' + cls;
+    el.textContent = text;
+    chat.appendChild(el);
+    return el;
+  }
+  function busy(on) {
+    send.disabled = on; input.disabled = on;
+    stop.hidden = !on;
+    document.querySelectorAll('#chips .chip').forEach(function (c) { c.disabled = on; });
+  }
+  function copyFor(code) {
+    if (code === 'rate_limited') return 'Hay muchas preguntas seguidas. Espera un momento y vuelve a intentar.';
+    if (code === 'session_expired') return 'Tu sesión de Claude expiró. Vuelve a iniciar sesión y pregunta otra vez.';
+    if (code === 'refused') return 'Claude no respondió esa pregunta. Prueba formulándola de otra manera.';
+    if (code === 'prompt_too_large') return 'La conversación quedó muy larga. Recarga la página para empezar de nuevo.';
+    return 'No se pudo obtener respuesta. Intenta de nuevo en un momento.';
+  }
+  function disable(msg) {
+    form.hidden = true;
+    document.getElementById('chips').hidden = true;
+    document.getElementById('ask-intro').textContent = msg;
+  }
+
+  async function ask(q) {
+    q = q.trim();
+    if (!q || !sample) return;
+    bubble('me', q);
+    turns.push({ role: 'user', content: q });
+    var out = bubble('bot thinking', 'Pensando…');
+    status.textContent = '';
+    busy(true);
+    ctl = new AbortController();
+    try {
+      var res = await sample([{ role: 'user', content: RULES + guideText() }].concat(turns.slice(-8)), {
+        cache: false,
+        signal: ctl.signal,
+        onText: function (u) { out.classList.remove('thinking'); out.textContent = u.text; }
+      });
+      out.classList.remove('thinking');
+      out.textContent = res.text;
+      turns.push({ role: 'assistant', content: res.text });
+      if (res.truncated) status.textContent = 'La respuesta quedó incompleta. Pide una parte más concreta.';
+    } catch (e) {
+      out.classList.remove('thinking');
+      var code = e && e.code;
+      if (code === 'not_granted' || code === 'sampling_disabled' || code === 'not_declared' || code === 'capability_disabled' || code === 'capability_removed') {
+        out.remove(); turns.pop();
+        disable('Para preguntarle a Claude desde aquí necesitas abrir esta página con tu cuenta de Claude y permitir el acceso. Mientras tanto, revisa las preguntas frecuentes.');
+      } else if (code === 'cancelled') {
+        out.textContent = (e.text || '') + (e.text ? '\n\n(Detenido)' : 'Detenido.');
+        turns.pop();
+      } else {
+        out.textContent = e && e.text ? e.text : '';
+        if (!out.textContent) out.remove();
+        turns.pop();
+        status.textContent = copyFor(code);
+      }
+    } finally {
+      busy(false);
+      ctl = null;
+      input.focus();
+    }
+  }
+
+  form.addEventListener('submit', function (ev) {
+    ev.preventDefault();
+    var q = input.value; input.value = '';
+    ask(q);
+  });
+  input.addEventListener('keydown', function (ev) {
+    if (ev.key === 'Enter' && !ev.shiftKey) { ev.preventDefault(); form.requestSubmit(); }
+  });
+  stop.addEventListener('click', function () { if (ctl) ctl.abort(); });
+  document.querySelectorAll('#chips .chip').forEach(function (c) {
+    c.addEventListener('click', function () { ask(c.textContent); });
+  });
+
+  busy(true); stop.hidden = true;
+  status.textContent = 'Conectando con Claude…';
+  var use = window.claude && window.claude.use ? window.claude.use('sample') : Promise.resolve(null);
+  use.then(function (s) {
+    sample = s;
+    status.textContent = '';
+    if (!s) { disable('El chat con Claude funciona cuando abres esta página dentro de Claude con tu cuenta. Mientras tanto, revisa las preguntas frecuentes.'); return; }
+    busy(false);
+  }, function () { disable('El chat con Claude no está disponible aquí. Revisa las preguntas frecuentes.'); });
 })();
 </script>
