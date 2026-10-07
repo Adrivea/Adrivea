@@ -1,0 +1,261 @@
+<title>Tu Primera Casa Jurídica</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito+Sans:opsz,wght@6..12,400;6..12,700;6..12,800&family=JetBrains+Mono:wght@400;700&family=Caveat:wght@700&display=swap">
+<style>
+/* Layout: una sola columna de lectura; viñetas de cómic con borde de tinta para los pasos, papel rayado detrás. */
+:root {
+  --paper: #FFF6E5; --paper-2: #FBEFD6; --panel: #FFFDF7; --ink: #1B1A2E; --ink-soft: #4A4760;
+  --yel: #FFD23F; --cor: #FF5A3C; --cor-text: #B83218; --code-bg: #1B1A2E; --code-fg: #FFF6E5; --shadow: #1B1A2E;
+  --display: 'Bangers', Impact, 'Arial Narrow', sans-serif;
+  --body: 'Nunito Sans', 'Segoe UI', system-ui, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
+  --hand: 'Caveat', 'Segoe Print', cursive;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --paper: #17162A; --paper-2: #1D1C33; --panel: #232240; --ink: #F4EEDD; --ink-soft: #C9C5DA;
+  --yel: #FFD23F; --cor: #FF6B4F; --cor-text: #FF8A72; --code-bg: #0F0E1F; --code-fg: #FFF6E5; --shadow: #000000; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --paper: #17162A; --paper-2: #1D1C33; --panel: #232240; --ink: #F4EEDD; --ink-soft: #C9C5DA;
+  --yel: #FFD23F; --cor: #FF6B4F; --cor-text: #FF8A72; --code-bg: #0F0E1F; --code-fg: #FFF6E5; --shadow: #000000; color-scheme: dark }
+
+* { box-sizing: border-box; }
+body { margin: 0; background: repeating-linear-gradient(135deg, var(--paper) 0 36px, var(--paper-2) 36px 72px); color: var(--ink); font: 17px/1.6 var(--body); }
+.wrap { max-width: 860px; margin: 0 auto; padding-inline: 20px; padding-block: 40px 64px; display: flex; flex-direction: column; gap: 40px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; letter-spacing: 1.5px; line-height: 1.02; margin: 0; text-wrap: balance; }
+p { margin: 0; }
+.panel { background: var(--panel); border: 4px solid var(--ink); border-radius: 12px; box-shadow: 7px 7px 0 var(--shadow); }
+
+/* Portada */
+.hero { display: flex; flex-direction: column; gap: 16px; }
+.pill { align-self: flex-start; font: 400 18px/1 var(--display); letter-spacing: 2px; background: var(--ink); color: var(--yel); border-radius: 999px; padding: 8px 18px; }
+.hero h1 { font-size: clamp(56px, 12vw, 104px); text-shadow: 5px 5px 0 var(--yel); color: var(--ink); }
+.hero .lead { font-size: 20px; max-width: 62ch; }
+.quote { font: 700 30px/1.15 var(--hand); color: var(--cor-text); }
+
+/* Mapa de la casa */
+.mapa { padding: 24px; display: flex; flex-direction: column; gap: 16px; }
+.mapa h2 { font-size: 36px; }
+.terms { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+.term { border: 3px solid var(--ink); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.term b { font: 400 22px/1.1 var(--display); letter-spacing: 1px; }
+.term span { color: var(--ink-soft); font-size: 15px; }
+.term.hl { background: var(--yel); color: #1B1A2E; }
+.term.hl span { color: #3C3950; }
+
+/* Pasos */
+.steps-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 8px; }
+.steps-head h2 { font-size: 44px; }
+.progress { font: 700 15px var(--body); color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+ol.steps { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 22px; }
+.step { padding: 20px 22px; display: grid; grid-template-columns: auto 1fr; gap: 6px 18px; }
+.num { grid-row: span 3; font: 400 54px/0.9 var(--display); color: var(--cor); -webkit-text-stroke: 2px var(--ink); min-width: 44px; }
+.step h3 { font-size: 30px; }
+.step .body { display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.step .why { color: var(--ink-soft); }
+.done-row { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 15px; }
+.done-row input { width: 22px; height: 22px; accent-color: var(--cor); }
+.step.is-done { opacity: .72; }
+.step.is-done h3 { text-decoration: line-through; text-decoration-thickness: 3px; }
+
+.prompt { position: relative; background: var(--code-bg); color: var(--code-fg); border-radius: 10px; padding: 16px 16px 16px 18px; font: 14.5px/1.6 var(--mono); white-space: pre-wrap; overflow-wrap: anywhere; }
+.prompt .ph { color: var(--yel); }
+.prompt-label { font: 400 16px var(--display); letter-spacing: 1.5px; color: var(--cor-text); }
+.copy { align-self: flex-start; font: 400 18px/1 var(--display); letter-spacing: 1.5px; background: var(--yel); color: #1B1A2E; border: 3px solid var(--ink); border-radius: 8px; padding: 8px 14px; box-shadow: 4px 4px 0 var(--shadow); cursor: pointer; }
+.copy:hover { transform: translate(-1px, -1px); box-shadow: 5px 5px 0 var(--shadow); }
+.copy:active { transform: translate(2px, 2px); box-shadow: 2px 2px 0 var(--shadow); }
+.copy:focus-visible, .done-row input:focus-visible { outline: 3px solid var(--cor); outline-offset: 3px; }
+.tree { background: var(--panel); border: 3px dashed var(--ink); border-radius: 10px; padding: 14px 16px; font: 14.5px/1.7 var(--mono); white-space: pre; overflow-x: auto; }
+.tip { font: 700 24px/1.15 var(--hand); color: var(--cor-text); }
+.note { font-size: 15px; color: var(--ink-soft); border-left: 4px solid var(--yel); padding-left: 12px; }
+code { font-family: var(--mono); font-size: .92em; background: var(--paper-2); border: 1px solid var(--ink-soft); border-radius: 5px; padding: 1px 5px; }
+
+/* Reglas */
+.rules { padding: 24px; display: flex; flex-direction: column; gap: 14px; background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.rules h2 { font-size: 40px; color: var(--yel); }
+.rules ol { margin: 0; padding-left: 1.4em; display: flex; flex-direction: column; gap: 10px; font-size: 18px; }
+.rules b { color: var(--yel); }
+
+footer { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+footer .big { font: 400 clamp(34px, 7vw, 52px)/1 var(--display); letter-spacing: 1.5px; color: var(--ink); text-shadow: 4px 4px 0 var(--yel); }
+footer small { color: var(--ink-soft); font-size: 14px; }
+
+@media (max-width: 520px) {
+  .step { grid-template-columns: 1fr; }
+  .num { grid-row: auto; font-size: 44px; }
+}
+@media (prefers-reduced-motion: reduce) { .copy { transition: none; } .copy:hover, .copy:active { transform: none; } }
+</style>
+
+<main class="wrap">
+  <header class="hero">
+    <span class="pill">EL MACHETE · LA CASA JURÍDICA</span>
+    <h1>Tu primera casa jurídica</h1>
+    <p class="lead">El paso a paso de la charla para pasar de prompts sueltos a una casa con habitaciones, reglas y llaves que tu equipo pueda copiar. No vas a programar ni una línea.</p>
+    <p class="quote">Los prompts se olvidan. Las casas se heredan.</p>
+  </header>
+
+  <section class="panel mapa" aria-labelledby="mapa-t">
+    <h2 id="mapa-t">El plano en una mirada</h2>
+    <div class="terms">
+      <div class="term hl"><b>Plugin = la casa</b><span>El paquete con todo lo que tu despacho sabe hacer en un tema.</span></div>
+      <div class="term"><b>Skills = habitaciones</b><span>Cada una hace una sola tarea, siempre igual. La cocina no es para dormir.</span></div>
+      <div class="term"><b>Playbook = manual de convivencia</b><span>Tus reglas: cómo se hace, qué se verifica y qué nunca se hace.</span></div>
+      <div class="term"><b>Agentes y scripts = la obra</b><span>Los que hacen el trabajo pesado dentro de la casa.</span></div>
+      <div class="term"><b>GitHub = el gato con superpoderes</b><span>Donde guardas la casa. Registra cada cambio, quién y cuándo.</span></div>
+      <div class="term"><b>Marketplace = el condominio</b><span>Varias casas, las mismas reglas y una sola portería para tu equipo.</span></div>
+    </div>
+  </section>
+
+  <section aria-labelledby="pasos-t" style="display:flex; flex-direction:column; gap:18px">
+    <div class="steps-head">
+      <h2 id="pasos-t">Los 7 pasos</h2>
+      <span class="progress" id="progress" aria-live="polite">0 de 7 listos</span>
+    </div>
+    <ol class="steps">
+      <li class="panel step" data-step="1">
+        <span class="num" aria-hidden="true">1</span>
+        <h3>Ordene la casa antes de invitar</h3>
+        <div class="body">
+          <p class="why">Elige un proceso que repitas cada semana y arma una carpeta clara. Si la carpeta se llama "Cosas", Claude te devuelve cosas.</p>
+          <div class="tree" tabindex="0" aria-label="Ejemplo de estructura de carpetas">Contratos_PI/
+├── 01_Solicitudes/                 correos y solicitudes que llegan
+├── 02_Contratos_marco_y_otrosies/  lo firmado que hay que respetar
+├── 03_Contratos_modelo/            los que ya te quedaron bien
+└── 04_Entregables/                 vacía: aquí trabaja Claude</div>
+          <label class="done-row"><input type="checkbox" id="done-1"> Ya tengo mi carpeta</label>
+        </div>
+      </li>
+
+      <li class="panel step" data-step="2">
+        <span class="num" aria-hidden="true">2</span>
+        <h3>Abra Claude Code en esa carpeta</h3>
+        <div class="body">
+          <p class="why">Claude Code es Claude trabajando dentro de tus carpetas: las lee, las ordena y crea archivos. Ábrelo desde la app de escritorio de Claude o desde la terminal, y escoge la carpeta del paso 1 como carpeta de trabajo.</p>
+          <p class="tip">Dice "code", pero no vas a programar.</p>
+          <label class="done-row"><input type="checkbox" id="done-2"> Claude Code está abierto en mi carpeta</label>
+        </div>
+      </li>
+
+      <li class="panel step" data-step="3">
+        <span class="num" aria-hidden="true">3</span>
+        <h3>Cuéntele su proceso</h3>
+        <div class="body">
+          <p class="why">Un solo mensaje describe lo que haces y pide la casa. Cambia lo que está en amarillo por tu caso.</p>
+          <span class="prompt-label">PROMPT PARA COPIAR</span>
+          <div class="prompt" id="p3">Cada semana recibo por correo <span class="ph">[una solicitud de contrato de propiedad intelectual]</span>. Estudia mis carpetas y créame un plugin llamado <span class="ph">[casa-propiedad-intelectual]</span>, con un playbook con mis reglas (cómo redacto, qué verifico y qué nunca hago) y una skill por cada paso: <span class="ph">[leer la solicitud, analizar el contrato marco y los otrosíes, proyectar el contrato con mi formato y armar un informe para mi revisión]</span>. Muéstrame el plano antes de construir.</div>
+          <button class="copy" type="button" data-copy="p3">Copiar prompt</button>
+          <label class="done-row"><input type="checkbox" id="done-3"> Ya le conté mi proceso</label>
+        </div>
+      </li>
+
+      <li class="panel step" data-step="4">
+        <span class="num" aria-hidden="true">4</span>
+        <h3>Apruebe el plano</h3>
+        <div class="body">
+          <p class="why">Claude te pregunta lo que necesita y te muestra el plano: el techo (plugin), las habitaciones (skills) y el manual (playbook). Revísalo como revisarías una minuta. Cuando te convenza, dile:</p>
+          <div class="prompt" id="p4">Aprobado. Constrúyela.</div>
+          <p class="note">Ningún maestro de obra serio pega un ladrillo sin que firmes el plano. Si algo no te gusta, pídele el cambio antes de aprobar.</p>
+          <label class="done-row"><input type="checkbox" id="done-4"> Aprobé el plano y la casa está construida</label>
+        </div>
+      </li>
+
+      <li class="panel step" data-step="5">
+        <span class="num" aria-hidden="true">5</span>
+        <h3>Súbala al gato con superpoderes</h3>
+        <div class="body">
+          <p class="why">Guarda la casa en un repositorio privado de GitHub. Ahí no van expedientes: van tus reglas y tus habitaciones, que son archivos livianos de texto.</p>
+          <span class="prompt-label">PROMPT PARA COPIAR</span>
+          <div class="prompt" id="p5">Crea un repositorio privado en GitHub llamado <span class="ph">[casa-propiedad-intelectual]</span>, sube la casa y escribe un README que le explique a mi equipo, en español sencillo, para qué sirve cada habitación.</div>
+          <button class="copy" type="button" data-copy="p5">Copiar prompt</button>
+          <p class="note">Necesitas una cuenta de GitHub conectada en ese computador. Conéctala antes de este paso.</p>
+          <label class="done-row"><input type="checkbox" id="done-5"> Mi casa está en GitHub</label>
+        </div>
+      </li>
+
+      <li class="panel step" data-step="6">
+        <span class="num" aria-hidden="true">6</span>
+        <h3>Arme su condominio e instale</h3>
+        <div class="body">
+          <p class="why">Instala la casa como marketplace para que tú y tu equipo la tengan en Claude con las mismas reglas. En Claude Code se hace con dos comandos:</p>
+          <div class="prompt" id="p6">claude plugin marketplace add <span class="ph">[tu-usuario]/[casa-propiedad-intelectual]</span>
+claude plugin install <span class="ph">[casa-propiedad-intelectual]@[nombre-del-marketplace]</span></div>
+          <button class="copy" type="button" data-copy="p6">Copiar comandos</button>
+          <p class="note">El nombre del marketplace es el que quedó en el archivo <code>.claude-plugin/marketplace.json</code> de tu casa. Si no lo sabes, pregúntaselo a Claude. Para usarla también en Claude Cowork, agrega el mismo repositorio desde la sección de plugins de la app.</p>
+          <p class="tip">Tu compañero solo necesita estos dos comandos para tener la misma casa.</p>
+          <label class="done-row"><input type="checkbox" id="done-6"> La casa está instalada</label>
+        </div>
+      </li>
+
+      <li class="panel step" data-step="7">
+        <span class="num" aria-hidden="true">7</span>
+        <h3>Úsela y revise con lupa</h3>
+        <div class="body">
+          <p class="why">Abre un chat nuevo en tu carpeta y dale la orden del día. La casa sigue sus pasos y te entrega el documento con su auditoría para que tú lo revises.</p>
+          <div class="prompt" id="p7">Me llegó un nuevo contrato.</div>
+          <button class="copy" type="button" data-copy="p7">Copiar</button>
+          <label class="done-row"><input type="checkbox" id="done-7"> Revisé con lupa mi primer resultado</label>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="panel rules" aria-labelledby="reglas-t">
+    <h2 id="reglas-t">Las 3 reglas de la casa</h2>
+    <ol>
+      <li><b>La IA no firma. Tú firmas.</b> La responsabilidad profesional no se delega.</li>
+      <li><b>Sin fuente, no existe.</b> Toda norma, hecho o cifra apunta a un documento verificable.</li>
+      <li><b>El método es tuyo.</b> Claude ejecuta tu playbook. Si el método es malo, la IA lo hace mal más rápido.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <span class="big">Arranca mañana.</span>
+    <p>Tu primera casa, así sea con una sola habitación.</p>
+    <small>Adriana Vergara · IA Legal Studio · Vertical Legal Tech de Claude en Bogotá</small>
+  </footer>
+</main>
+
+<script>
+(function () {
+  // Copiar prompts (con respaldo: selecciona el texto si el portapapeles no está disponible).
+  document.querySelectorAll('[data-copy]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var el = document.getElementById(btn.dataset.copy);
+      var text = el.innerText.trim();
+      var label = btn.textContent;
+      function ok() { btn.textContent = '¡Copiado!'; setTimeout(function () { btn.textContent = label; }, 1600); }
+      function fallback() {
+        var r = document.createRange(); r.selectNodeContents(el);
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
+        btn.textContent = 'Texto seleccionado: cópialo'; setTimeout(function () { btn.textContent = label; }, 2200);
+      }
+      try { navigator.clipboard.writeText(text).then(ok, fallback); } catch (e) { fallback(); }
+    });
+  });
+
+  // Lista de avance: solo en el navegador de quien la usa.
+  var KEY = 'primera-casa-avance';
+  var state = {};
+  try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) { state = {}; }
+  var boxes = document.querySelectorAll('.done-row input');
+  function paint() {
+    var n = 0;
+    boxes.forEach(function (b) {
+      var li = b.closest('.step');
+      li.classList.toggle('is-done', b.checked);
+      if (b.checked) n++;
+    });
+    document.getElementById('progress').textContent = n + ' de 7 listos';
+  }
+  boxes.forEach(function (b) {
+    b.checked = !!state[b.id];
+    b.addEventListener('change', function () {
+      state[b.id] = b.checked;
+      try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {}
+      paint();
+    });
+  });
+  paint();
+})();
+</script>
