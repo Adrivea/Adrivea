@@ -116,6 +116,13 @@ code { font-family: var(--mono); font-size: .92em; background: var(--paper-2); b
 
 footer { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
 footer .big { font: 400 clamp(34px, 7vw, 52px)/1 var(--display); letter-spacing: 1.5px; color: var(--ink); text-shadow: 4px 4px 0 var(--yel); }
+.byline { font-size: 19px; font-weight: 700; color: var(--ink); }
+.byline a { color: var(--cor-text); text-decoration: underline; text-underline-offset: 3px; }
+.byline a:focus-visible, .logo-link:focus-visible, .cta-btn:focus-visible { outline: 3px solid var(--cor); outline-offset: 3px; }
+.logo-link { display: inline-flex; border-radius: 16px; }
+.cta { align-self: stretch; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px 20px; margin-top: 10px; padding: 20px 24px; background: #1B1A2E; color: #FFF6E5; border: 3px solid var(--ink); border-radius: 14px; box-shadow: 6px 6px 0 var(--cor); }
+.cta p { flex: 1 1 280px; font: 400 clamp(22px, 4vw, 30px)/1.15 var(--display); letter-spacing: 1px; color: #FFD23F; }
+.cta-btn { font: 400 24px/1 var(--display); letter-spacing: 2px; text-decoration: none; background: #FF5A3C; color: #1B1A2E; border: 3px solid #FFF6E5; border-radius: 10px; padding: 12px 22px; }
 footer small { color: var(--ink-soft); font-size: 14px; }
 
 @media (max-width: 520px) {
@@ -127,8 +134,9 @@ footer small { color: var(--ink-soft); font-size: 14px; }
 
 <main class="wrap">
   <header class="hero">
-    <div class="brand"><svg xmlns="http://www.w3.org/2000/svg" aria-label="Logo de IA Legal Studio" viewBox="0 0 300 300" class="brand-logo"><path d="M30 250 L150 30 L270 250 L238 250 L150 80 L62 250 Z" fill="#000000"/><circle cx="150" cy="158" r="18" fill="#00C48C"/></svg><span class="pill">EL MACHETE · LA CASA JURÍDICA</span></div>
+    <div class="brand"><a class="logo-link" href="https://www.instagram.com/ialegalstudio/" target="_blank" rel="noopener" title="IA Legal Studio en Instagram"><svg xmlns="http://www.w3.org/2000/svg" aria-label="Logo de IA Legal Studio" viewBox="0 0 300 300" class="brand-logo"><path d="M30 250 L150 30 L270 250 L238 250 L150 80 L62 250 Z" fill="#000000"/><circle cx="150" cy="158" r="18" fill="#00C48C"/></svg></a><span class="pill">EL MACHETE · LA CASA JURÍDICA</span></div>
     <h1>Tu primera casa jurídica</h1>
+    <p class="byline">by: <a href="https://www.linkedin.com/in/adriana-carolina-vergara-avila-809352a1/" target="_blank" rel="noopener">Adriana Carolina Vergara Ávila</a> – <a href="https://www.ialegalstudio.com" target="_blank" rel="noopener">Fundadora IA Legal Studio</a></p>
     <p class="lead">El paso a paso de la charla para pasar de prompts sueltos a una casa con habitaciones, reglas y llaves que tu equipo pueda copiar. No vas a programar ni una línea.</p>
     <p class="quote">Los prompts se olvidan. Las casas se heredan.</p>
   </header>
@@ -280,13 +288,17 @@ claude plugin install <span class="ph">[casa-propiedad-intelectual]@[nombre-del-
   </section>
 
   <footer>
-    <svg xmlns="http://www.w3.org/2000/svg" aria-label="Logo de IA Legal Studio" viewBox="0 0 300 300" class="brand-logo"><path d="M30 250 L150 30 L270 250 L238 250 L150 80 L62 250 Z" fill="#000000"/><circle cx="150" cy="158" r="18" fill="#00C48C"/></svg>
+    <a class="logo-link" href="https://www.instagram.com/ialegalstudio/" target="_blank" rel="noopener" title="IA Legal Studio en Instagram"><svg xmlns="http://www.w3.org/2000/svg" aria-label="Logo de IA Legal Studio" viewBox="0 0 300 300" class="brand-logo"><path d="M30 250 L150 30 L270 250 L238 250 L150 80 L62 250 Z" fill="#000000"/><circle cx="150" cy="158" r="18" fill="#00C48C"/></svg></a>
     <span class="big">Arranca mañana.</span>
     <p>Tu primera casa, así sea con una sola habitación. Cuéntame cómo te fue.</p>
     <div class="redes">
       <a class="linkedin" id="linkedin" href="https://www.linkedin.com/in/adriana-carolina-vergara-avila-809352a1/" target="_blank" rel="noopener"><span class="in">in</span> Conectemos en LinkedIn</a>
       <a class="linkedin red-web" href="https://www.ialegalstudio.com" target="_blank" rel="noopener">ialegalstudio.com</a>
       <a class="linkedin red-ig" href="https://www.instagram.com/ialegalstudio/" target="_blank" rel="noopener">@ialegalstudio en Instagram</a>
+    </div>
+    <div class="cta">
+      <p>¿Necesitas apoyo para construir la arquitectura completa en tu organización?</p>
+      <a class="cta-btn" href="https://www.linkedin.com/in/adriana-carolina-vergara-avila-809352a1/" target="_blank" rel="noopener">Hablemos</a>
     </div>
     <small>Adriana Carolina Vergara Ávila · IA Legal Studio · Vertical Legal Tech de Claude en Bogotá</small>
   </footer>
