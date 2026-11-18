@@ -20,7 +20,7 @@
 
 ## Reel 1 · «¿Por qué la IA te entrega mamarrachos?»
 
-**Duración:** unos 75 segundos · **Palabras habladas:** unas 180
+**Duración:** unos 75 segundos · **Palabras habladas:** unas 170
 **Gancho alternativo para probar (A/B):** «Le pedí una demanda a la IA y me citó el Código Civil… de España.»
 
 | Tiempo | Dices | En pantalla | Se ve |
@@ -45,7 +45,7 @@
 
 ## Reel 2 · «Lo que nunca le debes subir a ChatGPT»
 
-**Duración:** unos 80 segundos · **Palabras habladas:** unas 185
+**Duración:** unos 80 segundos · **Palabras habladas:** unas 180
 **Gancho alternativo para probar (A/B):** «¿Le subiste a ChatGPT la historia clínica de tu cliente? Para. Mira esto.»
 
 | Tiempo | Dices | En pantalla | Se ve |
@@ -72,7 +72,7 @@
 
 ## Reel 3 · «La Corte Suprema ya multó a un abogado por esto»
 
-**Duración:** unos 80 segundos · **Palabras habladas:** unas 185
+**Duración:** unos 80 segundos · **Palabras habladas:** unas 190
 **Gancho alternativo para probar (A/B):** «Más de 2.200 decisiones judiciales en el mundo por citas inventadas con IA. Y Colombia ya tiene la suya.»
 
 | Tiempo | Dices | En pantalla | Se ve |
