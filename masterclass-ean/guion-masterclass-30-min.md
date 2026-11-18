@@ -11,15 +11,15 @@
 - Cada bloque trae el minuto aproximado. Si vas largo, los bloques marcados **(recortable)** se pueden acortar.
 
 **Arco de la charla**
-1. **Apertura (0:00–7:35):** bienvenida con el nombre del programa, «este no es el curso típico de prompts», tu historia (yo también pensaba que la IA solo hacía mamarrachos), dos preguntas que incomodan y los datos que muestran que esto ya llegó.
-2. **Los tres miedos (7:35–17:24):** que invente, que filtre, que nadie responda. Cada miedo trae su antídoto, y cada antídoto es un módulo del curso.
-3. **El salto (17:24–23:31):** de los prompts a las arquitecturas de trabajo: Claude, agentes, litigio, automatización.
-4. **El programa (23:31–28:11):** módulos, proyecto final, antes y después, equipo.
-5. **Cierre (28:11–30:00):** una pregunta y la invitación.
+1. **Apertura (0:00–7:25):** bienvenida con el nombre del programa, «este no es el curso típico de prompts», tu historia (yo también pensaba que la IA solo hacía mamarrachos), dos preguntas que incomodan y los datos que muestran que esto ya llegó.
+2. **Los tres miedos (7:25–17:00):** que invente, que filtre, que nadie responda. Cada miedo trae su antídoto, y cada antídoto es un módulo del curso.
+3. **El salto (17:00–23:28):** de los prompts a las arquitecturas de trabajo: Claude con skills, plugins, scripts, agentes y segundo cerebro; litigio y automatización.
+4. **El programa (23:28–28:13):** módulos, proyecto final, antes y después, equipo.
+5. **Cierre (28:13–30:00):** una pregunta y la invitación.
 
 ---
 
-## 0:00 – 7:35 · APERTURA
+## 0:00 – 7:25 · APERTURA
 
 ### Diapositiva 1 · Portada · 0:00
 
@@ -29,7 +29,7 @@
 
 Hola. Bienvenido a la masterclass de *Abogado Aumentado con IA*, el nuevo programa de la Universidad EAN. Soy Adriana Vergara, su directora académica.
 
-### Diapositiva 2 · Este no es el curso típico · 0:24
+### Diapositiva 2 · Este no es el curso típico · 0:23
 
 `[PANTALLA] «Este no es el curso típico de prompts. Aquí vas a construir sistemas de trabajo jurídico.»`
 
@@ -39,7 +39,7 @@ Seguramente ya viste diez webinars sobre «los 50 mejores prompts para abogados�
 
 Pero antes de hablarte del curso, te cuento cómo llegué hasta aquí.
 
-### Diapositiva 3 · Mi historia · 1:15
+### Diapositiva 3 · Mi historia · 1:13
 
 `[PANTALLA] «Yo también pensaba que la IA solo servía para hacer mamarrachos.»`
 
@@ -51,7 +51,7 @@ Cuando empecé a usar inteligencia artificial, pensaba que no servía para nada 
 
 Y me dio miedo. Miedo de firmar algo así. Miedo de subirle la información de un cliente. Pensé: esto es un juguete, no una herramienta para una abogada.
 
-### Diapositiva 4 · Mismo modelo, otra arquitectura · 2:09
+### Diapositiva 4 · Mismo modelo, otra arquitectura · 2:05
 
 `[PANTALLA] Video «mamarracho» contra arquitectura de trabajo (17 s, arranca solo)`
 
@@ -65,7 +65,7 @@ Mismo modelo. Otra arquitectura.
 
 Con arquitecturas bien diseñadas empecé a producir documentos de altísima calidad. Y las alucinaciones dejaron de llegar a mis documentos, porque ninguna cita se queda si no pasa primero por una fuente. Eso es lo que te quiero enseñar. Por eso te dije que este no es el curso típico de prompts.
 
-### Diapositiva 5 · Pregunta 1 · 3:30
+### Diapositiva 5 · Pregunta 1 · 3:25
 
 `[PANTALLA] «¿Cuánto de lo que hiciste hoy lo podría hacer un agente mientras dormías?»`
 
@@ -79,7 +79,7 @@ Piénsalo en serio. El resumen del expediente. La revisión del contrato. El cua
 
 *(Señalas la pantalla.)* Escríbelo en los comentarios. Al final de esta charla vas a tener una respuesta más precisa, y te va a sorprender.
 
-### Diapositiva 6 · Pregunta 2 · 4:15
+### Diapositiva 6 · Pregunta 2 · 4:09
 
 `[PANTALLA] «¿Le subirías el expediente de tu cliente a ChatGPT?»`
 
@@ -89,7 +89,7 @@ Segunda pregunta, y esta incomoda más: ¿le subirías el expediente de tu clien
 
 No lo digo para juzgar a nadie; yo también lo hice al principio. Lo digo porque eso es justo lo que nadie nos enseñó: no a usar la IA, sino a usarla **sin poner en riesgo al cliente ni nuestra tarjeta profesional**.
 
-### Diapositiva 7 · Deloitte · 5:09
+### Diapositiva 7 · Deloitte · 5:02
 
 `[PANTALLA] Torta 30 / 20 / 50 · Deloitte Legal 2026`
 
@@ -103,7 +103,7 @@ En unos tres años, cerca del **30 % de la capacidad de un equipo jurídico la v
 
 Y fíjate en el último número: hoy el 72 % del trabajo jurídico se cobra por hora. Esperan que en dos o tres años baje al 44 %. Cuando la máquina hace en minutos lo que antes tomaba horas, la hora deja de ser la forma de cobrar. Lo que vas a cobrar es tu criterio y tu método.
 
-### Diapositiva 8 · Adopción · 6:19
+### Diapositiva 8 · Adopción · 6:11
 
 `[PANTALLA] 76 % · 2 % · 84 %`
 
@@ -113,7 +113,7 @@ O sea: ya todos la usan. Pero mira el tercer número: **el 84 % no ha rediseñad
 
 Esa es la brecha. Todo el mundo tiene la herramienta. Casi nadie cambió su forma de trabajar. Y ahí, justo ahí, está la oportunidad para ti.
 
-### Diapositiva 9 · La frase · 7:05
+### Diapositiva 9 · La frase · 6:55
 
 `[PANTALLA] «La IA no te va a reemplazar. Un abogado que la domine con método, sí.»`
 
@@ -127,9 +127,9 @@ Y fíjate que no dije «un abogado que la use». Usarla ya la usan todos. Dije *
 
 ---
 
-## 7:35 – 17:24 · LOS TRES MIEDOS
+## 7:25 – 17:00 · LOS TRES MIEDOS
 
-### Diapositiva 10 · Los tres miedos · 7:35
+### Diapositiva 10 · Los tres miedos · 7:25
 
 `[PANTALLA] 01 · Los tres miedos del abogado frente a la IA`
 
@@ -141,7 +141,7 @@ Tres: **que me deje sin respaldo.** Que algo salga mal y nadie sepa quién respo
 
 Los tres son legítimos. Y los tres tienen solución. Vamos uno por uno.
 
-### Diapositiva 11 · Charlotin · 8:23
+### Diapositiva 11 · Charlotin · 8:11
 
 `[PANTALLA] Curva de 719 a 2.262 decisiones`
 
@@ -153,7 +153,7 @@ En enero de este año iba en unas 700 decisiones. A noviembre ya pasa de **2.262
 
 *(Pausa.)* Y no son estudiantes. Son abogados, a veces de firmas grandes, que confiaron en lo que les dijo la máquina.
 
-### Diapositiva 12 · Colombia · 9:14
+### Diapositiva 12 · Colombia · 9:01
 
 `[PANTALLA] Corte Suprema · Auto AC739-2026`
 
@@ -165,7 +165,7 @@ El mensaje de la Corte es clarísimo: **verificar las fuentes es una obligación
 
 Ojo: la Corte no prohibió la IA. Lo que exige es verificación. Y antes ya la Corte Constitucional, en la T-323 de 2024, había puesto el tema sobre la mesa.
 
-### Diapositiva 13 · El antídoto · 10:33
+### Diapositiva 13 · El antídoto · 10:18
 
 `[PANTALLA] Cinco controles: fuente cerrada, matriz, semáforo, adversarial, checklist`
 
@@ -182,7 +182,7 @@ Lo que sí existe es un método para que **ninguna alucinación llegue a tu docu
 
 La alucinación puede existir en el modelo. **En tu documento, no.**
 
-### Diapositiva 14 · «Mi abogado me está manipulando» · 11:48
+### Diapositiva 14 · «Mi abogado me está manipulando» · 11:33
 
 `[PANTALLA] «Mi abogado me está manipulando»`
 
@@ -190,7 +190,7 @@ Ahora te cuento un caso que a mí me pone la piel de gallina.
 
 *(Lees la frase despacio.)* «Mi abogado me está manipulando.» Eso concluyó una clienta en Estados Unidos después de conversar con ChatGPT.
 
-### Diapositiva 15 · Nippon Life · 12:16
+### Diapositiva 15 · Nippon Life · 12:00
 
 `[PANTALLA] Línea de tiempo: Ene 2024 → Mar 2026`
 
@@ -202,7 +202,7 @@ En marzo de 2026, Nippon Life demandó a OpenAI ante un tribunal federal de Illi
 
 ¿Qué nos dice esto? *(Señalas la frase de abajo.)* **Tu cliente ya consulta a la IA.** Llega a tu oficina con la respuesta de ChatGPT en el celular. La pregunta no es si la IA va a entrar a tu práctica; ya entró. La pregunta es si **tú la dominas mejor que tu cliente**.
 
-### Diapositiva 16 · Semáforo de datos · 13:45
+### Diapositiva 16 · Semáforo de datos · 13:27
 
 `[PANTALLA] Semáforo rojo, amarillo y verde de datos`
 
@@ -216,7 +216,7 @@ En **amarillo** está lo que puedes trabajar solo si lo seudonimizas primero y e
 
 Y en **verde**, lo que puedes usar tranquilo: normas, sentencias públicas, tus modelos y plantillas sin datos personales.
 
-### Diapositiva 17 · Seudonimizar vs. anonimizar · 14:54
+### Diapositiva 17 · Seudonimizar vs. anonimizar · 14:34
 
 `[PANTALLA] Video: los datos del expediente se convierten en etiquetas y aparece la tabla de llaves (14 s, arranca solo)`
 
@@ -230,7 +230,7 @@ Y aquí hay una diferencia que casi nadie tiene clara.
 
 Y la tercera palabra, que es la más importante: **minimizar**. Sube solo lo que la IA necesita para hacer la tarea. Nada más. Esto lo practicamos con casos reales en el módulo 7.
 
-### Diapositiva 18 · ISO/IEC 42001 · 16:06
+### Diapositiva 18 · ISO/IEC 42001 · 15:45
 
 `[PANTALLA] Inventario, roles, riesgos, controles, política, trazabilidad`
 
@@ -246,9 +246,9 @@ Y fíjate en algo: los tres miedos tienen respuesta. Ninguno se resuelve con un 
 
 ---
 
-## 17:24 – 23:31 · EL SALTO: DEL PROMPT AL SISTEMA
+## 17:00 – 23:28 · EL SALTO: DEL PROMPT AL SISTEMA
 
-### Diapositiva 19 · Sección 2 · 17:24
+### Diapositiva 19 · Sección 2 · 17:00
 
 `[PANTALLA] 02 · Del prompt suelto a la arquitectura de trabajo`
 
@@ -256,7 +256,7 @@ Y eso nos lleva al centro de este programa.
 
 Este curso no te enseña a pedirle cosas a la IA. **Te enseña a diseñar cómo trabaja.**
 
-### Diapositiva 20 · La escalera · 17:47
+### Diapositiva 20 · La escalera · 17:23
 
 `[PANTALLA] Video de la escalera: el punto «TÚ» sube del prompt suelto al agente gobernado (13 s, arranca solo)`
 
@@ -270,7 +270,7 @@ Imagínatelo como una escalera.
 
 Este curso empieza en el primer peldaño y termina en el último.
 
-### Diapositiva 21 · Anatomía de un sistema · 18:54
+### Diapositiva 21 · Anatomía de un sistema · 18:29
 
 `[PANTALLA] Fuentes · Instrucciones · Controles · Entregables`
 
@@ -282,7 +282,7 @@ Y la IA no hace un solo papel. Hace cuatro: de **asistente**, que produce; de **
 
 En el módulo 2 aprendes algo que cambia todo: **estructurar el documento antes de involucrar a la IA**. La arquitectura de una demanda, un contrato, un concepto, una matriz probatoria o una cronología la decides tú. La IA la llena.
 
-### Diapositiva 22 · Frase Claude · 20:01
+### Diapositiva 22 · Frase Claude · 19:34
 
 `[PANTALLA] «No vas a chatear con la IA. Vas a montar tu despacho dentro de ella.»`
 
@@ -290,15 +290,22 @@ En el módulo 2 aprendes algo que cambia todo: **estructurar el documento antes 
 
 No vas a chatear con la IA. Vas a montar tu despacho dentro de ella.
 
-### Diapositiva 23 · Claude como entorno · 20:21
+### Diapositiva 23 · Claude como entorno · 19:53
 
-`[PANTALLA] Chat y Proyectos · Expedientes largos · Redline · Agentes`
+`[PANTALLA] Proyectos · Skills · Plugins y conectores · Scripts · Agentes · Segundo cerebro`
 
-En el módulo 3 trabajamos a fondo con **Claude**, y te explico por qué: es de las herramientas que mejor maneja documentos largos y complejos.
+En el módulo 3 trabajamos a fondo con **Claude**, y no me refiero a la ventanita del chat. Me refiero a todo el ecosistema.
 
-Vas a aprender a usar los **Proyectos**, con instrucciones que se quedan guardadas, para que no tengas que explicarle cada vez cómo trabajas. A analizar **expedientes completos**: cláusulas, obligaciones, riesgos y plazos. A hacer **comparación de versiones y redline asistido**. Y a dar el salto a los **agentes**, con Cowork, Code y Claude for Legal, que ya no solo responden, sino que ejecutan tareas.
+*(Vas señalando cada tarjeta.)*
 
-Y no sales con teoría: sales con una matriz documental y un redline de un documento real.
+- **Proyectos:** instrucciones que se quedan guardadas, artefactos y expedientes completos, para que no tengas que explicarle cada vez cómo trabajas.
+- **Skills:** empaquetas tu forma de trabajar (cómo revisas un contrato, cómo armas una tutela) y la IA la aplica igual cada vez.
+- **Plugins y conectores:** Claude for Legal, tu Drive, tu correo y las herramientas que ya usas, conectadas al mismo entorno.
+- **Scripts:** con Claude Code, la IA escribe y corre por ti los pasos mecánicos: convertir documentos, comparar versiones, verificar citas.
+- **Agentes:** con Cowork y Code ya no solo responde; ejecuta tareas completas, varias a la vez.
+- Y el **segundo cerebro**: la memoria de tu despacho. Tus modelos, tus criterios, tus casos anteriores, organizados para que la IA trabaje con lo que tú ya sabes.
+
+Y no sales con teoría: sales con una matriz documental y un redline asistido de un documento real.
 
 ### Diapositiva 24 · Litigio · 21:20
 
@@ -308,7 +315,7 @@ Para los litigantes, mi frase favorita del programa: **antes de radicar, pierde 
 
 En el módulo 5 la pones de contraparte y de juez. Construyes la teoría del caso, revisas la suficiencia de la prueba, encuentras las contradicciones antes de que las encuentre el otro abogado, y preparas audiencias, interrogatorios y contrainterrogatorios. Mejor perder diez veces en el ensayo que una vez en el estrado.
 
-### Diapositiva 25 · Automatización · 22:03
+### Diapositiva 25 · Automatización · 22:02
 
 `[PANTALLA] Video del flujo: las PQRS pasan por cinco estaciones y se vacía la bandeja (14 s, arranca solo)`
 
@@ -320,7 +327,7 @@ Mi regla es esta: lo que haces dos veces, se diseña; **lo que haces diez veces,
 
 En el módulo 6 lo construyes sin programar o con muy poco código: plantillas dinámicas, formularios, seguimiento normativo y controles de calidad dentro del flujo.
 
-### Diapositiva 26 · Herramientas · 22:55
+### Diapositiva 26 · Herramientas · 22:52
 
 `[PANTALLA] «Las herramientas cambian cada mes. Las técnicas se quedan contigo.»`
 
@@ -330,9 +337,9 @@ Pero te digo algo: **las herramientas cambian cada mes. Las técnicas se quedan 
 
 ---
 
-## 23:31 – 28:11 · EL PROGRAMA
+## 23:28 – 28:13 · EL PROGRAMA
 
-### Diapositiva 27 · Sección 3 · 23:31
+### Diapositiva 27 · Sección 3 · 23:28
 
 `[PANTALLA] 03 · 48 horas para pasar de usuario a arquitecto`
 
@@ -340,7 +347,7 @@ Entonces, ¿cómo es el programa?
 
 Son **48 horas**: 32 en vivo, en sesiones de tres horas, y 16 de trabajo guiado con plantillas y rúbricas. Unas seis semanas. Cien por ciento virtual y sincrónico. Y trabajamos sobre casos reales anonimizados.
 
-### Diapositiva 28 · Los módulos · 24:01
+### Diapositiva 28 · Los módulos · 23:57
 
 `[PANTALLA] 7 módulos + proyecto final`
 
@@ -356,7 +363,7 @@ Siete módulos, y cada uno deja un entregable:
 
 Y un proyecto final que es lo que más me emociona.
 
-### Diapositiva 29 · Proyecto final · 25:01
+### Diapositiva 29 · Proyecto final · 24:55
 
 `[PANTALLA] Suite de mini-aplicaciones + Legal AI Playbook`
 
@@ -366,7 +373,7 @@ Sin escribir código, vas a construir: un **revisor y estructurador documental**
 
 Y todo queda documentado en tu **Legal AI Playbook**: las instrucciones, las fuentes, los controles y los límites de tu suite. Lo aplicas desde el día siguiente.
 
-### Diapositiva 30 · Antes y después · 25:47
+### Diapositiva 30 · Antes y después · 25:41
 
 `[PANTALLA] Hoy / Después del curso`
 
@@ -376,7 +383,7 @@ Hoy: copias y pegas prompts. Revisas citas con miedo. Subes todo y rezas. Haces 
 
 *(Cambias el tono.)* Después del curso: diseñas instrucciones de trabajo. Cada cita tiene fuente y semáforo. Seudonimizas y gobiernas. Tienes un flujo con controles. **Construyes sistemas.**
 
-### Diapositiva 31 · La visión · 26:25
+### Diapositiva 31 · La visión · 26:17
 
 `[PANTALLA] «Esos perfiles híbridos no van a llegar solos. Los vamos a formar. Aquí.»`
 
@@ -386,7 +393,7 @@ Esos perfiles no van a llegar solos. **Los vamos a formar. Aquí.**
 
 Lo que queremos con este programa es crear una masa crítica de **abogados aumentados**: los ingenieros legales que van a liderar la profesión en Colombia y en la región. No abogados que le tienen miedo a la IA, ni abogados que la usan a ciegas, sino abogados que la dirigen.
 
-### Diapositiva 32 · Equipo docente · 27:14
+### Diapositiva 32 · Equipo docente · 27:05
 
 `[PANTALLA] Equipo docente`
 
@@ -396,9 +403,9 @@ Y no lo vas a hacer solo. Te acompaña un equipo que trabaja en esto todos los d
 
 ---
 
-## 28:11 – 30:00 · CIERRE
+## 28:13 – 30:00 · CIERRE
 
-### Diapositiva 33 · Llamado · 28:11
+### Diapositiva 33 · Llamado · 28:13
 
 `[PANTALLA] «¿Vas a seguir pidiéndole cosas a la IA o vas a diseñar cómo trabaja?»`
 
@@ -412,7 +419,7 @@ Ahora te dejo la pregunta que de verdad importa:
 
 Si es lo segundo, te espero en la cohorte 01. Los cupos son limitados porque trabajamos en vivo y sobre tus casos. La preventa está en **$2.900.000**; si vienes con tu equipo, de tres personas en adelante, cada cupo queda en $2.600.000, y los egresados EAN tienen un 15 %. Te inscribes aquí mismo, en esta página. Y sales con certificado de la Universidad EAN.
 
-### Diapositiva 34 · Cierre institucional · 29:13
+### Diapositiva 34 · Cierre institucional · 29:14
 
 `[PANTALLA] Cierre EAN`
 
