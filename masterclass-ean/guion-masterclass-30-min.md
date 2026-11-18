@@ -29,7 +29,7 @@
 
 Hola. Bienvenido a la masterclass de *Abogado Aumentado con IA*, el nuevo programa de la Universidad EAN. Soy Adriana Vergara, su directora académica.
 
-Soy fundadora de **IA Legal Studio**, donde ayudo a organizaciones legales a navegar la inteligencia artificial, a formar a sus equipos y a implementarla en su trabajo diario. Y también impulso la **comunidad de Claude Code en Colombia**.
+Fundé **IA Legal Studio**, donde ayudo a organizaciones legales a navegar la inteligencia artificial, a formar a sus equipos y a implementarla en su trabajo diario. Y también impulso la **comunidad de Claude Code en Colombia**.
 
 ### Diapositiva 2 · Este no es el curso típico · 0:39
 
