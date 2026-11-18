@@ -1,0 +1,14 @@
+@font-face { font-family: 'Inter'; font-weight: 400; src: url(node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2); }
+@font-face { font-family: 'Inter'; font-weight: 600; src: url(node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2); }
+@font-face { font-family: 'Inter'; font-weight: 700; src: url(node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2); }
+@font-face { font-family: 'Inter'; font-weight: 800; src: url(node_modules/@fontsource/inter/files/inter-latin-800-normal.woff2); }
+@font-face { font-family: 'JetBrains Mono'; src: url(node_modules/@fontsource/jetbrains-mono/files/jetbrains-mono-latin-400-normal.woff2); }
+:root { --navy:#224385; --deep:#094874; --green:#00B297; --mint:#00C89A; --ink:#1B2A41; --gray:#5B6B7F; --light:#EEF3F8; --red:#D64545; --amber:#E89B1E; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1920px; height: 960px; overflow: hidden; }
+body { background: #FFFFFF; color: var(--ink); font-family: 'Inter', sans-serif; position: relative; }
+.abs { position: absolute; }
+.mono { font-family: 'JetBrains Mono', monospace; }
+.card { background: #fff; border-radius: 28px; box-shadow: 0 10px 40px rgba(27,42,65,.12); }
+.tag { display: inline-block; border-radius: 999px; padding: 8px 22px; font-weight: 700; }
+[data-pop], [data-fade] { opacity: 0; }

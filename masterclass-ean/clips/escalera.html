@@ -1,0 +1,40 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="ean.css">
+<style>
+  .step { position: absolute; bottom: 90px; width: 330px; border-radius: 22px; padding: 26px; color: #fff; transform-origin: 50% 100%; }
+  .step .n { font-size: 26px; font-weight: 800; opacity: .75; }
+  .step h3 { font-size: 34px; font-weight: 800; line-height: 1.12; margin-top: 8px; }
+  .step p { font-size: 22px; line-height: 1.3; margin-top: 10px; opacity: .9; }
+  #pin { position: absolute; width: 74px; height: 74px; border-radius: 50%; background: var(--amber); border: 7px solid #fff; box-shadow: 0 8px 24px rgba(0,0,0,.2); display:flex; align-items:center; justify-content:center; font-weight:800; font-size:24px; color: var(--ink); }
+  .note { position: absolute; font-size: 28px; font-weight: 800; font-style: italic; }
+</style></head>
+<body>
+<div class="step" style="left:60px; height:200px; background:#7A8799"><p class="n">1</p><h3>Prompt suelto</h3></div>
+<div class="step" style="left:420px; height:330px; background:var(--navy)"><p class="n">2</p><h3>Instrucción estructurada</h3><p>Rol, formato y límites</p></div>
+<div class="step" style="left:780px; height:460px; background:var(--navy)"><p class="n">3</p><h3>Proyecto con fuentes</h3><p>Tu expediente, tus normas, tus modelos</p></div>
+<div class="step" style="left:1140px; height:590px; background:var(--deep)"><p class="n">4</p><h3>Flujo con controles</h3><p>Pasos repetibles con revisión humana</p></div>
+<div class="step" style="left:1500px; height:720px; background:var(--green)"><p class="n">5</p><h3>Agente y mini-app gobernados</h3><p>Una tarea completa, con reglas y trazabilidad</p></div>
+<p class="note" data-fade="1.2,5.0" style="left:60px; top:470px; width:330px; color:var(--red)">Aquí está casi todo el mundo</p>
+<p class="note" data-fade="11.6" style="left:1500px; top:40px; color:var(--green)">Aquí terminas el curso</p>
+<div id="pin">TÚ</div>
+<script src="common.js"></script>
+<script>
+const steps=[...document.querySelectorAll('.step')];
+const H=[200,330,460,590,720], X=[60,420,780,1140,1500], FLOOR=960-90;
+const appear=[0.2,0.5,0.8,1.1,1.4];
+const land=[1.8,4.4,6.4,8.4,10.4]; const J=0.7;
+const pin=document.getElementById('pin');
+window.extra=t=>{
+  steps.forEach((s,i)=>{const p=easeOut(span(t,appear[i],0.6)); s.style.transform=`scaleY(${p})`; s.style.opacity=p>0?1:0;});
+  let k=0,p=1; for(let i=1;i<land.length;i++){ if(t>=land[i]-J){k=i;p=clamp((t-(land[i]-J))/J);} }
+  const from=k>0?k-1:0, to=k;
+  const pos=i=>({x:X[i]+330-110, y:FLOOR-H[i]-74-12});
+  const a=pos(from), b=pos(to), e=p;
+  const x=a.x+(b.x-a.x)*e, y=a.y+(b.y-a.y)*e-Math.sin(Math.PI*e)*120;
+  pin.style.left=x+'px'; pin.style.top=y+'px';
+  pin.style.opacity=clamp((t-1.6)*4);
+  const glow = t>11.2 ? 1+0.08*Math.sin((t-11.2)*8) : 1;
+  pin.style.transform=`scale(${glow})`;
+};
+</script>
+</body></html>
