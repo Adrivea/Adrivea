@@ -7,445 +7,437 @@
 **Cómo leer este guion**
 - `[PANTALLA]` es la diapositiva que se ve.
 - *(cursiva entre paréntesis)* es lo que haces frente a cámara.
-- Lo demás es lo que dices. Está escrito para decirse, no para leerse: cámbialo a tus palabras donde te suene raro.
+- Lo demás es lo que dices. Les hablas a «ustedes», como en una conversación. No hay que decirlo palabra por palabra: úsalo como guía y suéltate donde te salga más natural.
 - Cada bloque trae el minuto aproximado. Si vas largo, lo más fácil de acortar es la diapositiva 8 (adopción) y la 33 (equipo docente).
 
 **Arco de la charla**
-1. **Apertura (0:00–7:09):** bienvenida con el nombre del programa, «este no es el curso típico de prompts», tu historia (yo también pensaba que la IA solo hacía mamarrachos), dos preguntas que incomodan y los datos que muestran que esto ya llegó.
-2. **Los tres miedos (7:09–17:16):** que invente, que filtre, que nadie responda. Cada miedo trae su antídoto, y cada antídoto es un módulo del curso.
-3. **El salto (17:16–23:53):** de los prompts a las arquitecturas de trabajo: Claude con skills, plugins, scripts, agentes y segundo cerebro; litigio y automatización.
-4. **El programa (23:53–28:18):** módulos, proyecto final, antes y después, equipo.
-5. **Cierre (28:18–30:00):** una pregunta y la invitación.
+1. **Apertura (0:00–7:21):** bienvenida con el nombre del programa, «este no es el curso típico de prompts», tu historia (yo también pensaba que la IA solo hacía mamarrachos), dos preguntas que incomodan y los datos que muestran que esto ya llegó.
+2. **Los tres miedos (7:21–17:13):** que invente, que filtre, que nadie responda. Cada miedo trae su antídoto, y cada antídoto es un módulo del curso.
+3. **El salto (17:13–23:52):** de los prompts a las arquitecturas de trabajo: Claude con skills, plugins, scripts, agentes y segundo cerebro; litigio y automatización.
+4. **El programa (23:52–28:19):** módulos, proyecto final, antes y después, equipo.
+5. **Cierre (28:19–30:00):** una pregunta y la invitación.
 
 ---
 
-## 0:00 – 7:09 · APERTURA
+## 0:00 – 7:21 · APERTURA
 
 ### Diapositiva 1 · Portada · 0:00
 
 `[PANTALLA] Portada EAN: «Abogado Aumentado con IA · Del prompt al sistema», con tu nombre, IA Legal Studio y la comunidad de Claude Code Colombia`
 
-*(Miras a cámara, con calma.)*
+*(Miras a cámara, tranquila.)*
 
-Hola. Bienvenido a la masterclass de *Abogado Aumentado con IA*, el nuevo programa de la Universidad EAN. Soy Adriana Vergara, su directora académica.
+Hola a todos, bienvenidos. Qué bueno tenerlos acá. Esta es la masterclass de *Abogado Aumentado con IA*, el nuevo programa de la Universidad EAN, y yo soy Adriana Vergara, la directora académica.
 
-Fundé **IA Legal Studio**, donde ayudo a organizaciones legales a navegar la inteligencia artificial, a formar a sus equipos y a implementarla en su trabajo diario. Y también impulso la **comunidad de Claude Code en Colombia**.
+Les cuento rápido quién soy: fundé IA Legal Studio, y lo que hacemos allá es acompañar a organizaciones legales a entender la inteligencia artificial, a formar a sus equipos y a meterla de verdad en el trabajo del día a día. Y además ando muy metida en la comunidad de Claude Code aquí en Colombia, que ha crecido muchísimo.
 
-### Diapositiva 2 · Este no es el curso típico · 0:37
+### Diapositiva 2 · Este no es el curso típico · 0:44
 
 `[PANTALLA] «Este no es el curso típico de prompts. Aquí vas a construir sistemas de trabajo jurídico.»`
 
-Y te lo digo de entrada: este no es el curso típico de prompts.
+Les quiero decir algo desde el arranque, porque sé que muchos ya han visto un montón de charlas sobre «los mejores prompts para abogados». Este no es el curso típico de prompts.
 
-Seguramente ya viste diez webinars sobre «los 50 mejores prompts para abogados». Este no es uno más. En la próxima media hora te voy a mostrar por qué los prompts no alcanzan, qué está pasando ya en los tribunales y qué tiene que aprender un abogado hoy para no quedarse por fuera: arquitecturas de trabajo, protección de datos, automatización y gobernanza.
+En esta media hora les voy a mostrar por qué los prompts se quedan cortos, qué está pasando ya en los tribunales, aquí y afuera, y qué es lo que de verdad necesita aprender un abogado hoy: cómo armar su forma de trabajar con la IA, cómo cuidar los datos de sus clientes, qué se puede automatizar y cómo se gobierna todo eso.
 
-Pero antes de hablarte del curso, te cuento cómo llegué hasta aquí.
+Pero antes, déjenme contarles cómo llegué yo a esto.
 
-### Diapositiva 3 · Mi historia · 1:23
+### Diapositiva 3 · Mi historia · 1:32
 
 `[PANTALLA] «Yo también pensaba que la IA solo servía para hacer mamarrachos.»`
 
-*(Bajas el tono. Esto es personal.)*
+*(Más bajito, más personal.)*
 
-Te voy a confesar algo: yo no llegué a esto convencida. Al contrario.
+Yo no llegué a la IA convencida. Para nada.
 
-Cuando empecé a usar inteligencia artificial, pensaba que no servía para nada serio. Le pedía una demanda y me devolvía un mamarracho: artículos de un código de otro país, sentencias que nadie había dictado, un texto que sonaba bonito pero sin estructura, sin hechos y sin pruebas.
+Al principio la usaba y pensaba que eso no servía para nada serio. Le pedía una demanda y me devolvía un mamarracho. Me citaba artículos de un código de otro país, sentencias que nadie había dictado, y un texto que sonaba bonito pero que no tenía ni hechos, ni pruebas, ni estructura.
 
-Y me dio miedo. Miedo de firmar algo así. Miedo de subirle la información de un cliente. Pensé: esto es un juguete, no una herramienta para una abogada.
+Y sí, me dio miedo. Me daba miedo firmar algo así, y me daba miedo subirle la información de un cliente. Llegué a pensar que eso era un juguete y que no era para nosotros los abogados.
 
-### Diapositiva 4 · Mismo modelo, otra arquitectura · 2:12
+### Diapositiva 4 · Mismo modelo, otra arquitectura · 2:19
 
 `[PANTALLA] Video «mamarracho» contra arquitectura de trabajo (17 s, arranca solo)`
 
 *(Dejas correr el video unos segundos antes de hablar.)*
 
-Hasta que entendí algo que me cambió la práctica: **el problema no era el modelo. Era cómo yo trabajaba con él.**
+Hasta que un día me cayó la ficha: el problema no era la herramienta, era la forma en que yo estaba trabajando con ella.
 
-*(Señalas el lado izquierdo.)* Esto es lo que sale cuando le haces una pregunta suelta. *(Señalas el derecho.)* Y esto es lo que sale cuando diseñas una **arquitectura de trabajo**: le das fuentes, instrucciones, controles y un formato de entrega.
+*(Señalas el lado izquierdo.)* Esto de acá es lo que sale cuando uno le hace una pregunta suelta. *(Señalas el derecho.)* Y esto es lo que sale cuando uno le arma una estructura de trabajo: le da las fuentes, le dice cómo trabaja, le pone controles y le pide el resultado en un formato concreto.
 
-Mismo modelo. Otra arquitectura.
+Es el mismo modelo. Lo que cambió fue la arquitectura.
 
-Con arquitecturas bien diseñadas empecé a producir documentos de altísima calidad. Y las alucinaciones dejaron de llegar a mis documentos, porque ninguna cita se queda si no pasa primero por una fuente. Eso es lo que te quiero enseñar. Por eso te dije que este no es el curso típico de prompts.
+Cuando empecé a trabajar así, la calidad de lo que producía cambió por completo. Y las alucinaciones dejaron de colarse en mis documentos, porque ninguna cita se queda si antes no pasa por una fuente. Eso es lo que les quiero enseñar, y por eso les decía que este no es un curso de prompts.
 
-### Diapositiva 5 · Pregunta 1 · 3:26
+### Diapositiva 5 · Pregunta 1 · 3:36
 
 `[PANTALLA] «¿Cuánto de lo que hiciste hoy lo podría hacer un agente mientras dormías?»`
 
-Ahora sí, mis dos preguntas.
+Bueno, ahora sí, les tengo dos preguntas.
 
-*(Pausa. Tres segundos de silencio.)*
+*(Pausa de tres segundos.)*
 
-Piénsalo en serio. El resumen del expediente. La revisión del contrato. El cuadro de vencimientos. La respuesta a ese derecho de petición que se parece mucho al de la semana pasada.
+Piensen en lo que hicieron hoy. El resumen de un expediente, la revisión de un contrato, el cuadro de vencimientos, la respuesta a ese derecho de petición que se parece muchísimo al de la semana pasada.
 
-¿Qué porcentaje de tu día? ¿Veinte por ciento? ¿Cuarenta?
+¿Cuánto de todo eso lo podría haber hecho un agente mientras ustedes dormían? ¿Un veinte por ciento? ¿Un cuarenta?
 
-*(Señalas la pantalla.)* Escríbelo en los comentarios. Al final de esta charla vas a tener una respuesta más precisa, y te va a sorprender.
+*(Señalas la pantalla.)* Déjenmelo en los comentarios, un porcentaje. Al final de la charla volvemos sobre esto, y creo que la respuesta los va a sorprender.
 
-### Diapositiva 6 · Pregunta 2 · 4:07
+### Diapositiva 6 · Pregunta 2 · 4:19
 
 `[PANTALLA] «¿Le subirías el expediente de tu cliente a ChatGPT?»`
 
-Segunda pregunta, y esta incomoda más: ¿le subirías el expediente de tu cliente a ChatGPT?
+La segunda pregunta es un poquito más incómoda. ¿Ustedes le subirían el expediente de un cliente a ChatGPT?
 
-*(Sonríes.)* La mayoría dice que no. Y aun así, muchos ya lo hicieron. Una demanda para «mejorarle la redacción». Un contrato para que «encuentre los riesgos». La historia clínica de un cliente para un caso de responsabilidad médica.
+*(Sonríes.)* Casi todo el mundo dice que no. Pero la verdad es que muchos ya lo han hecho. Una demanda para que les mejore la redacción, un contrato para que les encuentre los riesgos, la historia clínica de un cliente para un caso de responsabilidad médica.
 
-No lo digo para juzgar a nadie; yo también lo hice al principio. Lo digo porque eso es justo lo que nadie nos enseñó: no a usar la IA, sino a usarla **sin poner en riesgo al cliente ni nuestra tarjeta profesional**.
+Y no lo digo para juzgar a nadie, que yo también lo hice al principio. Lo digo porque eso es justo lo que a nadie nos enseñaron: no a usar la IA, sino a usarla sin poner en riesgo al cliente ni nuestra tarjeta profesional.
 
-### Diapositiva 7 · Deloitte · 4:56
+### Diapositiva 7 · Deloitte · 5:08
 
 `[PANTALLA] Torta 30 / 20 / 50 · Deloitte Legal 2026`
 
-Ahora, los datos.
+Ahora miremos unos datos.
 
-Deloitte Legal publicó este año un informe que se llama *The AI Imperative*. Encuestó a 121 líderes de áreas jurídicas en el mundo. Y la proyección es esta:
+Deloitte Legal sacó este año un informe que se llama *The AI Imperative*, para el que encuestaron a 121 líderes de áreas jurídicas en el mundo. Y lo que proyectan es esto:
 
 *(Señalas cada porción.)*
 
-En unos tres años, cerca del **30 % de la capacidad de un equipo jurídico la van a poner agentes de inteligencia artificial**. Alrededor de un **20 % van a ser perfiles híbridos**, mitad abogado, mitad ingeniero. Y el resto, abogados.
+En unos tres años, cerca del 30 % de la capacidad de un equipo jurídico la van a poner agentes de inteligencia artificial. Más o menos un 20 % van a ser perfiles híbridos, gente que es mitad abogado y mitad ingeniero. Y el resto, abogados.
 
-Y fíjate en el último número: hoy el 72 % del trabajo jurídico se cobra por hora. Esperan que en dos o tres años baje al 44 %. Cuando la máquina hace en minutos lo que antes tomaba horas, la hora deja de ser la forma de cobrar. Lo que vas a cobrar es tu criterio y tu método.
+Y fíjense en este otro número, que me parece muy diciente: hoy el 72 % del trabajo jurídico se cobra por hora, y esperan que en dos o tres años eso baje al 44 %. Tiene lógica: si la máquina hace en minutos lo que antes tomaba horas, cobrar por hora deja de tener sentido. Lo que uno termina cobrando es el criterio.
 
-### Diapositiva 8 · Adopción · 6:00
+### Diapositiva 8 · Adopción · 6:11
 
 `[PANTALLA] 76 % · 2 % · 84 %`
 
-En 2024, según ese mismo trabajo de Deloitte, el 76 % de los departamentos jurídicos no usaba IA. En 2026, solo el 2 % sigue sin usarla.
+En ese mismo estudio aparece algo muy interesante. En 2024, el 76 % de los departamentos jurídicos no usaba IA. En 2026, solo el 2 % sigue sin usarla.
 
-O sea: ya todos la usan. Pero mira el tercer número: **el 84 % no ha rediseñado los roles** de su gente alrededor de la IA.
+O sea, ya prácticamente todos la usan. Pero miren el tercer número: el 84 % no ha cambiado los roles de su gente alrededor de la IA.
 
-Esa es la brecha. Todo el mundo tiene la herramienta. Casi nadie cambió su forma de trabajar. Y ahí, justo ahí, está la oportunidad para ti.
+Todo el mundo tiene la herramienta, pero casi nadie cambió la forma de trabajar. Y ahí es donde está la oportunidad para ustedes.
 
-### Diapositiva 9 · La frase · 6:41
+### Diapositiva 9 · La frase · 6:48
 
 `[PANTALLA] «La IA no te va a reemplazar. Un abogado que la domine con método, sí.»`
 
-*(Lo dices lento.)*
+*(Despacio.)*
 
-La IA no te va a reemplazar.
+Seguramente han oído eso de que la IA no nos va a reemplazar. Yo creo que es cierto. Lo que sí puede pasar es que un abogado que la sepa usar con método reemplace a uno que no.
 
-Un abogado que la domine con método, sí.
-
-Y fíjate que no dije «un abogado que la use». Usarla ya la usan todos. Dije **con método**. De eso se trata esta charla.
+Y lo digo con esa palabra a propósito, con método, porque usarla, ya la usa todo el mundo. De eso se trata esta charla.
 
 ---
 
-## 7:09 – 17:16 · LOS TRES MIEDOS
+## 7:21 – 17:13 · LOS TRES MIEDOS
 
-### Diapositiva 10 · Los tres miedos · 7:09
+### Diapositiva 10 · Los tres miedos · 7:21
 
 `[PANTALLA] 01 · Los tres miedos del abogado frente a la IA`
 
-Cuando hablo con abogados, socios, jefes jurídicos y funcionarios públicos, siempre salen los mismos tres miedos. Casi nadie los dice en voz alta, pero ahí están:
+Cuando hablo con abogados, con socios de firmas, con jefes jurídicos o con funcionarios públicos, casi siempre salen los mismos miedos, aunque pocos los digan en voz alta.
 
-Uno: **que invente.** Que me cite una sentencia que no existe.
-Dos: **que filtre.** Que la información de mi cliente termine donde no debe.
-Tres: **que me deje sin respaldo.** Que algo salga mal y nadie sepa quién respondía por qué.
+El primero es que la IA invente, que le cite a uno una sentencia que no existe. El segundo es que se filtre la información del cliente. Y el tercero es que algo salga mal y nadie sepa quién respondía.
 
-Los tres son legítimos. Y los tres tienen solución. Vamos uno por uno.
+Son miedos muy válidos, y todos tienen solución. Vamos con cada uno.
 
-### Diapositiva 11 · Charlotin · 7:52
+### Diapositiva 11 · Charlotin · 7:59
 
 `[PANTALLA] Curva de 719 a 2.262 decisiones`
 
-Miedo número uno: que invente.
+Empecemos por el primero, que invente.
 
-Hay un investigador francés, Damien Charlotin, que lleva una base de datos pública de decisiones judiciales en las que un tribunal tuvo que lidiar con contenido inventado por IA: citas falsas, sentencias que no existen, doctrina fabricada.
+Hay un investigador francés, Damien Charlotin, que lleva una base de datos pública con las decisiones judiciales en las que un tribunal tuvo que lidiar con contenido inventado por IA: citas falsas, sentencias que no existen, doctrina que alguien se sacó de la manga.
 
-En enero de este año iba en unas 700 decisiones. A noviembre ya pasa de **2.262**. Se triplicó en menos de un año.
+En enero de este año iban unas 700 decisiones. A noviembre ya pasan de 2.262. En menos de un año se triplicó.
 
-*(Pausa.)* Y no son estudiantes. Son abogados, a veces de firmas grandes, que confiaron en lo que les dijo la máquina.
+*(Pausa.)* Y no estamos hablando de estudiantes. Son abogados, algunos de firmas grandes, que confiaron en lo que les dijo la máquina.
 
-### Diapositiva 12 · Colombia · 8:38
+### Diapositiva 12 · Colombia · 8:44
 
 `[PANTALLA] Corte Suprema · Auto AC739-2026`
 
-«Ah, pero eso pasa en Estados Unidos.» No.
+Alguno estará pensando que eso pasa en Estados Unidos. Pues no, ya nos tocó a nosotros.
 
-En febrero de este año, la Sala de Casación Civil de la Corte Suprema de Justicia multó a un abogado que citó en un recurso providencias que no existían. La Relatoría de la Corte buscó cada una. Ninguna era real. El abogado reconoció que había usado IA y no había verificado. Y la Corte, además, compulsó copias a la Comisión de Disciplina Judicial.
+En febrero de este año, la Sala de Casación Civil de la Corte Suprema multó a un abogado que citó en un recurso providencias que no existían. La Relatoría las buscó una por una y ninguna era real. El abogado reconoció que había usado IA sin verificar, y la Corte además compulsó copias a la Comisión de Disciplina Judicial.
 
-El mensaje de la Corte es clarísimo: **verificar las fuentes es una obligación que no se delega**. Ni en un practicante, ni en una máquina. Y advirtió sobre algo que me parece buenísimo como concepto: el riesgo del «pseudo-derecho», textos que suenan a jurisprudencia y no lo son.
+Lo que dijo la Corte, en palabras sencillas, es que verificar las fuentes es una obligación que no se le puede delegar a nadie, ni a un practicante ni a una máquina. Y habló de algo que me pareció muy acertado, el riesgo del «pseudo-derecho»: textos que suenan a jurisprudencia pero no lo son.
 
-Ojo: la Corte no prohibió la IA. Lo que exige es verificación. Y antes ya la Corte Constitucional, en la T-323 de 2024, había puesto el tema sobre la mesa.
+Eso sí, la Corte no prohibió la IA. Lo que pide es verificación. Y ya antes la Corte Constitucional, en la T-323 de 2024, había puesto el tema sobre la mesa.
 
-### Diapositiva 13 · Reino Unido · 9:50
+### Diapositiva 13 · Reino Unido · 9:53
 
 `[PANTALLA] Reino Unido · Ayinde y Al-Haroun [2025] EWHC 1383 (Admin)`
 
-Y si crees que esto se queda en una multa o en la tarjeta profesional, mira lo que pasó en el Reino Unido.
+Y si alguien cree que esto se queda en una multa o en un tema de la tarjeta profesional, miren lo que pasó en el Reino Unido.
 
-En junio de 2025, la High Court de Inglaterra y Gales revisó dos casos juntos. En uno, un escrito citaba cinco precedentes que no existían. En el otro, 18 de 45 citas eran inventadas. Los dos abogados terminaron remitidos a sus colegios profesionales.
+En junio de 2025, la High Court de Inglaterra y Gales revisó dos casos al tiempo. En uno, el escrito citaba cinco precedentes que no existían. En el otro, 18 de 45 citas eran inventadas. Los dos abogados terminaron remitidos a sus colegios profesionales.
 
-Pero lo fuerte fue la advertencia de la Corte. *(Señalas el recuadro azul.)* Dijo que presentar material falso ante un juez, a sabiendas, puede ser **desacato**. Y que en los casos más graves, cuando es deliberado, puede ser un **delito**: pervertir el curso de la justicia, que en el Reino Unido tiene una pena máxima de **cadena perpetua**.
+Pero lo que más me impactó fue la advertencia que hizo la Corte. *(Señalas el recuadro azul.)* Dijo que presentar material falso ante un juez, sabiendo que es falso, puede ser desacato. Y que en los casos más graves, cuando hay intención, puede llegar a ser un delito: pervertir el curso de la justicia, que allá tiene una pena máxima de cadena perpetua.
 
-Ojo, en esos dos casos no hubo proceso penal. Pero el mensaje es clarísimo: esto ya no es solo un tema disciplinario. **Puede ser un tema penal.**
+En esos dos casos no hubo proceso penal, hay que decirlo. Pero el mensaje queda: esto ya no es solo un tema disciplinario, también puede terminar en lo penal.
 
 ### Diapositiva 14 · El antídoto · 11:02
 
 `[PANTALLA] Cinco controles: fuente cerrada, matriz, semáforo, adversarial, checklist`
 
-Entonces, ¿cómo se evitan las alucinaciones? Te voy a ser honesta, porque mucha gente te va a vender humo aquí: **no existe un modelo que no alucine nunca**. Ninguno.
+Entonces, ¿cómo se evitan las alucinaciones? Les voy a hablar con franqueza, porque en este tema hay mucha gente vendiendo humo: no existe un modelo que no alucine nunca.
 
-Lo que sí existe es un método para que **ninguna alucinación llegue a tu documento final**. Y eso es lo que trabajamos en el módulo 4, con Daniela Mesa:
+Lo que sí existe es una forma de trabajar para que ninguna alucinación llegue al documento que ustedes firman. Eso lo trabajamos en el módulo 4 con Daniela Mesa, y son básicamente cinco controles:
 
 *(Vas señalando.)*
-- **Fuente cerrada:** la IA responde solo con los documentos que tú le das, no con lo que «recuerda».
-- **Matriz de trazabilidad:** cada afirmación del documento tiene su fuente y su página.
-- **Semáforo de certeza:** verde, está verificado; amarillo, hay que revisar; rojo, no se usa.
-- **Verificación adversarial:** pones a otra IA a tratar de tumbar el documento.
-- Y un **checklist antes de radicar**: cero citas que no hayas abierto con tus propios ojos.
+- La **fuente cerrada**, que es que la IA solo responda con los documentos que ustedes le dan y no con lo que «se acuerda».
+- La **matriz de trazabilidad**, donde cada afirmación del documento queda amarrada a su fuente y a su página.
+- El **semáforo de certeza**: verde si está verificado, amarillo si toca revisarlo, rojo si no se usa.
+- La **verificación adversarial**, que es poner a otra IA a tratar de tumbar el documento.
+- Y un **checklist antes de radicar**, donde no pasa ninguna cita que ustedes no hayan abierto con sus propios ojos.
 
-La alucinación puede existir en el modelo. **En tu documento, no.**
+El modelo puede seguir alucinando, pero eso ya no llega al documento final.
 
-### Diapositiva 15 · «Mi abogado me está manipulando» · 12:12
+### Diapositiva 15 · «Mi abogado me está manipulando» · 12:15
 
 `[PANTALLA] «Mi abogado me está manipulando»`
 
-Ahora te cuento un caso que a mí me pone la piel de gallina.
+Ahora les quiero contar un caso que a mí me dejó pensando muchísimo.
 
-*(Lees la frase despacio.)* «Mi abogado me está manipulando.» Eso concluyó una clienta en Estados Unidos después de conversar con ChatGPT.
+*(Lees la frase despacio.)* «Mi abogado me está manipulando.» A esa conclusión llegó una clienta en Estados Unidos después de conversar con ChatGPT.
 
 ### Diapositiva 16 · Nippon Life · 12:37
 
 `[PANTALLA] Línea de tiempo: Ene 2024 → Mar 2026`
 
-La historia es así. Una mujer tenía una reclamación por incapacidad contra la aseguradora Nippon Life. Con su abogado llegaron a un acuerdo, y en enero de 2024 el caso quedó cerrado.
+La historia es más o menos así. Una señora tenía una reclamación por incapacidad contra la aseguradora Nippon Life. Con su abogado llegaron a un acuerdo, y en enero de 2024 el caso se cerró.
 
-Después, ella le mostró la correspondencia a ChatGPT. Y ChatGPT le dio la razón: que la habían engañado. Ella despidió a su abogado y, según la aseguradora, empezó a radicar decenas de escritos redactados con la IA para reabrir un caso que ya estaba terminado.
+Tiempo después, ella le mostró toda la correspondencia a ChatGPT, y ChatGPT le dio la razón: que la habían engañado. Ella despidió a su abogado y, según la aseguradora, empezó a radicar decenas de escritos hechos con IA para reabrir un caso que ya estaba terminado.
 
-En marzo de 2026, Nippon Life demandó a OpenAI ante un tribunal federal de Illinois, por ejercicio ilegal de la abogacía, y le pide 10 millones de dólares en daños punitivos. El caso sigue en curso; OpenAI pidió que se desestime.
+En marzo de 2026, Nippon Life demandó a OpenAI ante un tribunal federal de Illinois por ejercicio ilegal de la abogacía, y le está pidiendo 10 millones de dólares en daños punitivos. El caso sigue andando; OpenAI pidió que lo desestimen.
 
-¿Qué nos dice esto? *(Señalas la frase de abajo.)* **Tu cliente ya consulta a la IA.** Llega a tu oficina con la respuesta de ChatGPT en el celular. La pregunta no es si la IA va a entrar a tu práctica; ya entró. La pregunta es si **tú la dominas mejor que tu cliente**.
+¿Y esto qué nos dice a nosotros? *(Señalas la frase de abajo.)* Que los clientes ya le están consultando a la IA. Llegan a la oficina con la respuesta de ChatGPT en el celular. Entonces la discusión ya no es si la IA va a entrar en nuestra práctica, porque ya entró. La pregunta es si nosotros la manejamos mejor que nuestros clientes.
 
-### Diapositiva 17 · Semáforo de datos · 13:58
+### Diapositiva 17 · Semáforo de datos · 13:55
 
 `[PANTALLA] Semáforo rojo, amarillo y verde de datos`
 
-Miedo número dos: que filtre. Este es el que más me preguntan, y con razón.
+Vamos con el segundo miedo, que se filtre la información. Este es el que más me preguntan, y con toda la razón.
 
-Regla básica: hay información que **nunca** va a una herramienta abierta. La Ley 1581 de 2012 la llama datos sensibles: salud, vida sexual, datos biométricos, origen racial o étnico, opinión política, convicciones religiosas, pertenencia a sindicatos. Más los datos de niñas, niños y adolescentes. Y a eso súmale lo nuestro: la estrategia del caso y todo lo que está cubierto por el secreto profesional.
+Hay información que nunca debería ir a una herramienta abierta. La Ley 1581 de 2012 la llama datos sensibles: lo relacionado con salud, vida sexual, datos biométricos, origen racial o étnico, opinión política, religión o pertenencia a sindicatos. Súmenle los datos de niñas, niños y adolescentes. Y súmenle lo nuestro, la estrategia del caso y todo lo que está cubierto por el secreto profesional. Todo eso es rojo.
 
-Eso es **rojo**.
+En amarillo está lo que se puede trabajar, pero solo si primero se seudonimiza y en un entorno donde haya un contrato de tratamiento de datos con el proveedor.
 
-En **amarillo** está lo que puedes trabajar solo si lo seudonimizas primero y en un entorno donde tengas un contrato de tratamiento de datos con el proveedor.
+Y en verde, lo que pueden usar tranquilos: normas, sentencias públicas, sus modelos y plantillas sin datos personales.
 
-Y en **verde**, lo que puedes usar tranquilo: normas, sentencias públicas, tus modelos y plantillas sin datos personales.
-
-### Diapositiva 18 · Seudonimizar vs. anonimizar · 15:00
+### Diapositiva 18 · Seudonimizar vs. anonimizar · 14:55
 
 `[PANTALLA] Video: los datos del expediente se convierten en etiquetas y aparece la tabla de llaves (14 s, arranca solo)`
 
-Y aquí hay una diferencia que casi nadie tiene clara.
+Y aquí hay una diferencia que muy poca gente tiene clara.
 
-*(Mientras se marcan los datos en rojo.)* Este es el expediente original: un nombre, una cédula, un diagnóstico, una clínica, una aseguradora.
+*(Mientras se marcan los datos en rojo.)* Miren, este es el expediente original: un nombre, una cédula, un diagnóstico, una clínica, una aseguradora.
 
-*(Cuando cambian a verde.)* **Seudonimizar** es reemplazar cada dato por una etiqueta: DEMANDANTE_01, DATO_SALUD_01, ASEGURADORA_01. Es reversible: *(señalas la tabla azul)* tú guardas la tabla de llaves que dice quién es quién. La IA trabaja el caso sin saber de quién se trata, y tú vuelves a armar el documento al final.
+*(Cuando cambian a verde.)* Seudonimizar es cambiar cada uno de esos datos por una etiqueta, como DEMANDANTE_01 o DATO_SALUD_01. Y es reversible, porque *(señalas la tabla azul)* ustedes se quedan con la tabla que dice quién es quién. La IA trabaja el caso sin saber de quién se trata, y al final ustedes vuelven a armar el documento con los datos reales.
 
-**Anonimizar**, en cambio, es quitar todo lo que identifique, sin vuelta atrás: «una persona natural demanda a una aseguradora».
+Anonimizar es otra cosa: es quitar todo lo que identifique a la persona, sin posibilidad de volver atrás. Algo como «una persona natural demanda a una aseguradora».
 
-Y la tercera palabra, que es la más importante: **minimizar**. Sube solo lo que la IA necesita para hacer la tarea. Nada más. Esto lo practicamos con casos reales en el módulo 7.
+Y hay una tercera palabra que para mí es la más importante, minimizar: subir solo lo que la IA necesita para hacer esa tarea y nada más. Todo esto lo practicamos con casos reales en el módulo 7.
 
-### Diapositiva 19 · ISO/IEC 42001 · 16:06
+### Diapositiva 19 · ISO/IEC 42001 · 16:03
 
 `[PANTALLA] Inventario, roles, riesgos, controles, política, trazabilidad`
 
-Miedo número tres: ¿y quién responde?
+Y el tercer miedo: ¿quién responde si algo sale mal?
 
-Porque cuando en un despacho o en un área jurídica cada quien usa la IA como le parece, el día que algo sale mal nadie sabe quién aprobó qué, con qué herramienta ni con qué datos.
+Cuando en un despacho o en un área jurídica cada quien usa la IA como le parece, el día que hay un problema nadie sabe quién aprobó qué, con qué herramienta ni con qué datos.
 
-Para eso existe la norma **ISO/IEC 42001**, el estándar internacional de sistemas de gestión de inteligencia artificial. En el curso la aterrizamos a la práctica jurídica: un **inventario** de los usos de IA en tu organización, **roles** claros, una **matriz de riesgos**, **controles**, una **política interna de uso** y **trazabilidad** de qué hizo la máquina y quién lo validó.
+Para eso existe la ISO/IEC 42001, que es el estándar internacional para gestionar la inteligencia artificial en una organización. En el curso la aterrizamos al mundo jurídico: hacemos un inventario de cómo se usa la IA en su organización, definimos quién aprueba y quién revisa, armamos una matriz de riesgos con sus controles, escribimos una política interna de uso y dejamos la trazabilidad de qué hizo la máquina y quién lo validó.
 
-*(Señalas el recuadro azul.)* Sin gobernanza, la IA es un riesgo. Con gobernanza, es una ventaja que puedes auditar y mostrarle a tu cliente.
+*(Señalas el recuadro azul.)* Bien gobernada, la IA deja de ser un riesgo y se vuelve algo que ustedes pueden mostrarle a un cliente con tranquilidad.
 
-Y fíjate en algo: los tres miedos tienen respuesta. Ninguno se resuelve con un prompt. Todos se resuelven con **método**.
+Y fíjense que ninguno de los tres miedos se resolvió con un prompt. Todos se resolvieron con método.
 
 ---
 
-## 17:16 – 23:53 · EL SALTO: DEL PROMPT AL SISTEMA
+## 17:13 – 23:52 · EL SALTO: DEL PROMPT AL SISTEMA
 
-### Diapositiva 20 · Sección 2 · 17:16
+### Diapositiva 20 · Sección 2 · 17:13
 
 `[PANTALLA] 02 · Del prompt suelto a la arquitectura de trabajo`
 
-Y eso nos lleva al centro de este programa.
+Y eso nos lleva a lo que es el corazón del programa.
 
-Este curso no te enseña a pedirle cosas a la IA. **Te enseña a diseñar cómo trabaja.**
+Aquí no les vamos a enseñar a pedirle cosas a la IA. Les vamos a enseñar a diseñar cómo trabaja.
 
-### Diapositiva 21 · La escalera · 17:37
+### Diapositiva 21 · La escalera · 17:34
 
 `[PANTALLA] Video de la escalera: el punto «TÚ» sube del prompt suelto al agente gobernado (13 s, arranca solo)`
 
-Imagínatelo como una escalera.
+A mí me gusta explicarlo como una escalera.
 
-*(Primer peldaño.)* Abajo está el **prompt suelto**: abres el chat, le pides algo, copias, pegas. Aquí está casi todo el mundo.
+*(Primer peldaño.)* Abajo está el prompt suelto: uno abre el chat, le pide algo, copia y pega. Ahí está casi todo el mundo hoy.
 
-*(Vas subiendo.)* Luego viene la **instrucción estructurada**: le dices a la IA quién es, qué hace, con qué formato y con qué límites. Después, el **proyecto con fuentes**: la IA trabaja sobre tu expediente, tus normas y tus modelos, no sobre internet. Luego, el **flujo con controles**: una secuencia de pasos repetible, con revisiones en el camino.
+*(Vas subiendo.)* El siguiente escalón es la instrucción estructurada, donde ya le dicen a la IA qué papel cumple, qué tiene que hacer, en qué formato y cuáles son sus límites. Después viene el proyecto con fuentes, en el que la IA trabaja sobre su expediente, sus normas y sus modelos, y no sobre lo que encuentre en internet. Más arriba está el flujo con controles, que es una secuencia de pasos que se repite y que tiene revisiones en el camino.
 
-*(Último peldaño.)* Y arriba, el **agente o la mini-aplicación gobernada**: una herramienta que hace una tarea completa de tu práctica, con sus reglas, sus fuentes y sus límites documentados.
+*(Último peldaño.)* Y arriba de todo está el agente o la mini-aplicación gobernada: una herramienta que hace una tarea completa de su práctica, con sus reglas, sus fuentes y sus límites bien documentados.
 
-Este curso empieza en el primer peldaño y termina en el último.
+El curso arranca en el primer escalón y los lleva hasta el último.
 
-### Diapositiva 22 · Anatomía de un sistema · 18:39
+### Diapositiva 22 · Anatomía de un sistema · 18:42
 
 `[PANTALLA] Fuentes · Instrucciones · Controles · Entregables`
 
-¿Qué tiene un sistema de trabajo jurídico con IA? Cuatro piezas. Lo vemos en el módulo 1.
+¿Y qué tiene un sistema de trabajo jurídico con IA? Son cuatro piezas, y las vemos en el módulo 1.
 
-**Fuentes:** tu expediente, tus normas, tus modelos. **Instrucciones:** cómo trabaja tu despacho, por escrito. **Controles:** trazabilidad, semáforo, revisión humana. Y **entregables:** el documento, pero siempre acompañado de su matriz de soporte.
+Las fuentes, que son su expediente, sus normas y sus modelos. Las instrucciones, que es cómo trabaja su despacho, pero escrito. Los controles, como la trazabilidad, el semáforo y la revisión humana. Y los entregables, que nunca son solo el documento: siempre van con su matriz de soporte.
 
-Y la IA no hace un solo papel. Hace cuatro: de **asistente**, que produce; de **revisor**, que encuentra errores; de **adversario**, que te ataca el argumento; y de **organizador**, que pone en orden el conocimiento.
+Además, la IA no cumple un solo papel. Puede ser asistente y producir, puede ser revisora y encontrar errores, puede hacer de contraparte y atacarles el argumento, y puede organizar el conocimiento.
 
-En el módulo 2 aprendes algo que cambia todo: **estructurar el documento antes de involucrar a la IA**. La arquitectura de una demanda, un contrato, un concepto, una matriz probatoria o una cronología la decides tú. La IA la llena.
+Y en el módulo 2 trabajamos algo que a mí me cambió todo: estructurar el documento antes de meter a la IA. La arquitectura de una demanda, de un contrato, de un concepto, de una matriz probatoria o de una cronología la deciden ustedes, y la IA la llena.
 
-### Diapositiva 23 · Frase Claude · 19:39
+### Diapositiva 23 · Frase Claude · 19:47
 
 `[PANTALLA] «No vas a chatear con la IA. Vas a montar tu despacho dentro de ella.»`
 
 *(Directo a cámara.)*
 
-No vas a chatear con la IA. Vas a montar tu despacho dentro de ella.
+La idea no es que se queden chateando con la IA. La idea es que monten su despacho adentro.
 
-### Diapositiva 24 · Claude como entorno · 19:57
+### Diapositiva 24 · Claude como entorno · 20:04
 
 `[PANTALLA] Proyectos · Skills · Plugins y conectores · Scripts · Agentes · Segundo cerebro`
 
-En el módulo 3 trabajamos a fondo con **Claude**, y no me refiero a la ventanita del chat. Me refiero a todo el ecosistema.
+En el módulo 3 trabajamos a fondo con Claude, y no me refiero solo a la ventanita del chat, sino a todo lo que hay alrededor.
 
 *(Vas señalando cada tarjeta.)*
 
-- **Proyectos:** instrucciones que se quedan guardadas, artefactos y expedientes completos, para que no tengas que explicarle cada vez cómo trabajas.
-- **Skills:** empaquetas tu forma de trabajar (cómo revisas un contrato, cómo armas una tutela) y la IA la aplica igual cada vez.
-- **Plugins y conectores:** Claude for Legal, tu Drive, tu correo y las herramientas que ya usas, conectadas al mismo entorno.
-- **Scripts:** con Claude Code, la IA escribe y corre por ti los pasos mecánicos: convertir documentos, comparar versiones, verificar citas.
-- **Agentes:** con Cowork y Code ya no solo responde; ejecuta tareas completas, varias a la vez.
-- Y el **segundo cerebro**: la memoria de tu despacho. Tus modelos, tus criterios, tus casos anteriores, organizados para que la IA trabaje con lo que tú ya sabes.
+- Los **proyectos**, donde las instrucciones se quedan guardadas junto con los artefactos y los expedientes, para no tener que explicarle cada vez cómo trabajan.
+- Las **skills**, que son su forma de trabajar empaquetada: cómo revisan un contrato, cómo arman una tutela. La IA la aplica igual cada vez.
+- Los **plugins y conectores**, como Claude for Legal, su Drive, su correo y las herramientas que ya usan, todo conectado en el mismo lugar.
+- Los **scripts**: con Claude Code, la IA escribe y ejecuta los pasos mecánicos, como convertir documentos, comparar versiones o verificar citas.
+- Los **agentes**, con Cowork y Code, que ya no solo responden sino que hacen tareas completas, varias al tiempo.
+- Y el **segundo cerebro**, que es la memoria del despacho: sus modelos, sus criterios y sus casos anteriores, organizados para que la IA trabaje con lo que ustedes ya saben.
 
-Y no sales con teoría: sales con una matriz documental y un redline asistido de un documento real.
+De ese módulo salen con una matriz documental y un redline asistido de un documento real.
 
-Y ojo: todo esto que te acabo de nombrar son herramientas. Ya te voy a contar por qué lo importante es otra cosa.
+Ahora, todo esto que les acabo de mostrar son herramientas, y en un momento les cuento por qué no es lo más importante.
 
-### Diapositiva 25 · Litigio · 21:28
+### Diapositiva 25 · Litigio · 21:31
 
 `[PANTALLA] «Antes de radicar, pierde el caso contra la IA.»`
 
-Para los litigantes, mi frase favorita del programa: **antes de radicar, pierde el caso contra la IA**.
+Para los que litigan, esta es de mis partes favoritas: antes de radicar, piérdanle el caso a la IA.
 
-En el módulo 5 la pones de contraparte y de juez. Construyes la teoría del caso, revisas la suficiencia de la prueba, encuentras las contradicciones antes de que las encuentre el otro abogado, y preparas audiencias, interrogatorios y contrainterrogatorios. Mejor perder diez veces en el ensayo que una vez en el estrado.
+En el módulo 5 la ponen a hacer de contraparte y de juez. Con ella construyen la teoría del caso, revisan si la prueba alcanza, encuentran las contradicciones antes de que las encuentre el otro abogado y preparan audiencias, interrogatorios y contrainterrogatorios. Es mucho mejor perder diez veces en el ensayo que una sola en la audiencia.
 
-### Diapositiva 26 · Automatización · 22:06
+### Diapositiva 26 · Automatización · 22:08
 
 `[PANTALLA] Video del flujo: las PQRS pasan por cinco estaciones y se vacía la bandeja (14 s, arranca solo)`
 
-Y aquí viene lo que más tiempo te devuelve: **automatizar**.
+Y esto es lo que más tiempo les va a devolver: automatizar.
 
-Mi regla es esta: lo que haces dos veces, se diseña; **lo que haces diez veces, se automatiza**.
+Yo lo pienso así: lo que uno hace dos veces vale la pena diseñarlo, y lo que hace diez veces vale la pena automatizarlo.
 
-*(Mientras los documentos avanzan.)* Llega una PQRS o una tutela. Se clasifica. Se genera el borrador con tu plantilla. Pasa por un **control humano**, que nunca se quita. Y sale la respuesta, con su informe de estado.
+*(Mientras los documentos avanzan.)* Miren el ejemplo. Llega una PQRS o una tutela, se clasifica, se genera el borrador con la plantilla de ustedes, pasa por un control humano, que nunca se quita, y sale la respuesta con su informe de estado.
 
-En el módulo 6 lo construyes sin programar o con muy poco código: plantillas dinámicas, formularios, seguimiento normativo y controles de calidad dentro del flujo.
+En el módulo 6 esto lo construyen sin programar, o con muy poquito código: plantillas dinámicas, formularios, seguimiento normativo y controles de calidad dentro del mismo flujo.
 
-### Diapositiva 27 · Herramientas · 22:53
+### Diapositiva 27 · Herramientas · 22:56
 
 `[PANTALLA] «Te vamos a mostrar todo el ecosistema. Las herramientas cambian cada semana. Las habilidades se quedan contigo.»`
 
-En el curso te vamos a mostrar todo el ecosistema: ChatGPT, NotebookLM, Claude, Claude for Legal, Lovable, Figma, Gamma y las que vayan saliendo.
+En el curso les vamos a mostrar todo el ecosistema: ChatGPT, NotebookLM, Claude, Claude for Legal, Lovable, Figma, Gamma y las que vayan saliendo.
 
-Pero te voy a decir algo que vas a comprobar desde la primera sesión: **las herramientas pasan a un segundo plano.** Cambian cada semana. Sale una nueva, cambia un botón, sube de precio, desaparece.
+Pero desde la primera sesión se van a dar cuenta de que las herramientas pasan a un segundo plano. Cambian cada semana: sale una nueva, le mueven un botón, sube de precio o simplemente desaparece.
 
-Lo que no cambia son **las habilidades**: estructurar un documento antes de escribirlo, diseñar instrucciones, verificar fuentes, proteger los datos, armar un flujo con controles.
+Lo que no cambia son las habilidades. Saber estructurar un documento antes de escribirlo, diseñar buenas instrucciones, verificar las fuentes, proteger los datos, armar un flujo con controles.
 
-*(Directo a cámara.)* El que aprende un botón tiene que volver a aprender la semana siguiente. El que aprende la habilidad la aplica en la herramienta que salga. **Las herramientas cambian cada semana. Las habilidades se quedan contigo.**
+*(Directo a cámara.)* El que solo aprende a usar un botón tiene que volver a aprender la semana siguiente. El que aprende la habilidad la puede aplicar en cualquier herramienta que salga. Por eso aquí nos enfocamos en eso.
 
 ---
 
-## 23:53 – 28:18 · EL PROGRAMA
+## 23:52 – 28:19 · EL PROGRAMA
 
-### Diapositiva 28 · Sección 3 · 23:53
+### Diapositiva 28 · Sección 3 · 23:52
 
 `[PANTALLA] 03 · 48 horas para pasar de usuario a arquitecto`
 
-Entonces, ¿cómo es el programa?
+Bueno, ¿y cómo es el programa?
 
-Son **48 horas**: 32 en vivo, en sesiones de tres horas, y 16 de trabajo guiado con plantillas y rúbricas. Unas seis semanas. Cien por ciento virtual y sincrónico. Y trabajamos sobre casos reales anonimizados.
+Son 48 horas: 32 en vivo, en sesiones de tres horas, y 16 de trabajo guiado con plantillas y rúbricas. Más o menos seis semanas, cien por ciento virtual y en vivo, y siempre trabajando sobre casos reales anonimizados.
 
-### Diapositiva 29 · Los módulos · 24:20
+### Diapositiva 29 · Los módulos · 24:18
 
 `[PANTALLA] 7 módulos + proyecto final`
 
-Siete módulos, y cada uno deja un entregable:
+Son siete módulos, y de cada uno salen con algo concreto:
 
-1. **Del prompt al sistema:** tu mapa de casos de uso y tu primera instrucción estructurada.
-2. **Arquitectura documental:** una plantilla de arquitectura y un documento complejo hecho con IA.
-3. **Claude y agentes:** matriz documental y redline.
-4. **Investigación sin alucinaciones:** tu matriz de trazabilidad y tu checklist antes de radicar.
-5. **Litigio con IA:** memo de estrategia y matriz de contradicciones.
-6. **Automatización:** el diagrama de un flujo tuyo, con controles.
-7. **Seguridad y gobernanza ISO 42001:** borrador de política interna, inventario y matriz de riesgos.
+1. En **del prompt al sistema**, su mapa de casos de uso y su primera instrucción de trabajo.
+2. En **arquitectura documental**, una plantilla y un documento complejo hecho con IA.
+3. En **Claude y agentes**, la matriz documental y el redline.
+4. En **investigación sin alucinaciones**, su matriz de trazabilidad y su checklist antes de radicar.
+5. En **litigio con IA**, un memo de estrategia y una matriz de contradicciones.
+6. En **automatización**, el diagrama de un flujo suyo, con sus controles.
+7. Y en **seguridad y gobernanza ISO 42001**, el borrador de una política interna, el inventario y la matriz de riesgos.
 
-Y un proyecto final que es lo que más me emociona.
+Y al final hay un proyecto que, la verdad, es lo que más me emociona.
 
-### Diapositiva 30 · Proyecto final · 25:14
+### Diapositiva 30 · Proyecto final · 25:15
 
 `[PANTALLA] Suite de mini-aplicaciones + Legal AI Playbook`
 
-**No sales con apuntes. Sales con tu propia suite de mini-aplicaciones jurídicas.**
+En el proyecto final ustedes construyen su propia suite de mini-aplicaciones jurídicas, sin escribir código.
 
-Sin escribir código, vas a construir: un **revisor y estructurador documental**, un **generador de tu propio flujo** (derechos de petición, PQRS o lo que más repitas) y un **control antialucinaciones interactivo**. Las pruebas sobre un caso real anonimizado.
+Un revisor y estructurador de documentos, un generador para el flujo que más repitan, sea derechos de petición, PQRS o lo que sea, y un control antialucinaciones interactivo. Y todo lo prueban sobre un caso real anonimizado.
 
-Y todo queda documentado en tu **Legal AI Playbook**: las instrucciones, las fuentes, los controles y los límites de tu suite. Lo aplicas desde el día siguiente.
+Todo eso queda documentado en su Legal AI Playbook, con las instrucciones, las fuentes, los controles y los límites de cada herramienta. Así que no se van con unos apuntes, se van con algo que pueden usar desde el día siguiente.
 
-### Diapositiva 31 · Antes y después · 25:57
+### Diapositiva 31 · Antes y después · 25:59
 
 `[PANTALLA] Hoy / Después del curso`
 
 *(Lees la columna de la izquierda con cara de «esto me pasa».)*
 
-Hoy: copias y pegas prompts. Revisas citas con miedo. Subes todo y rezas. Haces cada tutela desde cero. Usas herramientas.
+Hoy, muchos copiamos y pegamos prompts, revisamos las citas con susto, subimos todo y rezamos, y hacemos cada tutela desde cero.
 
-*(Cambias el tono.)* Después del curso: diseñas instrucciones de trabajo. Cada cita tiene fuente y semáforo. Seudonimizas y gobiernas. Tienes un flujo con controles. **Construyes sistemas.**
+*(Cambias el tono.)* Después del curso, ustedes van a diseñar sus instrucciones de trabajo, cada cita va a tener su fuente y su semáforo, van a seudonimizar y a gobernar el uso de la IA, y van a tener sus flujos con controles. Van a dejar de usar herramientas sueltas para construir sistemas.
 
-### Diapositiva 32 · La visión · 26:31
+### Diapositiva 32 · La visión · 26:40
 
 `[PANTALLA] «Esos perfiles híbridos no van a llegar solos. Los vamos a formar. Aquí.»`
 
-¿Te acuerdas del dato de Deloitte? Esos perfiles híbridos, mitad abogado y mitad ingeniero, que van a tener los equipos jurídicos.
+¿Se acuerdan del dato de Deloitte? Esos perfiles híbridos, mitad abogado y mitad ingeniero, que van a necesitar los equipos jurídicos.
 
-Esos perfiles no van a llegar solos. **Los vamos a formar. Aquí.**
+Pues esos perfiles no van a aparecer solos. Alguien los tiene que formar, y eso es lo que queremos hacer aquí.
 
-Lo que queremos con este programa es crear una masa crítica de **abogados aumentados**: los ingenieros legales que van a liderar la profesión en Colombia y en la región. No abogados que le tienen miedo a la IA, ni abogados que la usan a ciegas, sino abogados que la dirigen.
+Lo que buscamos con este programa es que haya una masa crítica de abogados aumentados, de ingenieros legales, que lideren este cambio en Colombia y en la región. Ni abogados que le tengan miedo a la IA, ni abogados que la usen a ciegas: abogados que sepan dirigirla.
 
-### Diapositiva 33 · Equipo docente · 27:15
+### Diapositiva 33 · Equipo docente · 27:23
 
 `[PANTALLA] Equipo docente`
 
-Y no lo vas a hacer solo. Te acompaña un equipo que trabaja en esto todos los días:
+Y no lo van a hacer solos. Los acompaña un equipo que trabaja en esto todos los días.
 
-**Juan Camilo Medina**, abogado en derecho tecnológico, reconocido por Legal 500, abre con el módulo 1. **Camilo De la Cruz**, científico de datos con formación en derecho, en arquitectura documental. **Paul Torres Rincón**, consultor en normas ISO de riesgos de IA, en litigio con IA y gobernanza. **Miguel Ángel Martínez**, docente de IA y derecho en el Externado, en automatización. **Isabel García Burbano**, cofundadora de Ecolegalia, en gobernanza ISO 42001. **Daniela Mesa**, abogada y magíster en Derecho de la Empresa, que hoy trabaja en la Oficina Asesora Jurídica de la Superintendencia de Industria y Comercio, en la metodología antialucinaciones. Y yo, en Claude y agentes, y en la dirección académica.
+Juan Camilo Medina, abogado en derecho tecnológico y reconocido por Legal 500, abre con el módulo 1. Camilo De la Cruz, científico de datos con formación en derecho, está con arquitectura documental. Paul Torres Rincón, consultor en normas ISO sobre riesgos de IA, con litigio y gobernanza. Miguel Ángel Martínez, docente de IA y derecho en el Externado, con automatización. Isabel García Burbano, cofundadora de Ecolegalia, con gobernanza ISO 42001. Daniela Mesa, abogada y magíster en Derecho de la Empresa, que hoy está en la Oficina Asesora Jurídica de la Superintendencia de Industria y Comercio, con la metodología antialucinaciones. Y yo, con Claude y agentes y con la dirección académica.
 
 ---
 
-## 28:18 – 30:00 · CIERRE
+## 28:19 – 30:00 · CIERRE
 
-### Diapositiva 34 · Llamado · 28:18
+### Diapositiva 34 · Llamado · 28:19
 
 `[PANTALLA] «¿Vas a seguir pidiéndole cosas a la IA o vas a diseñar cómo trabaja?»`
 
-Al principio te pregunté cuánto de tu día podría hacerlo un agente. Ya tienes más elementos para responder.
+Al principio les pregunté cuánto de su día podría hacerlo un agente. Ahora ya tienen más elementos para responder.
 
-Ahora te dejo la pregunta que de verdad importa:
+Y les quiero dejar otra pregunta, que para mí es la que de verdad importa.
 
 *(Pausa. Directo a cámara.)*
 
-**¿Vas a seguir pidiéndole cosas a la IA, o vas a diseñar cómo trabaja?**
+¿Van a seguir pidiéndole cosas a la IA, o van a diseñar cómo trabaja?
 
-Si es lo segundo, te espero en la cohorte 01. Los cupos son limitados porque trabajamos en vivo y sobre tus casos. La preventa está en **$2.900.000**; si vienes con tu equipo, de tres personas en adelante, cada cupo queda en $2.600.000, y los egresados EAN tienen un 15 %. Te inscribes aquí mismo, en esta página. Y sales con certificado de la Universidad EAN.
+Si es lo segundo, los espero en la cohorte 01. Los cupos son limitados, porque trabajamos en vivo y sobre sus propios casos. La preventa está en $2.900.000; si se inscriben tres o más personas de un mismo equipo, cada cupo queda en $2.600.000, y los egresados de la EAN tienen un 15 % de descuento. La inscripción la hacen aquí mismo, en esta página, y al terminar reciben el certificado de la Universidad EAN.
 
-### Diapositiva 35 · Cierre institucional · 29:15
+### Diapositiva 35 · Cierre institucional · 29:16
 
 `[PANTALLA] Cierre EAN`
 
-Del prompt al sistema.
-
-Nos vemos en la cohorte 01.
+Muchas gracias por acompañarme. Nos vemos en la cohorte 01.
 
 *(Sonríes. Fin.)*
 
