@@ -392,7 +392,7 @@ Lo que queremos con este programa es crear una masa crítica de **abogados aumen
 
 Y no lo vas a hacer solo. Te acompaña un equipo que trabaja en esto todos los días:
 
-**Juan Camilo Medina**, abogado en derecho tecnológico, reconocido por Legal 500, abre con el módulo 1. **Camilo De la Cruz**, científico de datos con formación en derecho, en arquitectura documental y alucinaciones. **Paul Torres Rincón**, consultor en normas ISO de riesgos de IA, en litigio con IA y gobernanza. **Miguel Ángel Martínez**, docente de IA y derecho en el Externado, en automatización. **Isabel García Burbano**, cofundadora de Ecolegalia, en gobernanza ISO 42001. Y yo, en Claude y agentes, y en la dirección académica.
+**Juan Camilo Medina**, abogado en derecho tecnológico, reconocido por Legal 500, abre con el módulo 1. **Camilo De la Cruz**, científico de datos con formación en derecho, en arquitectura documental y alucinaciones. **Paul Torres Rincón**, consultor en normas ISO de riesgos de IA, en litigio con IA y gobernanza. **Miguel Ángel Martínez**, docente de IA y derecho en el Externado, en automatización. **Isabel García Burbano**, cofundadora de Ecolegalia, en gobernanza ISO 42001. **Daniela Mesa Giraldo**, abogada certificada en protección de datos y docente de IA. Y yo, en Claude y agentes, y en la dirección académica.
 
 ---
 
