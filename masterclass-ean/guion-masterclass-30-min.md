@@ -171,7 +171,7 @@ Ojo: la Corte no prohibió la IA. Lo que exige es verificación. Y antes ya la C
 
 Entonces, ¿cómo se evitan las alucinaciones? Te voy a ser honesta, porque mucha gente te va a vender humo aquí: **no existe un modelo que no alucine nunca**. Ninguno.
 
-Lo que sí existe es un método para que **ninguna alucinación llegue a tu documento final**. Y eso es lo que trabajamos en el módulo 4:
+Lo que sí existe es un método para que **ninguna alucinación llegue a tu documento final**. Y eso es lo que trabajamos en el módulo 4, con Daniela Mesa:
 
 *(Vas señalando.)*
 - **Fuente cerrada:** la IA responde solo con los documentos que tú le das, no con lo que «recuerda».
@@ -392,7 +392,7 @@ Lo que queremos con este programa es crear una masa crítica de **abogados aumen
 
 Y no lo vas a hacer solo. Te acompaña un equipo que trabaja en esto todos los días:
 
-**Juan Camilo Medina**, abogado en derecho tecnológico, reconocido por Legal 500, abre con el módulo 1. **Camilo De la Cruz**, científico de datos con formación en derecho, en arquitectura documental y alucinaciones. **Paul Torres Rincón**, consultor en normas ISO de riesgos de IA, en litigio con IA y gobernanza. **Miguel Ángel Martínez**, docente de IA y derecho en el Externado, en automatización. **Isabel García Burbano**, cofundadora de Ecolegalia, en gobernanza ISO 42001. **Daniela Mesa**, abogada y magíster en Derecho de la Empresa, que hoy trabaja en la Oficina Asesora Jurídica de la Superintendencia de Industria y Comercio, en protección de datos personales. Y yo, en Claude y agentes, y en la dirección académica.
+**Juan Camilo Medina**, abogado en derecho tecnológico, reconocido por Legal 500, abre con el módulo 1. **Camilo De la Cruz**, científico de datos con formación en derecho, en arquitectura documental. **Paul Torres Rincón**, consultor en normas ISO de riesgos de IA, en litigio con IA y gobernanza. **Miguel Ángel Martínez**, docente de IA y derecho en el Externado, en automatización. **Isabel García Burbano**, cofundadora de Ecolegalia, en gobernanza ISO 42001. **Daniela Mesa**, abogada y magíster en Derecho de la Empresa, que hoy trabaja en la Oficina Asesora Jurídica de la Superintendencia de Industria y Comercio, en la metodología antialucinaciones. Y yo, en Claude y agentes, y en la dirección académica.
 
 ---
 
