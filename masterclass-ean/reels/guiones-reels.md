@@ -134,15 +134,15 @@ Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Univers
 
 (17–25 s) Y el otro lado: en el mundo ya van más de 2.200 decisiones judiciales por citas inventadas con IA. Y aquí la Corte Suprema ya multó a un abogado por eso.
 
-(25–33 s) O sea, la pregunta ya no es si usar IA, sino cómo usarla bien. Y eso es lo que enseñamos: a armar sus propios sistemas de trabajo.
+(25–35 s) Aquí no van a aprender solo herramientas, porque esas cambian cada semana. Van a aprender el método: a crear flujos de trabajo completos dentro del entorno de Claude y de las demás herramientas.
 
-(33–45 s) Así que si quieren aprender de verdad a proteger los datos de sus clientes, a armar su propio segundo cerebro, a montar flujos que se automaticen y a que ninguna cita inventada llegue a sus documentos, este programa no se lo pueden perder.
+(35–46 s) Así que si quieren aprender de verdad a proteger los datos de sus clientes, a armar su propio segundo cerebro, a montar flujos que se automaticen y a que ninguna cita inventada llegue a sus documentos, este programa no se lo pueden perder.
 
-(45–52 s) Y no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código.
+(46–53 s) Y no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código.
 
-(52–59 s) Son 48 horas en vivo. Escríbanme AUMENTADO en los comentarios y les mando la información.
+(53–60 s) Son 48 horas en vivo. Escríbanme AUMENTADO en los comentarios y les mando la información.
 
-**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → 30 % DEL TRABAJO: AGENTES DE IA (Deloitte) → +2.200 DECISIONES POR CITAS INVENTADAS → CORTE SUPREMA: MULTA → ¿CÓMO USARLA BIEN? → FUENTES · INSTRUCCIONES · CONTROLES → DATOS PROTEGIDOS · SEGUNDO CEREBRO · FLUJOS AUTOMATIZADOS · CERO CITAS INVENTADAS → NO SE LO PUEDEN PERDER → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
+**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → 30 % DEL TRABAJO: AGENTES DE IA (Deloitte) → +2.200 DECISIONES POR CITAS INVENTADAS → CORTE SUPREMA: MULTA → LAS HERRAMIENTAS CAMBIAN, EL MÉTODO QUEDA → FLUJOS COMPLETOS EN CLAUDE → DATOS PROTEGIDOS · SEGUNDO CEREBRO · FLUJOS AUTOMATIZADOS · CERO CITAS INVENTADAS → NO SE LO PUEDEN PERDER → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
 
 **Lo que se ve:** primer plano, seria, para el gancho; corte seco al logo EAN con el nombre del programa; la torta de Deloitte (diapositiva 7) y la curva de Charlotin (diapositiva 11) de la masterclass; la diapositiva del auto de la Corte Suprema; cortes rápidos con los videos de la escalera, la seudonimización y el flujo; plano medio sonriendo para el cierre.
 
