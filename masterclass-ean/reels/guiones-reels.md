@@ -1,105 +1,129 @@
 # Tres reels para promocionar *Abogado Aumentado con IA*
 
 **Formato:** vertical 9:16, máximo 1 minuto 30 segundos, con subtítulos quemados.
-**Tono:** cercano, directo, colombiano. Hablas a cámara como si le contaras algo a un colega.
-**Objetivo:** que el abogado diga «eso me pasa a mí» en los primeros 3 segundos, se lleve algo útil y termine en la landing del curso.
+**Tono:** conversacional, hablándoles a «ustedes», como si les contaras algo a colegas. Nada de frases de eslogan.
 
-**Cómo leer cada guion**
-- **Dices:** lo que hablas a cámara.
-- **En pantalla:** el texto grande que se superpone (máximo 6 palabras).
-- **Se ve:** el plano o el material de apoyo (B-roll).
-
-**Reglas para que se vean llamativos**
-1. Corte cada 2 o 3 segundos: alterna plano medio, primer plano y material de apoyo.
-2. Los primeros 3 segundos son la frase gancho, sin saludo ni presentación.
-3. Subtítulos grandes, en blanco y con la palabra clave resaltada en verde EAN (#00C89A).
-4. Música baja y con ritmo. El sonido de «error» o de sello va solo en los momentos marcados.
-5. Usa los videos de la masterclass como material de apoyo (`masterclass-ean/clips/out/`), recortados a vertical.
+Cada reel trae: lo que dices (con el segundo aproximado), el texto que va en pantalla, lo que se ve y el texto de la publicación.
 
 ---
 
-## Reel 1 · «¿Por qué la IA te entrega mamarrachos?»
+## Reel 1 · La IA y los mamarrachos
 
-**Duración:** unos 75 segundos · **Palabras habladas:** unas 170
-**Gancho alternativo para probar (A/B):** «Le pedí una demanda a la IA y me citó el Código Civil… de España.»
+**Duración:** unos 70 segundos
 
-| Tiempo | Dices | En pantalla | Se ve |
-|---|---|---|---|
-| 0–3 s | Si la IA te entrega mamarrachos, el problema no es la IA. | **¿MAMARRACHOS?** | Primer plano, cara seria. Corte seco. |
-| 3–12 s | Yo también lo viví. Le pedía una demanda y me devolvía artículos de otro país, sentencias que nadie había dictado y cero estructura. | Normas de otro país · Sentencias inventadas | Video «mamarracho», lado izquierdo, con el sello rojo. Sonido de sello. |
-| 12–17 s | Hasta que entendí que el problema era cómo yo trabajaba con ella. | El problema no es el modelo | Plano medio, sonríes. |
-| 17–22 s | La IA no necesita un mejor prompt. Necesita una **arquitectura de trabajo**. Y tiene cuatro piezas. | ARQUITECTURA = 4 PIEZAS | Primer plano. Levantas cuatro dedos. |
-| 22–32 s | Uno: **fuentes**. Le das tu expediente, tus normas, tus modelos. No lo que «se acuerda» de internet. | 1 · FUENTES | Grabación de pantalla subiendo documentos a un proyecto. |
-| 32–42 s | Dos: **instrucciones**. Cómo trabaja tu despacho, por escrito: estructura, tono, qué nunca hacer. | 2 · INSTRUCCIONES | Pantalla con una instrucción de trabajo bien armada. |
-| 42–52 s | Tres: **controles**. Cada cita con su fuente y un semáforo: verde, verificado; rojo, no se usa. | 3 · CONTROLES 🟢🟡🔴 | Video «mamarracho», lado derecho: filas con semáforo. |
-| 52–60 s | Y cuatro: **entregable**. No solo el documento, también la matriz que prueba de dónde salió cada cosa. | 4 · ENTREGABLE | Plano medio. |
-| 60–68 s | Mismo modelo. Otra arquitectura. Y el resultado cambia de mamarracho a documento de verdad. | MISMO MODELO, OTRA ARQUITECTURA | Video «mamarracho» completo, en pantalla dividida. |
-| 68–78 s | Esto es lo que enseño en *Abogado Aumentado con IA*, el nuevo programa de la Universidad EAN. Pasamos del prompt al sistema. Comenta **SISTEMA** y te mando la información. | Comenta **SISTEMA** · Link en la bio | Logo EAN + nombre del programa. |
+**Lo que dices**
+
+(0–3 s) Si la IA les está entregando mamarrachos, les tengo una noticia: el problema no es la IA.
+
+(3–13 s) A mí me pasó. Le pedía una demanda y me devolvía artículos de un código de otro país, sentencias que nadie había dictado y un texto bonito pero sin pies ni cabeza.
+
+(13–18 s) Hasta que me di cuenta de que el problema era cómo yo estaba trabajando con ella.
+
+(18–24 s) La IA no necesita un mejor prompt. Necesita que uno le arme una forma de trabajar. Y eso tiene cuatro partes.
+
+(24–33 s) Primero, las fuentes. Le dan su expediente, sus normas, sus modelos, y no la dejan inventar con lo que se acuerda de internet.
+
+(33–42 s) Segundo, las instrucciones. Le escriben cómo trabaja su despacho: la estructura, el tono, lo que nunca debe hacer.
+
+(42–51 s) Tercero, los controles. Cada cita con su fuente y con un semáforo: si está verificada, va; si no, no se usa.
+
+(51–58 s) Y cuarto, el entregable: no solo el documento, también la matriz que muestra de dónde salió cada cosa.
+
+(58–63 s) Es el mismo modelo. Lo que cambia es la forma de trabajar, y el resultado es otro.
+
+(63–72 s) Eso es lo que enseñamos en Abogado Aumentado con IA, el nuevo programa de la Universidad EAN. Si les interesa, escríbanme SISTEMA en los comentarios y les mando la información.
+
+**Texto en pantalla:** ¿MAMARRACHOS? → Normas de otro país · Sentencias inventadas → 1 · FUENTES → 2 · INSTRUCCIONES → 3 · CONTROLES 🟢🟡🔴 → 4 · ENTREGABLE → MISMO MODELO, OTRA FORMA DE TRABAJAR → Comenten SISTEMA
+
+**Lo que se ve:** primer plano para el gancho; el video del «mamarracho» (lado izquierdo con el sello rojo); grabación de pantalla subiendo documentos a un proyecto; el lado derecho del video con el semáforo; logo EAN al final.
 
 **Texto de la publicación**
-> La IA no te entrega mamarrachos porque sea mala. Te los entrega porque le hablas suelto. 🧱 Fuentes, instrucciones, controles y entregable: así se pasa del prompt al sistema.
-> Comenta SISTEMA y te paso la información de *Abogado Aumentado con IA* (Universidad EAN).
-> #AbogadoAumentado #IALegal #LegalTech #AbogadosColombia #InteligenciaArtificial #UniversidadEAN
+La IA no les entrega mamarrachos porque sea mala. Se los entrega porque le hablan suelto. Fuentes, instrucciones, controles y entregable: así se pasa del prompt a una forma de trabajar.
+Comenten SISTEMA y les paso la información de Abogado Aumentado con IA (Universidad EAN).
+#AbogadoAumentado #IALegal #LegalTech #AbogadosColombia #InteligenciaArtificial #UniversidadEAN
 
 ---
 
-## Reel 2 · «Lo que nunca le debes subir a ChatGPT»
+## Reel 2 · Lo que nunca le deben subir a ChatGPT
 
-**Duración:** unos 80 segundos · **Palabras habladas:** unas 180
-**Gancho alternativo para probar (A/B):** «¿Le subiste a ChatGPT la historia clínica de tu cliente? Para. Mira esto.»
+**Duración:** unos 75 segundos
 
-| Tiempo | Dices | En pantalla | Se ve |
-|---|---|---|---|
-| 0–3 s | Si eres abogado, hay cuatro cosas que **nunca** le debes subir a ChatGPT. | **NUNCA LE SUBAS ESTO** | Primer plano. Dedo índice levantado. |
-| 3–8 s | Y apuesto a que ya subiste por lo menos una. | 🙈 | Plano medio, ceja levantada. |
-| 8–20 s | Uno: **datos sensibles**. Salud, vida sexual, datos biométricos, origen étnico, opinión política, religión, sindicatos. La Ley 1581 los protege de forma especial. | 1 · DATOS SENSIBLES | Íconos que aparecen uno por uno. |
-| 20–28 s | Dos: **datos de niñas, niños y adolescentes**. Ahí no hay discusión. | 2 · DATOS DE MENORES | Plano medio, tono firme. |
-| 28–37 s | Tres: **la estrategia del caso**. Lo que está cubierto por el secreto profesional no se lo cuentas a una herramienta abierta. | 3 · SECRETO PROFESIONAL | Primer plano. |
-| 37–44 s | Cuatro: **información reservada o de terceros** que no te autorizaron a compartir. | 4 · INFORMACIÓN RESERVADA | Corte rápido. |
-| 44–50 s | «Entonces, ¿no puedo usar la IA con mis casos?» Sí puedes. Pero primero **seudonimizas**. | ¿Y ENTONCES? SEUDONIMIZA | Plano medio, cambias de tono. |
-| 50–64 s | Cambias cada dato por una etiqueta: el nombre pasa a ser DEMANDANTE_01; el diagnóstico, DATO_SALUD_01. Tú guardas la tabla de llaves. La IA trabaja el caso sin saber de quién se trata. | María Gómez → [DEMANDANTE_01] | Video «seudonimizar»: los datos rojos se vuelven etiquetas verdes. |
-| 64–70 s | Y al final, tú vuelves a armar el documento. Seguro, y sin perder calidad. | TÚ GUARDAS LA LLAVE 🔑 | Tabla de llaves del video. |
-| 70–80 s | En *Abogado Aumentado con IA*, de la Universidad EAN, aprendes esto con casos reales, más gobernanza ISO 42001 para tu firma o tu entidad. Comenta **DATOS** y te mando la información. | Comenta **DATOS** · Link en la bio | Logo EAN + nombre del programa. |
+**Lo que dices**
+
+(0–3 s) Abogados, hay cuatro cosas que nunca le deberían subir a ChatGPT.
+
+(3–7 s) Y me apuesto a que más de uno ya subió por lo menos una.
+
+(7–19 s) La primera, los datos sensibles: salud, vida sexual, datos biométricos, origen étnico, opinión política, religión, sindicatos. La Ley 1581 los protege de manera especial.
+
+(19–26 s) La segunda, los datos de niñas, niños y adolescentes. Ahí no hay discusión.
+
+(26–35 s) La tercera, la estrategia del caso. Lo que está cubierto por el secreto profesional no se le cuenta a una herramienta abierta.
+
+(35–42 s) Y la cuarta, información reservada o de terceros que nadie les autorizó a compartir.
+
+(42–48 s) «Entonces, ¿no puedo usar la IA con mis casos?» Claro que pueden, pero primero hay que seudonimizar.
+
+(48–62 s) Es cambiar cada dato por una etiqueta. El nombre del cliente pasa a ser DEMANDANTE_01, el diagnóstico pasa a ser DATO_SALUD_01, y ustedes se quedan con la tabla que dice quién es quién. La IA trabaja el caso sin saber de quién se trata.
+
+(62–67 s) Al final, ustedes vuelven a armar el documento con los datos reales.
+
+(67–77 s) Esto lo trabajamos con casos reales en Abogado Aumentado con IA, de la Universidad EAN, junto con gobernanza ISO 42001 para firmas y entidades. Escríbanme DATOS en los comentarios y les mando la información.
+
+**Texto en pantalla:** NUNCA LE SUBAN ESTO → 1 · DATOS SENSIBLES → 2 · DATOS DE MENORES → 3 · SECRETO PROFESIONAL → 4 · INFORMACIÓN RESERVADA → ¿Y ENTONCES? SEUDONIMIZAR → María Gómez → [DEMANDANTE_01] → USTEDES GUARDAN LA LLAVE 🔑 → Comenten DATOS
+
+**Lo que se ve:** primer plano con un dedo levantado; íconos que aparecen uno por uno; el video de seudonimización (datos rojos que pasan a etiquetas verdes y la tabla de llaves); logo EAN al final.
 
 **Texto de la publicación**
-> Salud, menores, estrategia del caso, información reservada: cuatro cosas que no van a una herramienta abierta. 🔐 ¿La solución? Seudonimizar antes de subir.
-> Comenta DATOS y te paso la información de *Abogado Aumentado con IA* (Universidad EAN).
-> #ProtecciónDeDatos #HabeasData #IALegal #AbogadosColombia #SecretoProfesional #UniversidadEAN
+Salud, menores, estrategia del caso, información reservada: cuatro cosas que no van a una herramienta abierta. ¿La salida? Seudonimizar antes de subir.
+Comenten DATOS y les paso la información de Abogado Aumentado con IA (Universidad EAN).
+#ProtecciónDeDatos #HabeasData #IALegal #AbogadosColombia #SecretoProfesional #UniversidadEAN
 
-**Base jurídica (para tu tranquilidad, no para decirla):** Ley 1581 de 2012, arts. 5 y 7; Ley 1123 de 2007 (secreto profesional).
+**Base jurídica (para ti, no para decirla):** Ley 1581 de 2012, arts. 5 y 7; Ley 1123 de 2007 (secreto profesional).
 
 ---
 
-## Reel 3 · «La Corte Suprema ya multó a un abogado por esto»
+## Reel 3 · La Corte Suprema ya multó a un abogado por esto
 
-**Duración:** unos 80 segundos · **Palabras habladas:** unas 190
-**Gancho alternativo para probar (A/B):** «Más de 2.200 decisiones judiciales en el mundo por citas inventadas con IA. Y Colombia ya tiene la suya.»
+**Duración:** unos 80 segundos
 
-| Tiempo | Dices | En pantalla | Se ve |
-|---|---|---|---|
-| 0–3 s | La Corte Suprema ya multó a un abogado por usar mal la IA. | **MULTADO POR LA IA** | Primer plano. Sonido de mazo. |
-| 3–15 s | Citó en un recurso providencias que no existían. La Relatoría las buscó una por una. Ninguna era real. Y además le compulsaron copias a la Comisión de Disciplina Judicial. | CSJ · Auto AC739-2026 | Plano medio. Texto del número del auto. |
-| 15–22 s | Y no es un caso aislado: en el mundo ya van más de **2.200 decisiones judiciales** por contenido inventado por IA. | +2.200 DECISIONES | Gráfica de la curva subiendo (diapositiva de Charlotin). |
-| 22–30 s | Te voy a ser honesta: ningún modelo deja de alucinar al cien por ciento. Lo que sí puedes lograr es que **ninguna alucinación llegue a tu documento**. | QUE NO LLEGUE A TU DOCUMENTO | Primer plano. Pausa. |
-| 30–40 s | Primero: **fuente cerrada**. La IA responde solo con los documentos que tú le das. | 1 · FUENTE CERRADA | Pantalla: proyecto con documentos cargados. |
-| 40–50 s | Segundo: **matriz de trazabilidad**. Cada frase del escrito tiene su fuente y su página. Si no tiene fuente, no se queda. | 2 · CADA FRASE, SU FUENTE | Pantalla: tabla frase / fuente / página. |
-| 50–60 s | Tercero: **checklist antes de radicar**. Ninguna cita que no hayas abierto con tus propios ojos. | 3 · CERO CITAS SIN ABRIR | Plano medio. Marcas un check en el aire. |
-| 60–68 s | La Corte lo dijo claro: verificar las fuentes es una obligación que no se delega. Ni en un practicante, ni en una máquina. | NO SE DELEGA | Primer plano, tono firme. |
-| 68–80 s | Este método completo, con matriz y semáforo, lo trabajamos en *Abogado Aumentado con IA*, el nuevo programa de la Universidad EAN. Comenta **MÉTODO** y te mando la información. | Comenta **MÉTODO** · Link en la bio | Logo EAN + nombre del programa. |
+**Lo que dices**
+
+(0–3 s) La Corte Suprema ya multó a un abogado por usar mal la IA.
+
+(3–14 s) Citó en un recurso unas providencias que no existían. La Relatoría las buscó una por una y ninguna era real. Y además le compulsaron copias a la Comisión de Disciplina Judicial.
+
+(14–21 s) Y no es un caso aislado. En el mundo ya van más de 2.200 decisiones judiciales por contenido inventado por IA.
+
+(21–30 s) Les voy a ser sincera: ningún modelo deja de alucinar del todo. Lo que sí se puede lograr es que esas alucinaciones no lleguen al documento que ustedes firman.
+
+(30–39 s) Para eso hay tres cosas básicas. La primera, trabajar con fuente cerrada: la IA solo responde con los documentos que ustedes le dan.
+
+(39–49 s) La segunda, una matriz de trazabilidad, donde cada frase del escrito queda amarrada a su fuente y a su página. Si no tiene fuente, no se queda.
+
+(49–58 s) Y la tercera, un checklist antes de radicar: ninguna cita que ustedes no hayan abierto con sus propios ojos.
+
+(58–66 s) La Corte lo dijo bien claro: verificar las fuentes es una obligación que no se le delega a nadie, ni a un practicante ni a una máquina.
+
+(66–78 s) Todo este método lo trabajamos en Abogado Aumentado con IA, el nuevo programa de la Universidad EAN. Escríbanme MÉTODO en los comentarios y les mando la información.
+
+**Texto en pantalla:** MULTADO POR LA IA → CSJ · Auto AC739-2026 → +2.200 DECISIONES → QUE NO LLEGUE A SU DOCUMENTO → 1 · FUENTE CERRADA → 2 · CADA FRASE, SU FUENTE → 3 · CERO CITAS SIN ABRIR → NO SE DELEGA → Comenten MÉTODO
+
+**Lo que se ve:** primer plano con sonido de mazo; número del auto en pantalla; la gráfica de la curva de Charlotin; grabaciones de pantalla del proyecto y de la matriz; logo EAN al final.
 
 **Texto de la publicación**
-> Un abogado citó sentencias que no existían y la Corte Suprema lo multó. 🧑‍⚖️ No se trata de dejar de usar IA: se trata de usarla con método. Fuente cerrada, matriz de trazabilidad y checklist antes de radicar.
-> Comenta MÉTODO y te paso la información de *Abogado Aumentado con IA* (Universidad EAN).
-> #Alucinaciones #IALegal #CorteSuprema #AbogadosColombia #LegalTech #UniversidadEAN
+Un abogado citó sentencias que no existían y la Corte Suprema lo multó. No se trata de dejar de usar IA, sino de usarla con método: fuente cerrada, matriz de trazabilidad y checklist antes de radicar.
+Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Universidad EAN).
+#Alucinaciones #IALegal #CorteSuprema #AbogadosColombia #LegalTech #UniversidadEAN
 
-**Antes de publicar:** confirma la cifra vigente en damiencharlotin.com/hallucinations y lee el Auto AC739-2026 en la Relatoría. La frase de la Corte va como paráfrasis, no como cita textual.
+**Antes de publicar:** confirma la cifra vigente en damiencharlotin.com/hallucinations y lee el Auto AC739-2026 en la Relatoría. La frase de la Corte va como paráfrasis.
 
 ---
 
 ## Orden de publicación sugerido
 
-1. **Reel 1 (mamarrachos):** abre la conversación con tu historia, genera identificación.
-2. **Reel 3 (Corte Suprema):** sube la urgencia con un caso colombiano real.
-3. **Reel 2 (datos):** cierra con el miedo más común y la solución práctica.
+1. Reel 1 (mamarrachos): abre con tu historia.
+2. Reel 3 (Corte Suprema): mete urgencia con un caso colombiano.
+3. Reel 2 (datos): cierra con el miedo más común y la solución práctica.
 
-Publica uno cada dos o tres días y fija el que mejor funcione en tu perfil mientras dure la preventa.
+Uno cada dos o tres días, y fija en el perfil el que mejor funcione mientras dure la preventa.
