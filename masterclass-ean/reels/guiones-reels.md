@@ -136,13 +136,13 @@ Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Univers
 
 (25–33 s) O sea, la pregunta ya no es si usar IA, sino cómo usarla bien. Y eso es lo que enseñamos: a armar sus propios sistemas de trabajo.
 
-(33–43 s) Van a aprender a que ninguna cita inventada llegue a sus documentos, a proteger los datos de sus clientes, a automatizar tareas como PQRS y tutelas, y a gobernar la IA con la ISO 42001.
+(33–45 s) Así que si quieren aprender de verdad a proteger los datos de sus clientes, a armar su propio segundo cerebro, a montar flujos que se automaticen y a que ninguna cita inventada llegue a sus documentos, este programa no se lo pueden perder.
 
-(43–51 s) Y no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código.
+(45–52 s) Y no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código.
 
-(51–58 s) Son 48 horas en vivo. Escríbanme AUMENTADO en los comentarios y les mando la información.
+(52–59 s) Son 48 horas en vivo. Escríbanme AUMENTADO en los comentarios y les mando la información.
 
-**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → 30 % DEL TRABAJO: AGENTES DE IA (Deloitte) → +2.200 DECISIONES POR CITAS INVENTADAS → CORTE SUPREMA: MULTA → ¿CÓMO USARLA BIEN? → FUENTES · INSTRUCCIONES · CONTROLES → CERO CITAS INVENTADAS · DATOS PROTEGIDOS · AUTOMATIZACIÓN · ISO 42001 → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
+**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → 30 % DEL TRABAJO: AGENTES DE IA (Deloitte) → +2.200 DECISIONES POR CITAS INVENTADAS → CORTE SUPREMA: MULTA → ¿CÓMO USARLA BIEN? → FUENTES · INSTRUCCIONES · CONTROLES → DATOS PROTEGIDOS · SEGUNDO CEREBRO · FLUJOS AUTOMATIZADOS · CERO CITAS INVENTADAS → NO SE LO PUEDEN PERDER → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
 
 **Lo que se ve:** primer plano, seria, para el gancho; corte seco al logo EAN con el nombre del programa; la torta de Deloitte (diapositiva 7) y la curva de Charlotin (diapositiva 11) de la masterclass; la diapositiva del auto de la Corte Suprema; cortes rápidos con los videos de la escalera, la seudonimización y el flujo; plano medio sonriendo para el cierre.
 
