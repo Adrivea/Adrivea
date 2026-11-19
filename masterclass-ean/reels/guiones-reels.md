@@ -155,11 +155,43 @@ Comenten AUMENTADO y les paso la información.
 
 ---
 
+## Reel 5 · Si quieren aprender de verdad
+
+**Duración:** unos 55 segundos
+
+**Lo que dices**
+
+(0–8 s) Si quieren aprender de verdad a proteger los datos de sus clientes, a armar su propio segundo cerebro y a montar flujos de trabajo que se automaticen, quédense un minuto.
+
+(8–14 s) Eso es lo que vamos a hacer en Abogado Aumentado con IA, el nuevo programa de la Universidad EAN.
+
+(14–23 s) Y les aclaro algo: aquí no vienen a aprender botones. Las herramientas cambian cada semana. Lo que van a aprender es el método, que les sirve con la herramienta que salga.
+
+(23–33 s) Van a construir flujos de trabajo completos dentro del entorno de Claude: proyectos, skills, conectores y agentes que trabajan con sus expedientes, sus modelos y sus criterios.
+
+(33–41 s) Van a aprender a que ninguna cita inventada llegue a un documento que ustedes firmen, que hoy eso ya trae multas y hasta problemas disciplinarios.
+
+(41–48 s) Y al final se llevan sus propias mini-aplicaciones jurídicas, hechas sin escribir código y probadas sobre casos reales.
+
+(48–55 s) Son 48 horas en vivo. Escríbanme MÉTODO en los comentarios y les mando toda la información.
+
+**Texto en pantalla:** ¿QUIEREN APRENDER DE VERDAD? → PROTEGER DATOS · SEGUNDO CEREBRO · FLUJOS AUTOMATIZADOS → ABOGADO AUMENTADO CON IA · Universidad EAN → NO VIENEN A APRENDER BOTONES → LAS HERRAMIENTAS CAMBIAN, EL MÉTODO QUEDA → FLUJOS COMPLETOS EN CLAUDE → PROYECTOS · SKILLS · CONECTORES · AGENTES → CERO CITAS INVENTADAS → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten MÉTODO
+
+**Lo que se ve:** primer plano, directo a cámara, para el gancho; corte al logo EAN con el nombre del programa; la diapositiva de las herramientas que cambian cada semana (la 27); la de Claude con sus seis tarjetas (la 24) o una grabación de pantalla de un proyecto real; el video del mamarracho contra la arquitectura; el video del flujo; cierre en plano medio, sonriendo.
+
+**Texto de la publicación**
+Proteger los datos de sus clientes, armar su segundo cerebro, montar flujos que se automaticen dentro de Claude. Las herramientas cambian cada semana; el método se queda. Eso es Abogado Aumentado con IA, de la Universidad EAN.
+Comenten MÉTODO y les paso la información.
+#AbogadoAumentado #IALegal #ClaudeAI #LegalTech #AbogadosColombia #UniversidadEAN
+
+---
+
 ## Orden de publicación sugerido
 
 1. Reel 4 (qué es el programa): presentación directa, ideal para fijarlo en el perfil.
 2. Reel 1 (mamarrachos): abre con tu historia.
 3. Reel 3 (Corte Suprema): mete urgencia con un caso colombiano.
-4. Reel 2 (datos): cierra con el miedo más común y la solución práctica.
+4. Reel 2 (datos): el miedo más común y la solución práctica.
+5. Reel 5 (si quieren aprender de verdad): cierre de la serie, enfocado en el método y en Claude.
 
 Uno cada dos o tres días, y fija en el perfil el que mejor funcione mientras dure la preventa.
