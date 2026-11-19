@@ -128,21 +128,21 @@ Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Univers
 
 (0–4 s) Abogados, la IA ya la usamos todos. La diferencia la van a marcar los que sepan trabajar con ella con método.
 
-(4–10 s) Y de eso se trata Abogado Aumentado con IA, el programa que armamos con la Universidad EAN. No es otro curso de prompts.
+(4–9 s) Y de eso se trata Abogado Aumentado con IA, el programa que armamos con la Universidad EAN.
 
-(10–19 s) Les doy un dato. Según Deloitte, en unos tres años cerca del 30 % del trabajo de los equipos jurídicos de las empresas lo van a hacer agentes de IA. Y otro 20 % van a ser perfiles híbridos, mitad abogado, mitad ingeniero.
+(9–17 s) Un dato: según Deloitte, en unos tres años cerca del 30 % del trabajo de los equipos jurídicos lo van a hacer agentes de IA.
 
-(19–27 s) Pero ojo con el otro lado: en el mundo ya van más de 2.200 decisiones judiciales por citas y sentencias inventadas con IA. Aquí en Colombia, la Corte Suprema ya multó a un abogado por eso.
+(17–25 s) Y el otro lado: en el mundo ya van más de 2.200 decisiones judiciales por citas inventadas con IA. Y aquí la Corte Suprema ya multó a un abogado por eso.
 
-(27–37 s) Entonces la pregunta no es si usar IA o no. Es cómo usarla bien. Y eso es lo que enseñamos: a armar sus propios sistemas de trabajo, con sus fuentes, sus instrucciones y sus controles.
+(25–33 s) O sea, la pregunta ya no es si usar IA, sino cómo usarla bien. Y eso es lo que enseñamos: a armar sus propios sistemas de trabajo.
 
-(37–47 s) Van a aprender a que ninguna cita inventada llegue a sus documentos, a proteger los datos de sus clientes, a automatizar tareas como PQRS y tutelas, y a gobernar el uso de la IA con la ISO 42001.
+(33–43 s) Van a aprender a que ninguna cita inventada llegue a sus documentos, a proteger los datos de sus clientes, a automatizar tareas como PQRS y tutelas, y a gobernar la IA con la ISO 42001.
 
-(47–54 s) Y al final no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código y probadas sobre casos reales.
+(43–51 s) Y no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código.
 
-(54–61 s) Son 48 horas, en vivo, con un equipo que trabaja en esto todos los días. Escríbanme AUMENTADO en los comentarios y les mando la información.
+(51–58 s) Son 48 horas en vivo. Escríbanme AUMENTADO en los comentarios y les mando la información.
 
-**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → 30 % AGENTES DE IA · 20 % HÍBRIDOS (Deloitte) → +2.200 DECISIONES POR CITAS INVENTADAS → CORTE SUPREMA: MULTA → ¿CÓMO USARLA BIEN? → FUENTES · INSTRUCCIONES · CONTROLES → CERO CITAS INVENTADAS · DATOS PROTEGIDOS · AUTOMATIZACIÓN · ISO 42001 → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
+**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → 30 % DEL TRABAJO: AGENTES DE IA (Deloitte) → +2.200 DECISIONES POR CITAS INVENTADAS → CORTE SUPREMA: MULTA → ¿CÓMO USARLA BIEN? → FUENTES · INSTRUCCIONES · CONTROLES → CERO CITAS INVENTADAS · DATOS PROTEGIDOS · AUTOMATIZACIÓN · ISO 42001 → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
 
 **Lo que se ve:** primer plano, seria, para el gancho; corte seco al logo EAN con el nombre del programa; la torta de Deloitte (diapositiva 7) y la curva de Charlotin (diapositiva 11) de la masterclass; la diapositiva del auto de la Corte Suprema; cortes rápidos con los videos de la escalera, la seudonimización y el flujo; plano medio sonriendo para el cierre.
 
@@ -151,7 +151,7 @@ Ya todos usamos IA. La diferencia la marca quien sabe trabajar con ella con mét
 Comenten AUMENTADO y les paso la información.
 #AbogadoAumentado #IALegal #LegalTech #AbogadosColombia #UniversidadEAN
 
-**Antes de publicar:** el 30 % y el 20 % de Deloitte son proyecciones para equipos jurídicos de empresas (in-house), no para despachos; confirma la cifra vigente de la base de Charlotin.
+**Antes de publicar:** el 30 % de Deloitte es una proyección para equipos jurídicos de empresas (in-house), no para despachos; confirma la cifra vigente de la base de Charlotin.
 
 ---
 
