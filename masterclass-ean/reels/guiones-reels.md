@@ -122,8 +122,7 @@ Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Univers
 
 ## Reel 4 · Qué es Abogado Aumentado con IA
 
-**Duración:** unos 55 segundos
-**Ganchos alternativos para probar:** «Los prompts ya no alcanzan.» · «Usar IA no es lo mismo que saber trabajar con ella.»
+**Duración:** unos 60 segundos
 
 **Lo que dices**
 
@@ -131,24 +130,28 @@ Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Univers
 
 (4–10 s) Y de eso se trata Abogado Aumentado con IA, el programa que armamos con la Universidad EAN. No es otro curso de prompts.
 
-(10–20 s) Es un programa para aprender a trabajar con la IA con método: armar sus propios sistemas de trabajo, con sus fuentes, sus instrucciones y sus controles, para que lo que salga sirva de verdad.
+(10–19 s) Les doy un dato. Según Deloitte, en unos tres años cerca del 30 % del trabajo de los equipos jurídicos de las empresas lo van a hacer agentes de IA. Y otro 20 % van a ser perfiles híbridos, mitad abogado, mitad ingeniero.
 
-(20–30 s) Vamos a ver cómo evitar que la IA les invente normas y sentencias, cómo proteger los datos de sus clientes y cómo gobernar su uso con la ISO 42001.
+(19–27 s) Pero ojo con el otro lado: en el mundo ya van más de 2.200 decisiones judiciales por citas y sentencias inventadas con IA. Aquí en Colombia, la Corte Suprema ya multó a un abogado por eso.
 
-(30–40 s) También van a automatizar tareas que hoy les quitan horas, como PQRS, tutelas o recursos, y a usar la IA para preparar sus litigios, todo trabajando sobre casos reales.
+(27–37 s) Entonces la pregunta no es si usar IA o no. Es cómo usarla bien. Y eso es lo que enseñamos: a armar sus propios sistemas de trabajo, con sus fuentes, sus instrucciones y sus controles.
 
-(40–48 s) Y al final no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código.
+(37–47 s) Van a aprender a que ninguna cita inventada llegue a sus documentos, a proteger los datos de sus clientes, a automatizar tareas como PQRS y tutelas, y a gobernar el uso de la IA con la ISO 42001.
 
-(48–56 s) Son 48 horas, en vivo y con un equipo de docentes que trabaja en esto todos los días. Escríbanme AUMENTADO en los comentarios y les mando la información.
+(47–54 s) Y al final no se van con apuntes: se van con sus propias mini-aplicaciones jurídicas, hechas sin escribir código y probadas sobre casos reales.
 
-**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → NO ES OTRO CURSO DE PROMPTS → MÉTODO: FUENTES · INSTRUCCIONES · CONTROLES → CERO CITAS INVENTADAS → DATOS PROTEGIDOS → ISO 42001 → AUTOMATIZACIÓN · LITIGIO → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
+(54–61 s) Son 48 horas, en vivo, con un equipo que trabaja en esto todos los días. Escríbanme AUMENTADO en los comentarios y les mando la información.
 
-**Lo que se ve:** primer plano, seria, para el gancho; corte seco al logo EAN con el nombre del programa; cortes rápidos con los videos de la masterclass (mamarracho, seudonimización, flujo y escalera), uno por cada tema; plano medio sonriendo para el cierre.
+**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → 30 % AGENTES DE IA · 20 % HÍBRIDOS (Deloitte) → +2.200 DECISIONES POR CITAS INVENTADAS → CORTE SUPREMA: MULTA → ¿CÓMO USARLA BIEN? → FUENTES · INSTRUCCIONES · CONTROLES → CERO CITAS INVENTADAS · DATOS PROTEGIDOS · AUTOMATIZACIÓN · ISO 42001 → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
+
+**Lo que se ve:** primer plano, seria, para el gancho; corte seco al logo EAN con el nombre del programa; la torta de Deloitte (diapositiva 7) y la curva de Charlotin (diapositiva 11) de la masterclass; la diapositiva del auto de la Corte Suprema; cortes rápidos con los videos de la escalera, la seudonimización y el flujo; plano medio sonriendo para el cierre.
 
 **Texto de la publicación**
-Ya todos usamos IA. La diferencia la marca quien sabe trabajar con ella con método. Abogado Aumentado con IA es un programa de la Universidad EAN para dejar los prompts sueltos y trabajar con método: sistemas propios, cero citas inventadas, datos protegidos, automatización y gobernanza ISO 42001.
+Ya todos usamos IA. La diferencia la marca quien sabe trabajar con ella con método. Según Deloitte, en tres años cerca del 30 % del trabajo de los equipos jurídicos lo harán agentes de IA; y ya van más de 2.200 decisiones judiciales por citas inventadas. Abogado Aumentado con IA, de la Universidad EAN, es para aprender a usarla bien: sistemas propios, cero citas inventadas, datos protegidos, automatización y gobernanza ISO 42001.
 Comenten AUMENTADO y les paso la información.
 #AbogadoAumentado #IALegal #LegalTech #AbogadosColombia #UniversidadEAN
+
+**Antes de publicar:** el 30 % y el 20 % de Deloitte son proyecciones para equipos jurídicos de empresas (in-house), no para despachos; confirma la cifra vigente de la base de Charlotin.
 
 ---
 
