@@ -127,9 +127,9 @@ Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Univers
 
 **Lo que dices**
 
-(0–3 s) Abogados: la IA no los va a reemplazar, pero el que sabe trabajar con ella sí.
+(0–4 s) Abogados, la IA ya la usamos todos. La diferencia la van a marcar los que sepan trabajar con ella con método.
 
-(3–10 s) Por eso armamos Abogado Aumentado con IA, con la Universidad EAN. Y no, no es otro curso de prompts.
+(4–10 s) Y de eso se trata Abogado Aumentado con IA, el programa que armamos con la Universidad EAN. No es otro curso de prompts.
 
 (10–20 s) Es un programa para aprender a trabajar con la IA con método: armar sus propios sistemas de trabajo, con sus fuentes, sus instrucciones y sus controles, para que lo que salga sirva de verdad.
 
@@ -141,12 +141,12 @@ Comenten MÉTODO y les paso la información de Abogado Aumentado con IA (Univers
 
 (48–56 s) Son 48 horas, en vivo y con un equipo de docentes que trabaja en esto todos los días. Escríbanme AUMENTADO en los comentarios y les mando la información.
 
-**Texto en pantalla:** EL QUE SABE TRABAJAR CON ELLA, SÍ → ABOGADO AUMENTADO CON IA · Universidad EAN → NO ES OTRO CURSO DE PROMPTS → MÉTODO: FUENTES · INSTRUCCIONES · CONTROLES → CERO CITAS INVENTADAS → DATOS PROTEGIDOS → ISO 42001 → AUTOMATIZACIÓN · LITIGIO → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
+**Texto en pantalla:** YA TODOS USAMOS IA → LA DIFERENCIA ES EL MÉTODO → ABOGADO AUMENTADO CON IA · Universidad EAN → NO ES OTRO CURSO DE PROMPTS → MÉTODO: FUENTES · INSTRUCCIONES · CONTROLES → CERO CITAS INVENTADAS → DATOS PROTEGIDOS → ISO 42001 → AUTOMATIZACIÓN · LITIGIO → SUS PROPIAS MINI-APPS → 48 H EN VIVO · Comenten AUMENTADO
 
 **Lo que se ve:** primer plano, seria, para el gancho; corte seco al logo EAN con el nombre del programa; cortes rápidos con los videos de la masterclass (mamarracho, seudonimización, flujo y escalera), uno por cada tema; plano medio sonriendo para el cierre.
 
 **Texto de la publicación**
-La IA no los va a reemplazar, pero el que sabe trabajar con ella sí. Abogado Aumentado con IA es un programa de la Universidad EAN para dejar los prompts sueltos y trabajar con método: sistemas propios, cero citas inventadas, datos protegidos, automatización y gobernanza ISO 42001.
+Ya todos usamos IA. La diferencia la marca quien sabe trabajar con ella con método. Abogado Aumentado con IA es un programa de la Universidad EAN para dejar los prompts sueltos y trabajar con método: sistemas propios, cero citas inventadas, datos protegidos, automatización y gobernanza ISO 42001.
 Comenten AUMENTADO y les paso la información.
 #AbogadoAumentado #IALegal #LegalTech #AbogadosColombia #UniversidadEAN
 
