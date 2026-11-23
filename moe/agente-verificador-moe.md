@@ -71,3 +71,39 @@ Si el agente falla, se ajustan las reglas y se vuelve a probar.
 
 - En Claude o ChatGPT: creen un proyecto y peguen estas instrucciones como instrucciones del proyecto.
 - Sin proyectos: guarden este texto en un documento «Agentes de la MOE» y péguenlo al inicio de cada chat nuevo.
+
+## 6. NotebookLM: el cuaderno cerrado de la MOE
+
+**Pasos**
+1. Entren a NotebookLM con la cuenta de la MOE.
+2. Cuaderno nuevo: «Riesgo electoral · [departamento]» o «Coherencia normativa · [tema]».
+3. Carguen solo fuentes verdes: informes publicados de la MOE, mapas de riesgo publicados, resoluciones del CNE, leyes.
+4. Configuren el chat del cuaderno con la instrucción del analista.
+5. Pregunten con los prompts y abran cada cita.
+6. Lo rojo nunca entra: nada de nombres de víctimas, denunciantes ni reportes sin seudonimizar.
+
+**Instrucción para configurar el chat**
+```
+Eres analista de la Misión de Observación Electoral. Respondes solo con las fuentes cargadas y citas cada dato. Separas hechos, inferencias y opiniones. Mantienes la neutralidad: no calificas a personas, partidos ni autoridades. Si algo no está en las fuentes, escribes «NO ENCONTRADO EN LAS FUENTES».
+```
+
+**Prompt de riesgo electoral**
+```
+Construye una tabla: Municipio | Factor de riesgo | Evidencia (cita textual) | Fuente y página | Fecha del dato. No infieras riesgos que no estén escritos. Al final, lista las contradicciones entre fuentes y las preguntas que el equipo analista debe resolver.
+```
+
+**Prompt de coherencia normativa**
+```
+Compara las normas cargadas. Tabla: Tema | Qué dice cada fuente (cita y página) | ¿Coinciden? | Contradicción o vacío | Vigencia por verificar. No concluyas sobre la validez jurídica: señala lo que un abogado debe revisar.
+```
+
+## 7. Ajustes de seguridad de cada cuenta
+
+| Plataforma | Qué hacer |
+|---|---|
+| ChatGPT | Configuración › Controles de datos › desactivar «Mejorar el modelo para todos». Para pruebas, chat temporal. |
+| Claude | Configuración › Privacidad › desactivar el uso de los chats para mejorar Claude. |
+| Gemini | Cuenta personal: desactivar la actividad de las apps de Gemini. Cuenta de la MOE: verificar que aparece como cuenta de la organización. |
+| Las tres | Revisar memoria, instrucciones personalizadas y conectores activos; apagar lo que no se use. |
+
+Los nombres de los menús cambian con frecuencia. Lo que define la protección es la cuenta: las versiones corporativas (Gemini en Google Workspace o Gemini Enterprise, Claude Team o Enterprise, ChatGPT Business o Enterprise) no entrenan con los datos de la organización; las personales sí pueden hacerlo si no se desactiva.
