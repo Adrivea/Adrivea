@@ -4,7 +4,7 @@
 **Capacitadora:** Adriana Vergara · IA Legal Studio
 **Formato:** virtual y sincrónico. **Cada sesión dura 2 horas, de 9:00 a 11:00 a. m.**
 **Ajuste pedido por la MOE:** la primera hora (9:00 a 10:00) es lo jurídico y la gobernanza; la segunda (10:00 a 11:00), práctica en las plataformas: frontera entre cuenta personal y corporativa, configuración de seguridad en vivo, conectores con mínimo privilegio, ecosistemas, NotebookLM y el primer agente. La bibliografía queda en el anexo.
-**Presentación de la sesión 1:** https://claude.ai/artifact/SjwtcFVmrRgXktnvkvnuEQ (50 diapositivas para presentar y 12 de anexo; estas mismas notas están como notas del orador)
+**Presentación de la sesión 1:** https://claude.ai/artifact/SjwtcFVmrRgXktnvkvnuEQ (51 diapositivas para presentar y 12 de anexo; estas mismas notas están como notas del orador)
 
 ## Mis tres sesiones (2 horas cada una)
 
@@ -29,7 +29,7 @@
 - Ten abierta una herramienta gratuita para las demostraciones (micrófono incluido para la catarsis por voz), en un chat nuevo.
 - Ten listo para pegar en el chat de la reunión: las instrucciones del Verificador MOE y el texto de prueba (archivo `agente-verificador-moe.md`).
 - Ten a mano el PDF público de la Ley 1581 de 2012 para adjuntarlo como fuente en la prueba del agente.
-- Revisa que los cuatro videos arranquen (diapositivas 6, 23, 39 y 42).
+- Revisa que los cuatro videos arranquen (diapositivas 6, 23, 40 y 43).
 - Para NotebookLM, ten listas 3 o 4 fuentes públicas en PDF: un informe publicado de la MOE (mapa de riesgo), una resolución del CNE, la Ley 1475 de 2011 y la Ley 1581 de 2012.
 - Pide a la MOE que confirme qué cuentas corporativas tienen (Google Workspace con Gemini, Gemini Enterprise, Claude Team, ChatGPT Business o Enterprise) para mostrar la configuración real.
 - Pide a la organización salas por áreas para el laboratorio: legal, calidad de elecciones, observatorio político, mapas de riesgo, comunicaciones y monitoreo legislativo.
@@ -686,15 +686,15 @@
 
 **Lo que dices:** Los conectores son lo más útil y lo más riesgoso. Cuando conectan Gemini a Drive, Gmail o Calendar, la IA no tiene permisos propios: hereda los suyos, de forma estricta. Ve todo lo que ustedes ven. Eso es bueno, porque no ve más; y es peligroso, porque si ustedes tienen acceso a una carpeta con datos de víctimas, la IA también. Por eso, mínimo privilegio: solo el conector que la tarea necesita, ordenar las carpetas antes de conectar, desconectar al terminar y revisar cada mes. Y que lo decida la política: el administrador de Workspace puede definir qué conectores se permiten. Pregunta para el chat: ¿quién en su área tiene acceso a carpetas que serían rojas en el semáforo?
 
-### Diapositiva 36 · Tres ecosistemas, tres fortalezas · 10:14 (4 min)
+### Diapositiva 36 · Tres ecosistemas, tres fortalezas · 10:14 (3 min)
 
 `[PANTALLA]`
 
 > 05 · Segunda hora · Los tres mundos  
 > Tres ecosistemas, tres fortalezas  
 > OpenAI  
-> ChatGPT · proyectos · GPTs · Deep Research · modo agente · voz · Codex  
-> Lo hace bien: conversar, pensar en voz alta y resolver de todo un poco. Codex escribe y corrige código.  
+> ChatGPT · proyectos · Deep Research · modo agente · voz · Codex  
+> Lo hace bien: conversar, pensar en voz alta y resolver de todo un poco. Codex trabaja sobre archivos y código.  
 > Anthropic  
 > Claude · proyectos · skills · artifacts · conectores · Claude Code · Cowork  
 > Lo hace bien: leer documentos largos, escribir con cuidado y trabajar con método: skills y agentes que repiten un proceso.  
@@ -704,9 +704,29 @@
 > La pregunta organizacional no es cuál es mejor, sino dónde vive nuestra información y quién la gobierna.  
 > *Pie:* Las herramientas cambian cada semana; los criterios se quedan  
 
-**Lo que dices:** Les cuento rápido los tres mundos. OpenAI: ChatGPT es el más versátil, con proyectos, GPTs, investigación profunda, modo agente y voz, y Codex, que es su agente para programar. Anthropic: Claude es muy fuerte leyendo documentos largos y escribiendo con cuidado, y su ecosistema está pensado para trabajar con método: proyectos, skills, conectores, Claude Code y Cowork, que ya ejecutan tareas completas. Google: Gemini vive dentro de Drive y Gmail, tiene Gems como asistentes personalizados, NotebookLM para trabajar solo con sus fuentes y Google AI Studio para prototipar. ¿Por qué las organizaciones escogen uno u otro? Casi nunca por cuál es más inteligente, sino por dónde vive su información y quién la gobierna. Si la MOE vive en Google Workspace, Gemini y NotebookLM tienen mucho sentido para el día a día; y eso no impide usar los otros para lo que hacen mejor, con cuenta corporativa.
+**Lo que dices:** Les cuento rápido los tres mundos. OpenAI: ChatGPT es el más versátil, con proyectos, investigación profunda, modo agente y voz, y Codex, su agente que trabaja sobre archivos y código. Anthropic: Claude es muy fuerte leyendo documentos largos y escribiendo con cuidado, y su ecosistema está pensado para trabajar con método: proyectos, skills, conectores, Claude Code y Cowork, que ya ejecutan tareas completas. Google: Gemini vive dentro de Drive y Gmail, tiene Gems como asistentes personalizados, NotebookLM para trabajar solo con sus fuentes y Google AI Studio para prototipar. ¿Por qué las organizaciones escogen uno u otro? Casi nunca por cuál es más inteligente, sino por dónde vive su información y quién la gobierna. Si la MOE vive en Google Workspace, Gemini y NotebookLM tienen mucho sentido para el día a día; y eso no impide usar los otros para lo que hacen mejor, con cuenta corporativa.
 
-### Diapositiva 37 · ¿Qué mundo para qué tarea? · 10:18 (4 min)
+### Diapositiva 37 · Dos herramientas: Codex y Claude Code · 10:17 (3 min)
+
+`[PANTALLA]`
+
+> 05 · Segunda hora · Los agentes que ya trabajan solos  
+> Dos herramientas: Codex y Claude Code  
+> OpenAI · Codex  
+> Un agente que lee, escribe y ejecuta sobre archivos y código, en la nube o en el computador. Usted le da la tarea y revisa cada cambio.  
+> Anthropic · Claude Code  
+> Un agente que trabaja dentro de sus carpetas: convierte documentos, compara versiones, arma flujos y construye skills y plugins. Ya sé que dice «code»: no van a programar ni una línea.  
+> En la MOE  
+> Comparar todas las versiones de un proyecto de ley de una carpeta.  
+> En la MOE  
+> Depurar una base de hechos: duplicados, fechas, códigos DIVIPOLA.  
+> Gobernanza  
+> Trabajan sobre sus archivos: solo carpetas verdes, cuenta corporativa y revisión de cada cambio.  
+> *Pie:* El escalón 5: del chat al agente que ejecuta  
+
+**Lo que dices:** Y aquí les quiero presentar dos herramientas que son el escalón cinco de la escalera, el de los agentes. Codex, de OpenAI, y Claude Code, de Anthropic. Las dos dejan de ser un chat que responde: reciben una tarea y la ejecutan sobre sus archivos, paso por paso. Codex lee, escribe y ejecuta sobre archivos y código, en la nube o en el computador. Claude Code trabaja dentro de sus carpetas: convierte documentos, compara versiones, arma flujos y construye skills y plugins, que es como yo armo las casas de trabajo de los despachos. Ya sé que dice «code»: tranquilos, no van a programar ni una línea. Para la MOE, imagínense comparar todas las versiones de un proyecto de ley de una carpeta, o depurar una base de hechos con duplicados y códigos DIVIPOLA. Pero ojo con la gobernanza: como trabajan directamente sobre sus archivos, solo carpetas verdes, cuenta corporativa y revisión de cada cambio. Esto lo vamos a usar más en las próximas sesiones.
+
+### Diapositiva 38 · ¿Qué mundo para qué tarea? · 10:20 (3 min)
 
 `[PANTALLA]`
 
@@ -726,12 +746,12 @@
 > ChatGPT con voz  
 > 5  
 > Repetir cada semana la misma revisión, con las mismas reglas.  
-> Un agente: skill, GPT o Gem  
+> Claude Code o Codex: un agente con método  
 > *Pie:* No hay una sola respuesta correcta: depende de dónde vive la información  
 
-**Lo que dices:** Ejercicio rápido. Les leo cinco tareas reales de la MOE y en el chat me dicen qué mundo usarían: Google, Claude u OpenAI. *(Lee, espera respuestas y revela con clic.)* Fíjense en la quinta: cuando una tarea se repite con las mismas reglas, ya no hablamos de herramienta sino de agente, y los tres mundos tienen su versión. No hay una única respuesta correcta; lo que cambia la respuesta es dónde está la información y con qué cuenta la gobierna la MOE.
+**Lo que dices:** Ejercicio rápido. Les leo cinco tareas reales de la MOE y en el chat me dicen qué mundo usarían: Google, Claude u OpenAI. *(Lee, espera respuestas y revela con clic.)* Fíjense en la quinta: cuando una tarea se repite con las mismas reglas, ya no hablamos de un chat sino de un agente: Claude Code o Codex, que ahora vemos, trabajan con un método fijo sobre los archivos. No hay una única respuesta correcta; lo que cambia la respuesta es dónde está la información y con qué cuenta la gobierna la MOE.
 
-### Diapositiva 38 · Más que la herramienta: el segundo cerebro de la MOE · 10:22 (2 min)
+### Diapositiva 39 · Más que la herramienta: el segundo cerebro de la MOE · 10:23 (1 min)
 
 `[PANTALLA]`
 
@@ -756,7 +776,7 @@
 
 **Lo que dices:** Y esto es lo más importante de toda la segunda hora. Más que la herramienta, lo que vale es el segundo cerebro de la organización: fuentes de confianza bien curadas, ordenadas en cuadernos o proyectos por área, con instrucciones y reglas escritas una sola vez, agentes que repiten las tareas con ese método y personas que revisan y deciden. Cuando cada quien usa la IA a su manera, en chats sueltos, el conocimiento se queda en la cuenta de cada persona y se pierde el día que se va. Cuando se construye el segundo cerebro, el conocimiento se queda en la MOE. Eso es lo que vamos a empezar con NotebookLM.
 
-### Diapositiva 39 · El siguiente escalón: el flujo con control humano · 10:24 (1 min)
+### Diapositiva 40 · El siguiente escalón: el flujo con control humano · 10:24 (1 min)
 
 `[PANTALLA]`
 
@@ -772,7 +792,7 @@
 
 ## BLOQUE 06 · NOTEBOOKLM: EL CUADERNO CERRADO DE LA MOE · 10:25 – 10:37
 
-### Diapositiva 40 · El cuaderno cerrado de la MOE · 10:25 (4 min)
+### Diapositiva 41 · El cuaderno cerrado de la MOE · 10:25 (4 min)
 
 `[PANTALLA]`
 
@@ -794,7 +814,7 @@
 
 **Lo que dices:** Ahora construimos el primer pedazo del segundo cerebro. *(Comparte pantalla con NotebookLM abierto y unas fuentes públicas listas.)* Entren con la cuenta de la MOE; en una cuenta de trabajo, Google indica que lo que cargan no se usa para entrenar y no lo revisan personas. Creen un cuaderno con un nombre claro. Carguen solo fuentes verdes: informes ya publicados, mapas de riesgo publicados, resoluciones del CNE, leyes. Configuren el chat con la instrucción del analista que está en la siguiente diapositiva. Y pregunten. La gracia de NotebookLM es que responde solo con lo que ustedes le cargan y les muestra de dónde sale cada respuesta: abran cada cita. Las alucinaciones quedan limitadas al rango de sus documentos, aunque no desaparecen del todo: por eso se verifica.
 
-### Diapositiva 41 · Tres instrucciones para el cuaderno · 10:29 (8 min)
+### Diapositiva 42 · Tres instrucciones para el cuaderno · 10:29 (8 min)
 
 `[PANTALLA]`
 
@@ -815,7 +835,7 @@
 
 ## BLOQUE 07 · EN VIVO: EL PRIMER AGENTE · 10:37 – 10:52
 
-### Diapositiva 42 · Armemos el primer agente: el Verificador MOE · 10:37 (1 min)
+### Diapositiva 43 · Armemos el primer agente: el Verificador MOE · 10:37 (1 min)
 
 `[PANTALLA]`
 
@@ -826,7 +846,7 @@
 
 **Lo que dices:** Ahora sí, lo que les prometí. Vamos a armar en vivo el primer agente de la MOE. Miren lo que va a hacer. *(Deja correr el video.)* Le entregamos un borrador de boletín y revisa afirmación por afirmación: esta tiene fuente y página, verde; esta no cuadra con la base, amarillo; esta no tiene fuente, rojo, no se publica; y esta es una opinión que compromete la neutralidad. Y fíjense en el cierre: la máquina señala, una persona decide qué se publica. Lo vamos a construir en estos quince minutos, con la herramienta que tengan abierta, sin programar.
 
-### Diapositiva 43 · Las seis piezas de un agente · 10:38 (1 min)
+### Diapositiva 44 · Las seis piezas de un agente · 10:38 (1 min)
 
 `[PANTALLA]`
 
@@ -854,7 +874,7 @@
 
 **Lo que dices:** Un agente no es magia: son seis piezas. *(Una por clic.)* Misión: qué hace y para quién. Fuentes: con qué trabaja; aquí, solo con lo que le damos. Reglas: lo que nunca rompe; esto es el playbook, el manual de convivencia. Pasos: cómo trabaja, como lo haría su mejor analista. Salida: qué entrega, en qué formato. Y control humano: quién decide. Fíjense que estas son exactamente las seis preguntas que ustedes van a responder en el reto, para el agente de su área.
 
-### Diapositiva 44 · Las instrucciones del Verificador MOE · 10:39 (3 min)
+### Diapositiva 45 · Las instrucciones del Verificador MOE · 10:39 (3 min)
 
 `[PANTALLA]`
 
@@ -868,7 +888,7 @@
 
 **Lo que dices:** *(Abre la herramienta en pantalla compartida, chat nuevo.)* Estas son las instrucciones completas. Les dejo el texto en el chat de la reunión para que lo copien. Fíjense que están las seis piezas: misión, fuentes, reglas, pasos, salida y el recordatorio de revisión humana. Lo pego al inicio de un chat nuevo y le doy enter. ¿Qué hace? Confirma que entendió y me pide el texto y las fuentes. Eso ya es un agente sencillo: un asistente con un rol, reglas y un procedimiento fijo. Háganlo conmigo: copien, peguen y escriban «listo» en el chat cuando les responda.
 
-### Diapositiva 45 · respuesta · 10:42 (3 min)
+### Diapositiva 46 · respuesta · 10:42 (3 min)
 
 `[PANTALLA]`
 
@@ -884,7 +904,7 @@
 
 **Lo que dices:** Paso 3: probarlo. Copien este texto, que les dejo en el chat, y péguenlo en el chat del agente. Si quieren, adjunten también una fuente pública, por ejemplo el texto de la Ley 1581 de 2012, para que pueda verificar algo contra un documento real. Ojo: esta respuesta la escribimos para el ejercicio, con seis errores plantados; no es la salida de ninguna herramienta. Tiene el tono de un buen informe, una estructura impecable y conectores bonitos. Así se ven los errores de verdad: no llegan con letrero. Mientras el agente trabaja, cuéntenme en el chat cuántos errores ven ustedes a simple vista.
 
-### Diapositiva 46 · Lo que tenía mal la respuesta · 10:45 (2 min)
+### Diapositiva 47 · Lo que tenía mal la respuesta · 10:45 (2 min)
 
 `[PANTALLA]`
 
@@ -901,7 +921,7 @@
 
 **Lo que dices:** Comparemos lo que encontró el agente con la clave. *(Pregunta primero qué les salió.)* Uno: desactualizado, la IA habla de 2026 como futuro. Dos: el preconteo no es el resultado oficial; lo oficial sale de los escrutinios. Tres: el INE es de México; aquí organiza la Registraduría y declara el CNE. Cuatro: error normativo, y grave, porque si alguien le cree comparte una base de datos sensibles. Cinco: una cifra atribuida a la MOE que la MOE no publicó *(la inventamos para el ejercicio)*, una generalización y una inferencia causal presentada como hecho. Seis: opinión. Si el agente no tenía fuentes, lo correcto es que marque casi todo en amarillo o rojo por «sin fuente»: eso no es una falla, es el agente cumpliendo su regla. ¿Cuántos encontró su agente? ¿Se le escapó alguno?
 
-### Diapositiva 47 · Ahora, intenten romperlo · 10:47 (3 min)
+### Diapositiva 48 · Ahora, intenten romperlo · 10:47 (3 min)
 
 `[PANTALLA]`
 
@@ -919,7 +939,7 @@
 
 **Lo que dices:** Antes de confiar en un agente hay que tratar de romperlo. Esto se llama verificación adversarial. Les propongo cuatro ataques; láncenlos ustedes en su chat y cuéntenme qué pasó. Si el agente marca todo en verde porque «lo aprobó la dirección», falló. Si inventa la fuente, falló. Si culpa a un partido, falló la neutralidad. Y el cuarto es una trampa para nosotros: ese archivo es rojo en el semáforo y no se sube, aunque el agente lo acepte. ¿Se les ocurre otro ataque? Escríbanlo en el chat y lo probamos en vivo. Y si se rompe, no se bota: se ajustan las reglas y se vuelve a probar. Así se construye un agente de verdad.
 
-### Diapositiva 48 · La ficha de gobierno del agente · 10:50 (2 min)
+### Diapositiva 49 · La ficha de gobierno del agente · 10:50 (2 min)
 
 `[PANTALLA]`
 
@@ -942,7 +962,7 @@
 
 ## LO QUE SE LLEVAN Y CIERRE · 10:52 – 11:00
 
-### Diapositiva 49 · No se van con apuntes. Se van con esto. · 10:52 (3 min)
+### Diapositiva 50 · No se van con apuntes. Se van con esto. · 10:52 (3 min)
 
 `[PANTALLA]`
 
@@ -964,7 +984,7 @@
 
 **Lo que dices:** Recapitulemos. No se van con apuntes: se van con un agente que construimos, probamos y atacamos juntos; con su cuaderno cerrado de NotebookLM; con sus cuentas configuradas y el semáforo claro; y con la ficha de gobierno, que es la ISO/IEC 42001 en una hoja. Y vuelvo a la pregunta de Quebec: ¿firmarían ahora un informe que una IA revisó? Respondan en el chat, pero esta vez con condiciones. Lo que escriban es su primera política de uso.
 
-### Diapositiva 50 · Las herramientas cambian cada semana. Las habilidades se quedan con ustedes. · 10:55 (5 min)
+### Diapositiva 51 · Las herramientas cambian cada semana. Las habilidades se quedan con ustedes. · 10:55 (5 min)
 
 `[PANTALLA]`
 
@@ -983,7 +1003,7 @@
 
 ## ANEXO · NO SE PRESENTA, QUEDA COMO MATERIAL DE CONSULTA
 
-### Diapositiva 51 · Material de apoyo para consultar después · anexo
+### Diapositiva 52 · Material de apoyo para consultar después · anexo
 
 `[PANTALLA]`
 
@@ -993,7 +1013,7 @@
 
 **Lo que dices:** Estas diapositivas no se presentan en la sesión. Quedan como material de consulta para el grupo.
 
-### Diapositiva 52 · Para profundizar en el marco jurídico · anexo
+### Diapositiva 53 · Para profundizar en el marco jurídico · anexo
 
 `[PANTALLA]`
 
@@ -1014,7 +1034,7 @@
 
 **Lo que dices:** Bibliografía para quienes quieran profundizar en el marco teórico por su cuenta, como lo pidió la MOE.
 
-### Diapositiva 53 · El mapa de herramientas · anexo
+### Diapositiva 54 · El mapa de herramientas · anexo
 
 `[PANTALLA]`
 
@@ -1036,7 +1056,7 @@
 
 **Lo que dices:** Este es el mapa. No es para memorizarlo. Las fundacionales son los motores: ChatGPT para conversar y pensar en voz alta, Claude para leer a fondo documentos largos y armar la casa, Gemini para trabajar dentro de Google, Grok para lo que está pasando en redes en tiempo real *(útil para monitorear desinformación, pero con privacidad baja)*. Las legales se montan sobre esos motores. NotebookLM es oro para la MOE: solo responde con los documentos que ustedes cargan. Gamma convierte un informe en presentación en minutos. Y las de construir y automatizar son el escalón 4 y 5. En este programa trabajamos con las versiones gratuitas de ChatGPT, Claude y Gemini. Las herramientas cambian cada semana: sale una nueva, le mueven un botón, sube de precio o desaparece. Lo que se queda es la habilidad.
 
-### Diapositiva 54 · Antes de usar un dato: cuatro validaciones · anexo
+### Diapositiva 55 · Antes de usar un dato: cuatro validaciones · anexo
 
 `[PANTALLA]`
 
@@ -1058,7 +1078,7 @@
 
 **Lo que dices:** Vamos a la parte práctica. Cada dato que les entregue una IA pasa por cuatro preguntas. Fuente: ¿de dónde sale? Existencia: ¿existe? Y no basta con que la IA les dé un enlace; ábranlo. Contenido: muchas veces la sentencia sí existe, pero no dice lo que la IA dice que dice; esa es la alucinación más peligrosa, porque pasa el primer filtro. Y vigencia: en temas electorales esto es crítico, porque las normas cambian, los proyectos de ley tienen varias versiones y los resultados tienen varios cortes. Mi regla: si no lo pueden abrir, no lo pueden publicar.
 
-### Diapositiva 55 · Qué verificar en cada tema de la MOE · anexo
+### Diapositiva 56 · Qué verificar en cada tema de la MOE · anexo
 
 `[PANTALLA]`
 
@@ -1073,7 +1093,7 @@
 
 **Lo que dices:** Aterricemos esto a lo que ustedes hacen. En legislación, lo típico es que la IA mezcle el texto radicado con una ponencia o con lo aprobado; eso lo vamos a trabajar a fondo el 2 de diciembre en monitoreo legislativo. En resultados, la confusión más común es tratar el preconteo como resultado oficial. En datos territoriales, los nombres de municipios se repiten entre departamentos; por eso trabajen con el código DIVIPOLA, y Germán les va a hablar de esto en bases de datos. En violencia política, la IA tiende a «completar» la historia: a poner un responsable donde la fuente no lo dice. Y en estadísticas, pregunten siempre por el denominador. Pregunta para el chat: ¿cuál de estos errores ya les pasó, con o sin IA?
 
-### Diapositiva 56 · ¿De quién es? ¿Y quién responde? · anexo
+### Diapositiva 57 · ¿De quién es? ¿Y quién responde? · anexo
 
 `[PANTALLA]`
 
@@ -1090,7 +1110,7 @@
 
 **Lo que dices:** Ahora el tercer miedo: si algo sale mal, ¿quién responde? Primero, la autoría. En Colombia y en la Comunidad Andina el autor es una persona natural; lo que genera una máquina sola difícilmente es una obra protegida. Por eso el valor está en lo que ustedes le ponen: la estructura, la edición, la validación. Segundo, y más importante: la responsabilidad no se traslada. Si un boletín de la MOE dice algo falso, nadie va a demandar a OpenAI: va a ser la MOE. Tercero, cuidado con los documentos de terceros: el informe que les compartió un aliado bajo convenio no es para subirlo a cualquier lado. Y cuarto, transparencia: es sano tener una regla clara de cuándo se dice que algo se hizo con apoyo de IA.
 
-### Diapositiva 57 · Dos instrucciones para copiar hoy · anexo
+### Diapositiva 58 · Dos instrucciones para copiar hoy · anexo
 
 `[PANTALLA]`
 
@@ -1103,7 +1123,7 @@
 
 **Lo que dices:** Les dejo estas dos instrucciones listas para copiar. La primera es para auditar cualquier texto que les dé una IA, o incluso un texto humano. La segunda es para trabajar con fuente cerrada, que es como vamos a trabajar el 30 de noviembre con investigación y gestión del conocimiento. Guárdenlas; en la próxima sesión las vamos a convertir en instrucciones permanentes dentro de un proyecto y en una skill, para que no tengan que pegarlas cada vez.
 
-### Diapositiva 58 · ¿Hecho, inferencia u opinión? · anexo
+### Diapositiva 59 · ¿Hecho, inferencia u opinión? · anexo
 
 `[PANTALLA]`
 
@@ -1127,7 +1147,7 @@
 
 **Lo que dices:** Escriban en el chat el número y una letra: H, I u O. *(Después de que respondan, voy revelando con clic.)* La 1 es un hecho verificable. La 2 es la trampa típica: suena a hecho, pero es una inferencia causal; puede ser cierta, pero necesita evidencia. La 3 es opinión. La 4 es una predicción: un mapa de riesgo no se hace así, se hace con metodología. La 5 es la más interesante: parece un hecho, pero sin fuente es un dato huérfano. La IA mezcla las tres cosas en el mismo párrafo y con el mismo tono. Por eso, cuando le pidan algo, pídanle que las separe. Esto es justo lo que la MOE hace todos los días con la información pública: ahora hay que hacerlo también con lo que nos devuelve la máquina.
 
-### Diapositiva 59 · Así podría verse la casa de la MOE · anexo
+### Diapositiva 60 · Así podría verse la casa de la MOE · anexo
 
 `[PANTALLA]`
 
@@ -1155,7 +1175,7 @@
 
 **Lo que dices:** Ahora lo que más me gusta. Esto es lo que hice en Cartagena con abogados del sector público, y lo que hago con despachos: en vez de un chat para todo, una casa con habitaciones. Cada habitación es un asistente que hace una sola cosa, siempre igual, con las mismas reglas. Les pongo seis ideas para la MOE, una por área: un verificador antes de publicar, la ficha legislativa, el clasificador de reportes de observadores, el depurador de hechos de violencia política, el auditor de bases para los mapas de riesgo y el concepto exprés para el área legal. No es un diseño cerrado: es para que se imaginen el suyo. Pregunta para el chat: ¿cuál de estos les ahorraría más horas esta semana?
 
-### Diapositiva 60 · Cómo se empaqueta: del chat eterno a la casa · anexo
+### Diapositiva 61 · Cómo se empaqueta: del chat eterno a la casa · anexo
 
 `[PANTALLA]`
 
@@ -1175,7 +1195,7 @@
 
 **Lo que dices:** ¿Cómo se construye esa casa? Hoy la mayoría hace esto: busca el chat donde le quedó bien la primera vez, copia el prompt, itera, explica todo otra vez y se queda sin tokens. La alternativa: cada paso se vuelve una skill; las reglas, un playbook; todo junto, un plugin que el compañero instala y ejecuta con las mismas reglas; y los agentes hacen el trabajo pesado. Su única misión es revisar con lupa el resultado final. Esto lo vamos a aterrizar en mis próximas sesiones y en el módulo de casos de uso. Hoy solo vamos a diseñar el plano.
 
-### Diapositiva 61 · Diseñen el agente de su área · anexo
+### Diapositiva 62 · Diseñen el agente de su área · anexo
 
 `[PANTALLA]`
 
@@ -1197,7 +1217,7 @@
 
 **Lo que dices:** Ahora les toca. Por áreas *(legal, calidad de elecciones, observatorio, mapas de riesgo, comunicaciones, monitoreo legislativo)*, diseñen el plano de su agente con estas seis preguntas. Pueden usar la catarsis por voz de la siguiente diapositiva: abren el micrófono, le cuentan la tarea a la IA y le piden que les haga preguntas. Al final, dos o tres grupos muestran su plano. Guarden lo que salga: es el insumo para mi sesión del 30 y para el taller de casos de uso con José y Germán.
 
-### Diapositiva 62 · ¿No saben cómo pedirlo? Abran el micrófono · anexo
+### Diapositiva 63 · ¿No saben cómo pedirlo? Abran el micrófono · anexo
 
 `[PANTALLA]`
 
@@ -1211,7 +1231,7 @@
 **Lo que dices:** Este es mi truco favorito. Escribimos mal los prompts, pero hablamos muy bien. Entonces hablen: abran el micrófono y hagan catarsis, cuéntenle la tarea a la IA como se la contarían a un colega en un café, y pídanle que les haga preguntas. Al final, las palabras mágicas: que les escriba las instrucciones del asistente, dividido en pasos y con los puntos de revisión humana. Si la conexión lo permite, lo hago en vivo con una tarea que me dicten en el chat. Ojo: cuando cuenten la tarea, no digan nombres ni datos reales; cuenten el proceso, no el caso.
 
 
-**Ritmo de la segunda hora (10:00 – 11:00):** frontera personal/corporativa (10:01), configuración en vivo (10:05, seis minutos, todos con sus cuentas), conectores (10:11), ecosistemas y ejercicio de los tres mundos (10:14 – 10:22), segundo cerebro y video del flujo (10:22), NotebookLM: pasos y prompts (10:25 – 10:37), agente verificador: instrucciones, prueba, ataque y ficha (10:37 – 10:52), lo que se llevan y cierre (10:52).
+**Ritmo de la segunda hora (10:00 – 11:00):** frontera personal/corporativa (10:01), configuración en vivo (10:05, seis minutos, todos con sus cuentas), conectores (10:11), ecosistemas (10:14), Codex y Claude Code (10:17), ejercicio de los tres mundos (10:20), segundo cerebro y video del flujo (10:23), NotebookLM: pasos y prompts (10:25 – 10:37), agente verificador: instrucciones, prueba, ataque y ficha (10:37 – 10:52), lo que se llevan y cierre (10:52).
 
 ---
 
