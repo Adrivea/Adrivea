@@ -1,0 +1,51 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="clips.css">
+<style>
+  .node { position: absolute; top: 230px; width: 260px; text-align: center; }
+  .node .c { width: 170px; height: 170px; border-radius: 50%; margin: 0 auto; background: var(--navy); display:flex; align-items:center; justify-content:center; color:#fff; font-size: 64px; font-weight: 800; }
+  .node p { margin-top: 22px; font-size: 30px; font-weight: 800; color: var(--ink); line-height: 1.2; }
+  #track { position: absolute; left: 200px; top: 313px; width: 1520px; height: 6px; background: #DDE5EE; border-radius: 3px; }
+  .doc { position: absolute; width: 74px; height: 92px; border-radius: 10px; background: #fff; border: 4px solid var(--navy); box-shadow: 0 6px 16px rgba(0,0,0,.15); font-size: 16px; font-weight: 800; color: var(--navy); display:flex; align-items:flex-end; justify-content:center; padding-bottom:8px; }
+  .doc::before { content:''; position:absolute; left:12px; right:12px; top:14px; height:4px; background:#C9D3DF; box-shadow: 0 12px 0 #C9D3DF, 0 24px 0 #C9D3DF; }
+  #bandeja, #listas { position: absolute; top: 640px; width: 520px; height: 220px; border-radius: 28px; padding: 30px 40px; }
+  #bandeja { left: 160px; background: var(--light); }
+  #listas { left: 1240px; background: var(--green); color: #fff; }
+  .big { font-size: 88px; font-weight: 800; line-height: 1; margin-top: 12px; }
+  .lab { font-size: 26px; font-weight: 800; letter-spacing: 2px; }
+  #rule { position: absolute; left: 720px; top: 660px; width: 480px; text-align: center; font-size: 30px; font-weight: 800; color: var(--amber); line-height: 1.3; }
+</style></head>
+<body>
+<div id="track"></div>
+<div class="node" style="left:70px"><div class="c">1</div><p>Llega el reporte<br>del observador</p></div>
+<div class="node" style="left:450px"><div class="c">2</div><p>Se seudonimiza</p></div>
+<div class="node" style="left:830px"><div class="c">3</div><p>Se clasifica<br>y se verifica</p></div>
+<div class="node" style="left:1210px"><div class="c" id="hum" style="background:var(--amber); color:var(--ink)">✓</div><p>Control<br>humano</p></div>
+<div class="node" style="left:1590px"><div class="c" style="background:var(--green)">5</div><p>Alerta<br>o informe</p></div>
+<div id="docs"></div>
+<div id="bandeja"><p class="lab" style="color:var(--gray)">REPORTES EN BANDEJA</p><p class="big" id="nb" style="color:var(--navy)">12</p></div>
+<div id="listas"><p class="lab">CLASIFICADOS Y REVISADOS</p><p class="big" id="nl">0</p></div>
+<p id="rule" data-fade="1.0">El control humano<br>nunca se quita</p>
+<script src="common.js"></script>
+<script>
+const N=12, X=[160,540,920,1300,1680], Y=165, cont=document.getElementById('docs');
+const ds=[]; for(let i=0;i<N;i++){const d=document.createElement('div'); d.className='doc'; d.textContent='R'+(i+1); cont.appendChild(d); ds.push(d);}
+const START=0.4, GAP=0.9, SEG=0.55, HOLD=0.45;
+window.extra=t=>{
+  let done=0, waiting=0;
+  ds.forEach((d,i)=>{
+    const t0=START+i*GAP; let x=X[0]-200, op=0, s=1;
+    if(t>=t0){ op=1; let tt=t-t0; x=X[0];
+      for(let k=0;k<4;k++){ const seg = k===3? SEG+HOLD: SEG; if(tt<=0) break;
+        if(k===3 && tt<HOLD){ x=X[3]; tt=-1; break; }
+        const tm = k===3? tt-HOLD : tt; const p=easeOut(clamp(tm/SEG)); x=X[k]+(X[k+1]-X[k])*p; tt-=seg; }
+      if(tt>0){ op=Math.max(0,1-tt*2.5); s=1+tt; if(tt>0.05) done++; }
+    } else waiting++;
+    d.style.left=(x-37)+'px'; d.style.top=(Y-46+ (x===X[3]?-6:0))+'px'; d.style.opacity=op; d.style.transform=`scale(${s})`;
+    d.style.borderColor = x>=X[3]-1 ? '#00B297' : '#224385';
+  });
+  document.getElementById('nb').textContent = waiting;
+  document.getElementById('nl').textContent = done;
+  const h=document.getElementById('hum'); const pulse=Math.max(0,Math.sin(t*6)); h.style.transform=`scale(${1+0.05*pulse})`;
+};
+</script>
+</body></html>
